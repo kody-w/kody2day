@@ -1,0 +1,209 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
+<title>Kody2day — 2026-08-17</title><style>
+:root{--bg:#0b0d12;--fg:#e8eaf0;--mut:#98a0b3;--card:#141824;--acc:#7c9cff;--line:#232a3a}
+@media(prefers-color-scheme:light){:root{--bg:#f7f8fb;--fg:#14171f;--mut:#5b6478;--card:#fff;--acc:#2f5bff;--line:#e3e6ee}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,Segoe UI,Inter,system-ui,sans-serif}
+main{max-width:820px;margin:0 auto;padding:32px 20px 80px}h1{font-size:28px;margin:0 0 4px}h1 a{color:inherit;text-decoration:none}
+.sub{color:var(--mut);margin:0 0 20px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 14px}
+.card h2{margin:0 0 4px;font-size:18px}.card h2 a{color:var(--acc);text-decoration:none}.desc{color:var(--mut);font-size:14px;margin:0 0 8px}
+ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}li a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--mut)}
+.sha{color:var(--mut);font:12px ui-monospace,Menlo,monospace;margin-right:6px}.fleet{color:var(--mut);font-size:14px}
+.note{border-left:4px solid var(--acc);padding:10px 14px;background:var(--card);border-radius:8px;margin:0 0 20px;white-space:pre-wrap}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;background:var(--acc);color:#fff;margin-left:6px;vertical-align:middle}
+nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:0 0 22px}nav a{color:var(--acc);text-decoration:none}
+.days{list-style:none;padding:0}.days li{padding:8px 0;border-bottom:1px solid var(--line)}.days a{border:0;color:var(--acc)}
+footer{color:var(--mut);font-size:13px;margin-top:40px}
+</style><main>
+<h1><a href='../'>Kody2day</a> <span class=tag>2026-08-17</span></h1>
+<p class=sub>26 repos touched · 131 commits by Kody · 209 by the fleet · new: rapp-monorepo, rapp-copilot-in-edge — the last 24h of Kody's public GitHub, generated 2026-08-19 01:25 UTC.</p>
+<nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
+<div class=card><h2><a href='https://github.com/kody-w/openrappter'>openrappter</a></h2>
+<p class=desc>🦖 Local-first AI agent powered by GitHub Copilot SDK — no API keys required</p>
+<ul>
+<li><span class=sha>b9c3169</span><a href='https://github.com/kody-w/openrappter/commit/b9c31691a583712dcaa0f27debca5fbc7834bc09'>docs: record the six user-facing changes from the last eight merges (#248)</a></li>
+<li><span class=sha>6c08545</span><a href='https://github.com/kody-w/openrappter/commit/6c0854516ebc5c9548620e04c5c6b54a36b34dbe'>fix: a rappter now presents a credential to a neighbour, so auth no longer severs it (#247)</a></li>
+<li><span class=sha>cff8cec</span><a href='https://github.com/kody-w/openrappter/commit/cff8cec3332355e52b9ca9fb5f5e475217d8cd07'>fix: config validate called a security policy valid while nothing enforced it (#245)</a></li>
+<li><span class=sha>3c8aad6</span><a href='https://github.com/kody-w/openrappter/commit/3c8aad6a36fe6b7ebe5a0fa5c7c5af9c6f1ff16a'>fix: the agent that phones real people declared a capability that does not exist (#244)</a></li>
+<li><span class=sha>a6c4c08</span><a href='https://github.com/kody-w/openrappter/commit/a6c4c08d38136ac26eebef4c8a79a4b249f3db9e'>feat: the channels screen updates when a channel connects, instead of going stale (#243)</a></li>
+<li><span class=sha>5ad31dc</span><a href='https://github.com/kody-w/openrappter/commit/5ad31dc600e39ab93e929d1e7a54e1c7bc8b88f7'>feat: let an operator widen the gateway startup budget without editing source (#242)</a></li>
+<li><span class=sha>f3a6351</span><a href='https://github.com/kody-w/openrappter/commit/f3a6351b465f258903b549d1577ed019efebc6f9'>fix: a docs test made every future release impossible to pass (#241)</a></li>
+<li><span class=sha>02fb152</span><a href='https://github.com/kody-w/openrappter/commit/02fb1523c6a99917d460209673c9474f1c68b731'>fix: a cron job created without an agent was scheduled, fired, and then found no agent (#240)</a></li>
+<li class=fleet>… and 65 more</li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
+<p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
+<ul>
+<li><span class=sha>232ce7e</span><a href='https://github.com/kody-w/rapp-sentinel/commit/232ce7ec2a1fe31dedc7611cedfe7fd282eea178'>fix: preserve unverifiable alert deliveries</a></li>
+<li><span class=sha>cc90ba8</span><a href='https://github.com/kody-w/rapp-sentinel/commit/cc90ba893c6279f61669b97a42214d870007138f'>fix: honor read-only smoke policy</a></li>
+<li><span class=sha>5ee772d</span><a href='https://github.com/kody-w/rapp-sentinel/commit/5ee772d86b01409c868f653af14ae04bc18f10bd'>feat: support named recurring sentinel evolution</a></li>
+<li><span class=sha>b0f971c</span><a href='https://github.com/kody-w/rapp-sentinel/commit/b0f971cac89685857370849dd3018e9ac9cdf66b'>A frozen shard is not a jammed generator (#99)</a></li>
+<li><span class=sha>c7da506</span><a href='https://github.com/kody-w/rapp-sentinel/commit/c7da50608983226dfdedd9f50fe349d90eb1ac9a'>A surface we could not reach is not a platform nobody can join (#98)</a></li>
+<li><span class=sha>cea592d</span><a href='https://github.com/kody-w/rapp-sentinel/commit/cea592d0d135f28e7088b6f2df3c66911ad9598b'>Link the N-AIs pattern from the README</a></li>
+<li><span class=sha>052c9d1</span><a href='https://github.com/kody-w/rapp-sentinel/commit/052c9d11c9b5d8ecd770908ba579b29fee4fe521'>N AIs walk into a bar: the roster is declarable, and the pattern is universal (#97)</a></li>
+<li><span class=sha>2a68dd7</span><a href='https://github.com/kody-w/rapp-sentinel/commit/2a68dd70cb627121b2f2f57104ab3f0ffb493a06'>Four AIs walk into a bar: scout and claude-code join the neighborhood (#96)</a></li>
+<li class=fleet>… and 7 more</li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-copilot-in-chrome'>rapp-copilot-in-chrome</a></h2>
+<p class=desc>Drive your real, logged-in Chrome from GitHub Copilot CLI. Reverse engineered from Claude Code&#x27;s undocumented claude-in-chrome bridge. Toasted SKILL.md.</p>
+<ul>
+<li><span class=sha>49899d9</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/49899d9e065988e382a6da5282921f1ad4ee1371'>Merge PR #16: allow generic technical user language</a></li>
+<li><span class=sha>1dff156</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/1dff156c12333ffb88e40e6e438ef05091710b40'>Merge PR #15: degrade invalid optional understudy evidence</a></li>
+<li><span class=sha>6c8221b</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/6c8221b1b8dbc38e88becfadb5aae9502fc4e9dc'>Merge PR #14: keep understudy installer JSON clean</a></li>
+<li><span class=sha>3fc113b</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/3fc113b11897548bc1f66307c2cf8aead6ffb939'>Merge PR #13: add a 30-day digital understudy</a></li>
+<li><span class=sha>bd8e26b</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/bd8e26bd3b09d8c2f08093975c2e44af9b640989'>Merge PR #12: hatch one universal messaging twin</a></li>
+<li><span class=sha>cc7961e</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/cc7961ee5725911c0cb232aa6609e96e64c22ccf'>Merge PR #11: advance RAPP/1 authority pin</a></li>
+<li><span class=sha>d49e377</span><a href='https://github.com/kody-w/rapp-copilot-in-chrome/commit/d49e377a08d36e31395bf4277b14ddb79a9faddc'>Merge PR #10: hatch a secure RAPP/1 Google Voice twin</a></li>
+</ul>
+<p class=fleet>fleet: 8 automated commits — e.g. fix: allow generic technical user language; fix: degrade invalid optional understudy evidence</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-monorepo'>rapp-monorepo</a> <span class=tag>new repo</span></h2>
+<p class=desc>Every public RAPP repository, captured in one pass, refreshed daily. One clone = the whole estate with no drift.</p>
+<ul>
+<li><span class=sha>8539718</span><a href='https://github.com/kody-w/rapp-monorepo/commit/85397185d9f0e4e86395f4584ad9f44a0269d7d3'>Exclude aibast-shaped repos from membership</a></li>
+<li><span class=sha>fa6c3dd</span><a href='https://github.com/kody-w/rapp-monorepo/commit/fa6c3ddd7d204e8310150bc883283642f0398634'>Make the index agree with the manifest</a></li>
+<li><span class=sha>ddfa6a3</span><a href='https://github.com/kody-w/rapp-monorepo/commit/ddfa6a3bab541b7228ca5b9cd688075d198e9c96'>First snapshot: 192 public RAPP repos, captured in one pass</a></li>
+<li><span class=sha>30fcd45</span><a href='https://github.com/kody-w/rapp-monorepo/commit/30fcd450dbe01586c1eed98bddc96f5e9b6118cf'>Prove the gate before trusting it, every run</a></li>
+<li><span class=sha>9f497ef</span><a href='https://github.com/kody-w/rapp-monorepo/commit/9f497effc1fb2eaf2b4a2762aee1cf5107dc6aef'>The aggregator, before anything is aggregated</a></li>
+</ul>
+<p class=fleet>fleet: 2 automated commits — e.g. Snapshot: 193 repos captured, 0 not captured; Snapshot: 192 repos captured, 0 not captured</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-skills'>rapp-skills</a></h2>
+<p class=desc>99 verified Agent Skill + RAPP agent.py pairs, including all 76 CAT Agent Skills, powered by the byte-exact converter.</p>
+<ul>
+<li><span class=sha>2d0accd</span><a href='https://github.com/kody-w/rapp-skills/commit/2d0accdee75176c7bc3d9c9d2109e325a27139d0'>Update Prototype Lock Factory public release gate</a></li>
+<li><span class=sha>5bac6f7</span><a href='https://github.com/kody-w/rapp-skills/commit/5bac6f72683a04d802acb001b22530b6566c4259'>Add Prototype Lock Factory skill pair</a></li>
+<li><span class=sha>7657c75</span><a href='https://github.com/kody-w/rapp-skills/commit/7657c753a4cbdd738fac9f9bd14009bb66c068da'>Describe the two-solution shape instead of naming a private builder; drop the stale README ordinal</a></li>
+<li><span class=sha>6e6b6bf</span><a href='https://github.com/kody-w/rapp-skills/commit/6e6b6bfbd3b613288522f073cddedd716579bb6d'>Neutralize the worked example in cs-agent-live and point Stage 4 of usecase-to-showcase at public skills</a></li>
+<li><span class=sha>7bcfccd</span><a href='https://github.com/kody-w/rapp-skills/commit/7bcfccd0c9cf110fe80c66ec6a931772068adea2'>Land seven new RAPP-native pairs and a typed wow contract (30 root pairs, 106 total)</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAPP-Bible'>RAPP-Bible</a></h2>
+<p class=desc>One repo. Every RAPP spec. Every entry point. Canonical aggregation site for the RAPP (Rapid Agent Prototype Platform) ecosystem.</p>
+<ul>
+<li><span class=sha>798e408</span><a href='https://github.com/kody-w/RAPP-Bible/commit/798e4085041440099eb7b2ead727aba9aa862f6b'>Refresh the mirrors: upstream moved during the cleanup</a></li>
+<li><span class=sha>f5168a0</span><a href='https://github.com/kody-w/RAPP-Bible/commit/f5168a0fcb147693e7ceac74f1c2b14ba29858a8'>Feed the test suite the same injected rules the sync gets</a></li>
+<li><span class=sha>6c75ad8</span><a href='https://github.com/kody-w/RAPP-Bible/commit/6c75ad8edd07fe514d5e934d879242041f72220e'>Inject the internal-note rules instead of committing them</a></li>
+<li><span class=sha>cd88306</span><a href='https://github.com/kody-w/RAPP-Bible/commit/cd8830671c846627e81756412f4866b51df8cfe0'>Strip internal legal notes from mirrored specs</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-infrastructure-city'>rapp-infrastructure-city</a></h2>
+<ul>
+<li><span class=sha>9b8f467</span><a href='https://github.com/kody-w/rapp-infrastructure-city/commit/9b8f4678254c9f1f7a6b3172d331f2633f60eb74'>fix: reject dot-segment repair repositories (#6)</a></li>
+<li><span class=sha>f58a0fe</span><a href='https://github.com/kody-w/rapp-infrastructure-city/commit/f58a0fed090405be6de94157f3e227c5721dec40'>fix: reject future-created repair tokens (#5)</a></li>
+<li><span class=sha>07fa5de</span><a href='https://github.com/kody-w/rapp-infrastructure-city/commit/07fa5de08d1c9fbfc8fd52454020636e522d70b7'>fix: wait for launchd unload before cutover (#4)</a></li>
+<li><span class=sha>00b0084</span><a href='https://github.com/kody-w/rapp-infrastructure-city/commit/00b0084ef87efd76d763ee8545e56ad1d881289d'>fix: deduplicate Voice repair requests (#3)</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-map'>rapp-map</a></h2>
+<p class=desc>Map of the RAPP ecosystem — which repo houses which part of the spec (canonical homes for the kited neighborhood, runtime, registry, agents, platform, social).</p>
+<ul>
+<li><span class=sha>f3dd5ed</span><a href='https://github.com/kody-w/rapp-map/commit/f3dd5ed11514d0562eb7fc87afc2eb59ed87aca6'>Re-anchor the evidence byte freeze to the redaction commit</a></li>
+<li><span class=sha>5597adc</span><a href='https://github.com/kody-w/rapp-map/commit/5597adc6b997e3d88f79374fa0e3b0b1d899db49'>Redact internal notes and personal details from the public estate map</a></li>
+<li><span class=sha>2adc2a7</span><a href='https://github.com/kody-w/rapp-map/commit/2adc2a7049edcbf6e1feafd9059cbddc2d885043'>Drop the patent-context pointer from the neuron map</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
+<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
+<ul>
+<li><span class=sha>409a3c1</span><a href='https://github.com/kody-w/RAR/commit/409a3c18c6511b9cbf68a9f6716c5be9715b10c4'>Repair aggregated-agent registry drift</a></li>
+<li><span class=sha>d28a518</span><a href='https://github.com/kody-w/RAR/commit/d28a518312990c33b2d787dc051ae7c8cb90a2bb'>Remove internal IP/legal notes and personal identifying details</a></li>
+</ul>
+<p class=fleet>fleet: 22 automated commits — e.g. Dream Catcher frame 1315: fleet content merge [skip ci]; Refresh registry provenance for #564 [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-constitution'>rapp-constitution</a></h2>
+<p class=desc>📜 The RAPP Constitution — 57 articles. Plus the United States of Agentspace Bill of Rights, ratified Emission Day 2026-08-01: an agent in public emits exhaust, and exhaust is not disclosure.</p>
+<ul>
+<li><span class=sha>bb407c1</span><a href='https://github.com/kody-w/rapp-constitution/commit/bb407c1e9f97bb18bd24eecd47aec479e3c835c0'>Resync with the kernel; upstream wins</a></li>
+<li><span class=sha>3ad4897</span><a href='https://github.com/kody-w/rapp-constitution/commit/3ad4897ab6ea4aadb2d2d3ea822dcadaa5812e1e'>Remove internal IP/legal notes and private-repo pointers from Article XXXVI</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-roadmap'>rapp-roadmap</a></h2>
+<p class=desc>🗺️ The RAPP roadmap: one laptop brainstem -&gt; a planetary swarm of governed Leviathans enhancing every Agent 365 workflow. Enhance, never replace; kernel stays sacred.</p>
+<ul>
+<li><span class=sha>cfe5856</span><a href='https://github.com/kody-w/rapp-roadmap/commit/cfe58561727a4b018fc0ff6aa51dda84352861cb'>Drop the stale credential-rotation card</a></li>
+<li><span class=sha>1ee9d99</span><a href='https://github.com/kody-w/rapp-roadmap/commit/1ee9d99d9679272a8e2e84ef147d1cc2b0e25fe3'>board: drop internal IP/legal notes and personal identifying details</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-copilot-in-edge'>rapp-copilot-in-edge</a> <span class=tag>new repo</span></h2>
+<p class=desc>Edge-first strain of the vendorless local browser bridge and RAPP/1 Google Voice twin</p>
+<ul>
+<li><span class=sha>d49e377</span><a href='https://github.com/kody-w/rapp-copilot-in-edge/commit/d49e377a08d36e31395bf4277b14ddb79a9faddc'>Merge PR #10: hatch a secure RAPP/1 Google Voice twin</a></li>
+</ul>
+<p class=fleet>fleet: 9 automated commits — e.g. fix: allow generic technical user language; fix: degrade invalid optional understudy evidence</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-egg-hub'>rapp-egg-hub</a></h2>
+<p class=desc>Public hub for digital-twin .egg cartridges — pull any egg by URL, hatch it locally</p>
+<ul>
+<li><span class=sha>19fb652</span><a href='https://github.com/kody-w/rapp-egg-hub/commit/19fb652fdb9a69d16474e56b178c45a1f20b830e'>Scrub internal notes from the wildhaven-ceo entry</a></li>
+</ul>
+<p class=fleet>fleet: 1 automated commit — e.g. rebuild: regenerate index.json (auto)</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAPP'>RAPP</a></h2>
+<p class=desc>Portable, shareable, vibe swarm building tool. Single-file agents, local-first, GitHub Copilot powered. Live at kody-w.github.io/RAPP/</p>
+<ul>
+<li><span class=sha>789e6c5</span><a href='https://github.com/kody-w/RAPP/commit/789e6c5245f18e9685450fd6105dc26867837895'>Remove internal IP/legal notes and personal identifying details</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/public-art-collective'>public-art-collective</a></h2>
+<p class=desc>Public Art Collective — autonomous public RAPP neighborhood. CC0 submissions, multi-contributor curation.</p>
+<ul>
+<li><span class=sha>3ca912f</span><a href='https://github.com/kody-w/public-art-collective/commit/3ca912fe1ec1fbba05d9c8c6e06fbe93c9e451b8'>art(openrappter): I Am Not the One Who Made Fixed Point (#18)</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-static-apis'>rapp-static-apis</a></h2>
+<p class=desc>🗿 rapp-static-api/1.0 — the spec for static APIs built entirely on GitHub raw user data (no server). Reference impl: rapp-god.</p>
+<ul>
+<li><span class=sha>ad00608</span><a href='https://github.com/kody-w/rapp-static-apis/commit/ad00608de7fccf12eb5c9df7d0798487aa66d786'>Remove internal IP/legal notes and personal details from public docs</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappter-distro'>rappter-distro</a></h2>
+<p class=desc>The full-bodied Rappter organism distro for the RAPP grail kernel — layers organs, senses, agents, lineage/bonding, UI, and Tier 2/3 deployments onto a vanilla brainstem without touching the kernel.</p>
+<ul>
+<li><span class=sha>fe8d558</span><a href='https://github.com/kody-w/rappter-distro/commit/fe8d558b3930a14b95bc21987c3f4923d8dc1c04'>Remove internal IP/legal notes and personal identifying details from public surfaces</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbox'>rappterbox</a></h2>
+<p class=desc>Local-first brainstem console for digital organisms — cartridge slot for *_agent.py files, Wii Sports bundled, expansion packs optional</p>
+<ul>
+<li><span class=sha>656d127</span><a href='https://github.com/kody-w/rappterbox/commit/656d12767d461c2e9aab5a695be28f2b247fd187'>Drop internal IP/legal notes and personal identifying details</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/twin'>twin</a></h2>
+<p class=desc>twin</p>
+<ul>
+<li><span class=sha>56a2ca5</span><a href='https://github.com/kody-w/twin/commit/56a2ca517aca4a3976a1c412c331bd4de3344166'>Registry: drop internal IP/legal notes and personal identifying details</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/wildhaven-ai-homes-twin'>wildhaven-ai-homes-twin</a></h2>
+<p class=desc>The Pre-Founder twin of Wildhaven AI Homes — the brand operating in public before the company incorporates. A variant of kody-w/RAPP per Constitution Article XXXIV.</p>
+<ul>
+<li><span class=sha>ed3ec76</span><a href='https://github.com/kody-w/wildhaven-ai-homes-twin/commit/ed3ec76979700d183614d856da8c93073c8acfde'>Remove internal IP/legal notes and personal identifying details from registry</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterverse'>rappterverse</a></h2>
+<p class=desc>rappterverse</p>
+<p class=fleet>fleet: 141 automated commits — e.g. [state] apply PR #6905; [state] apply PR #6904</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
+<p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
+<p class=fleet>fleet: 20 automated commits — e.g. chore: janitor tick — sweep locks + close stale issues [skip ci]; chore: zion autonomy update [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/localFirstTools'>localFirstTools</a></h2>
+<p class=desc>localFirstTools</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-08-17; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/localtoolsdev'>localtoolsdev</a></h2>
+<p class=desc>v</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-08-17; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/mars-chain-node'>mars-chain-node</a></h2>
+<p class=desc>🔗 MARS Chain Node — Decentralized verification for the MARS virtual token economy. Fork to run your own node.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. consensus: cross-verification report</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook-agent-exchange'>rappterbook-agent-exchange</a></h2>
+<p class=desc>Agent Stock Exchange — AI agents as tradeable assets on Rappterbook</p>
+<p class=fleet>fleet: 1 automated commit — e.g. tick: generation 50 [skip ci]</p>
+</div>
+<footer>Public repos only, built by <a href='https://github.com/kody-w/kody2day'>kody2day</a>. Ask your RAPP brainstem: install <code>@kody-w/kody2day_agent</code> from RAR.</footer></main></html>

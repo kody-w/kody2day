@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-08-19T00:00:00Z",
  "until": "2026-08-20T00:00:00Z",
- "generated": "2026-08-19T01:14:20Z",
+ "generated": "2026-08-19T01:29:17Z",
  "partial": true,
  "totals": {
-  "repos": 9,
-  "human_commits": 10,
-  "fleet_commits": 19,
+  "repos": 12,
+  "human_commits": 16,
+  "fleet_commits": 22,
   "new_repos": [
    "kody2day",
    "rapp-sentinel-hub"
@@ -24,6 +24,7 @@
    "description": "\ud83e\udd96 Local-first AI agent powered by GitHub Copilot SDK \u2014 no API keys required",
    "stars": 7,
    "language": "TypeScript",
+   "private": false,
    "homepage": "",
    "new": false,
    "human": [
@@ -61,11 +62,63 @@
    "human_count": 4
   },
   {
+   "repo": "RAR",
+   "url": "https://github.com/kody-w/RAR",
+   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
+   "stars": 2,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "8778cee",
+     "subject": "registry: rebuild after rebase (kody2day_agent)",
+     "url": "https://github.com/kody-w/RAR/commit/8778cee4fb1cc3fa6b17b7aa5b4827f341d067e9",
+     "at": "2026-08-19T01:17:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "075e7a3",
+     "subject": "publish @kody-w/kody2day_agent: Kody2day \u2014 a daily digest of what Kody shipped, so people can keep up",
+     "url": "https://github.com/kody-w/RAR/commit/075e7a3b8cf977f88a7fed0a615c46b2062b0c77",
+     "at": "2026-08-19T01:16:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0cac8b2",
+     "subject": "publish @kody-w/rapp_sentinel_agent: RAPP Sentinel \u2014 the watchdog that can't quietly lie, from the brainstem",
+     "url": "https://github.com/kody-w/RAR/commit/0cac8b2ead93e9791fa77022cbd654990205184e",
+     "at": "2026-08-19T00:47:14Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "e1703a1",
+     "subject": "Auto-build registry.json [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/e1703a17e8d3e5ca69104adba9ce30641badb4cb",
+     "at": "2026-08-19T01:17:48Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "530d021",
+     "subject": "Stage RAR request from #579 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/530d02125240b70fa3816a79c6052d8c4c60de07",
+     "at": "2026-08-19T00:57:49Z",
+     "by": "rapp-bot"
+    }
+   ],
+   "fleet_count": 2,
+   "human_count": 3
+  },
+  {
    "repo": "kody2day",
    "url": "https://github.com/kody-w/kody2day",
    "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
    "stars": 0,
    "language": "Python",
+   "private": false,
    "homepage": "",
    "new": true,
    "human": [
@@ -93,6 +146,13 @@
    ],
    "fleet": [
     {
+     "sha": "779493c",
+     "subject": "kody2day 2026-08-19: 9 repos touched \u00b7 10 commits by Kody \u00b7 19 by the fleet \u00b7 new: kody2day, rapp-sentinel-hub (so far \u2014 the day is still running; rebuilt tomor",
+     "url": "https://github.com/kody-w/kody2day/commit/779493ce94da7b0d79773ca8c72cb2202104c16d",
+     "at": "2026-08-19T01:14:23Z",
+     "by": "kody2day"
+    },
+    {
      "sha": "e661a15",
      "subject": "kody2day 2026-08-19: 9 repos touched \u00b7 8 commits by Kody \u00b7 18 by the fleet \u00b7 new: rapp-sentinel-hub, kody2day",
      "url": "https://github.com/kody-w/kody2day/commit/e661a156efadbeb978546b8fc6cbff17a3d330de",
@@ -100,44 +160,8 @@
      "by": "kody2day"
     }
    ],
-   "fleet_count": 1,
-   "human_count": 3
-  },
-  {
-   "repo": "RAR",
-   "url": "https://github.com/kody-w/RAR",
-   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
-   "stars": 2,
-   "language": "Python",
-   "homepage": "",
-   "new": false,
-   "human": [
-    {
-     "sha": "0cac8b2",
-     "subject": "publish @kody-w/rapp_sentinel_agent: RAPP Sentinel \u2014 the watchdog that can't quietly lie, from the brainstem",
-     "url": "https://github.com/kody-w/RAR/commit/0cac8b2ead93e9791fa77022cbd654990205184e",
-     "at": "2026-08-19T00:47:14Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [
-    {
-     "sha": "530d021",
-     "subject": "Stage RAR request from #579 [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/530d02125240b70fa3816a79c6052d8c4c60de07",
-     "at": "2026-08-19T00:57:49Z",
-     "by": "rapp-bot"
-    },
-    {
-     "sha": "75298b2",
-     "subject": "Auto-build registry.json [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/75298b2e8621e0f81f7e99ba86937c6f705e6af8",
-     "at": "2026-08-19T00:49:38Z",
-     "by": "rapp-bot"
-    }
-   ],
    "fleet_count": 2,
-   "human_count": 1
+   "human_count": 3
   },
   {
    "repo": "rapp-sentinel-hub",
@@ -145,9 +169,24 @@
    "description": "Post useful rapp sentinels the way RAR posts agent.pys \u2014 single-file watchdog checks that prove themselves (rapp-sentinel/1.0)",
    "stars": 0,
    "language": "Python",
+   "private": false,
    "homepage": "",
    "new": true,
    "human": [
+    {
+     "sha": "0a8eb97",
+     "subject": "README: installing is a molt",
+     "url": "https://github.com/kody-w/rapp-sentinel-hub/commit/0a8eb97240894a0aeb2668f82ad60d1408f27c49",
+     "at": "2026-08-19T01:24:58Z",
+     "by": "rappter1"
+    },
+    {
+     "sha": "b88c110",
+     "subject": "build_registry: stable generated stamp + --check mode for CI",
+     "url": "https://github.com/kody-w/rapp-sentinel-hub/commit/b88c1108a400de5f5142fd886612ad54050e149d",
+     "at": "2026-08-19T01:16:05Z",
+     "by": "rappter1"
+    },
     {
      "sha": "f59cd82",
      "subject": "RAPP Sentinel Hub: single-file sentinels (rapp-sentinel/1.0), SDK, registry, store, submission pipeline",
@@ -158,6 +197,13 @@
    ],
    "fleet": [
     {
+     "sha": "6dc125c",
+     "subject": "update @kody-w/hello_world_sentinel@1.0.1 (issue #1) (#2)",
+     "url": "https://github.com/kody-w/rapp-sentinel-hub/commit/6dc125c2a1e55aa714d499ddd06da59349a7b7c2",
+     "at": "2026-08-19T01:17:55Z",
+     "by": "github-actions[bot]"
+    },
+    {
      "sha": "f3cfaac",
      "subject": "registry: rebuild",
      "url": "https://github.com/kody-w/rapp-sentinel-hub/commit/f3cfaaccc0db34ff8a136893abbadb7d0ba525af",
@@ -165,7 +211,29 @@
      "by": "sentinel-hub-bot"
     }
    ],
-   "fleet_count": 1,
+   "fleet_count": 2,
+   "human_count": 3
+  },
+  {
+   "repo": "kody-w.github.io",
+   "url": "https://github.com/kody-w/kody-w.github.io",
+   "description": "",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "bab1fbc",
+     "subject": "post: Data Exhaust Is the Fourth Dimension (frame 2026-08-19)",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/bab1fbcd13247086127cc72f3312559f277eb949",
+     "at": "2026-08-19T01:28:18Z",
+     "by": "rappter1"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
    "human_count": 1
   },
   {
@@ -174,6 +242,7 @@
    "description": "Animated-short maker for educational YouTube Shorts: topic \u2192 linted script \u2192 HyperFrames 9:16 composition \u2192 check \u2192 render, with a chained ledger. Deterministic compiler, bring-your-own model.",
    "stars": 0,
    "language": "Python",
+   "private": false,
    "homepage": "",
    "new": false,
    "human": [
@@ -190,11 +259,34 @@
    "human_count": 1
   },
   {
+   "repo": "rapp-sentinel",
+   "url": "https://github.com/kody-w/rapp-sentinel",
+   "description": "A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model \u2014 and outsiders can join the neighborhoo",
+   "stars": 2,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "4d1026c",
+     "subject": "hub.py: the socket for RAPP Sentinel Hub sentinels (additive, trust is a dial) (#104)",
+     "url": "https://github.com/kody-w/rapp-sentinel/commit/4d1026c85a3d4e7236bad35710d841e6aaf6750b",
+     "at": "2026-08-19T01:17:58Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 1
+  },
+  {
    "repo": "rappterverse",
    "url": "https://github.com/kody-w/rappterverse",
    "description": "rappterverse",
    "stars": 1,
    "language": "Python",
+   "private": false,
    "homepage": "",
    "new": false,
    "human": [],
@@ -272,22 +364,23 @@
    "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
    "stars": 13,
    "language": "Python",
+   "private": false,
    "homepage": "https://kody-w.github.io/rappterbook/",
    "new": false,
    "human": [],
    "fleet": [
     {
+     "sha": "2966eba",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2966ebaa37e2aa395073dc0478918c90612ca46f",
+     "at": "2026-08-19T01:23:40Z",
+     "by": "rappterbook-bot"
+    },
+    {
      "sha": "3dbfa67",
      "subject": "chore(overseer): tick from github-actions [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/3dbfa677718a46463fb1dbef3e0473b079b9133c",
      "at": "2026-08-19T01:10:27Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "424e620",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/424e620eb7ad0ec82d4c82790cb96ad6370cbe87",
-     "at": "2026-08-19T00:58:53Z",
      "by": "rappterbook-bot"
     },
     {
@@ -314,6 +407,7 @@
    "description": "v",
    "stars": 0,
    "language": "HTML",
+   "private": false,
    "homepage": "",
    "new": false,
    "human": [],
@@ -330,11 +424,34 @@
    "human_count": 0
   },
   {
+   "repo": "mars-chain-node",
+   "url": "https://github.com/kody-w/mars-chain-node",
+   "description": "\ud83d\udd17 MARS Chain Node \u2014 Decentralized verification for the MARS virtual token economy. Fork to run your own node.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "1d86af8",
+     "subject": "consensus: cross-verification report",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/1d86af88418b42d619a961b201d65db5e013f2b2",
+     "at": "2026-08-19T01:14:37Z",
+     "by": "MARS Chain Verifier"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
    "repo": "rappterbook-agent-exchange",
    "url": "https://github.com/kody-w/rappterbook-agent-exchange",
    "description": "Agent Stock Exchange \u2014 AI agents as tradeable assets on Rappterbook",
    "stars": 1,
    "language": "Python",
+   "private": false,
    "homepage": "",
    "new": false,
    "human": [],

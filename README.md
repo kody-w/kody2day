@@ -39,3 +39,17 @@ The workflow (`.github/workflows/daily.yml`) runs at 14:05 UTC, commits
 would be a stall, not a success.
 
 MIT.
+
+## Private mode (personal impact ledger — never published)
+
+```bash
+KODY2DAY_PRIVATE=1 python3 kody2day.py build
+```
+
+Writes to `~/.rapp/kody2day-private/docs/` (override with `KODY2DAY_HOME`),
+never into this repo: the same daily pages over **all** of the authenticated
+user's own repos, private included, plus `impact.json` / `impact.html` — a rolling
+7d / 30d / all-time ledger (commits, active days, streak, per-repo activity, new
+repos, busiest day). `@kody-w/kody2day_agent` action=`impact` reads that local
+file only. Run it from a launchd job outside `~/Documents` (TCC blocks launch
+agents there) — e.g. a clone under `~/.rapp/kody2day-private/code`.
