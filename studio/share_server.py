@@ -36,12 +36,17 @@ _RANGE = re.compile(r"bytes=(\d*)-(\d*)")
 
 def private_addresses():
     cands = []
-    try:
-        r = subprocess.run(["tailscale", "ip", "-4"], capture_output=True, text=True, timeout=10)
-        if r.returncode == 0:
-            cands += r.stdout.split()
-    except Exception:
-        pass
+    for ts in (shutil.which("tailscale"), "/opt/homebrew/bin/tailscale", "/usr/local/bin/tailscale",
+               "/Applications/Tailscale.app/Contents/MacOS/Tailscale"):
+        if not ts or not Path(ts).exists():
+            continue
+        try:
+            r = subprocess.run([ts, "ip", "-4"], capture_output=True, text=True, timeout=10)
+            if r.returncode == 0 and r.stdout.strip():
+                cands += r.stdout.split()
+                break
+        except Exception:
+            pass
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
             s.connect(("8.8.8.8", 80))
