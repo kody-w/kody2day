@@ -45,6 +45,8 @@ PACK_REPO = "https://github.com/kody-w/rapp-education-shorts"
 SENTINEL = Path(os.environ.get("RAPP_SENTINEL_LIVE", "") or (Path.home() / "rapp-sentinel")).expanduser()
 CLAUDE_MODEL = os.environ.get("KODY2DAY_CLAUDE_MODEL", "")            # "" = the CLI's default
 COPILOT_MODEL = os.environ.get("KODY2DAY_COPILOT_MODEL", "gpt-5.6-sol")
+IMESSAGE_TO = os.environ.get("KODY2DAY_IMESSAGE", "").strip()      # phone/handle to text the finished episode to (never in the repo)
+IMESSAGE_MAX_MB = float(os.environ.get("KODY2DAY_IMESSAGE_MAX_MB", "95"))
 
 # The curriculum: one concept per episode, chosen against the day's evidence, never
 # repeated inside 14 days. Kept plain so a viewer could read it as a syllabus.
@@ -64,6 +66,70 @@ CURRICULUM = [
     ("proofs", "prove_*.py: break/control pairs that reproduce the old blindness before proving the fix"),
     ("open-estate", "The public estate: how hundreds of small public repos compose into one system"),
 ]
+
+# Grounded concept cards: the ONLY RAPP facts the writer may state beyond the day's evidence.
+CONCEPT_CARDS = {
+    "brainstem": {"facts": ["The brainstem is a small local HTTP server (Flask) on the developer's own machine, port 7071.",
+                            "Everything goes through one POST /chat call; the reply carries a 'response' field.",
+                            "A capability is one Python file dropped into an agents/ folder: a class with metadata (name, description, parameters) and a perform() method.",
+                            "No cloud is required to run it; a model can be plugged in, but the routing and agents are local files you can read."],
+                  "install": ["git clone https://github.com/kody-w/RAPP", "python3 -m pip install -r requirements.txt", "curl -X POST localhost:7071/chat -d '{\"user_input\":\"hello\"}'"]},
+    "rar": {"facts": ["RAR is the public RAPP Agent Registry: a GitHub repo plus a static site listing every published agent.",
+                      "An agent is published as one file, agents/@owner/<name>_agent.py, with a __manifest__ (name, version, description, tags, category).",
+                      "Every published file carries a notarized receipt; the registry rebuilds registry.json and a static API on each change.",
+                      "Anyone can install a listed agent into their own brainstem; the registry ranks by community upvotes, tier, freshness and depth."],
+            "install": ["git clone https://github.com/kody-w/RAR", "python3 build_registry.py"]},
+    "agent-shape": {"facts": ["A RAPP agent is a single Python file: a __manifest__ dict, a class extending BasicAgent, metadata with a JSON-schema 'parameters' block, and perform(**kwargs) returning a string (usually JSON).",
+                              "The metadata description is what the model reads to decide when to call the agent, so it is written for a reader, not a compiler.",
+                              "Stdlib only is the norm; anything the agent needs on the machine is declared as an external prerequisite."],
+                    "install": ["git clone https://github.com/kody-w/RAR", "python3 agents/@kody-w/hello_world_agent.py"]},
+    "rapp1-chains": {"facts": ["A rapp/1 chain is an append-only JSONL file of frames; each frame carries a kind, a sequence number, a UTC time, a payload, and the hash of the previous frame's payload.",
+                               "Because every frame binds the one before it, truncation or rewriting is detectable by anyone who re-reads the file from genesis.",
+                               "A chain records that something was written, not that it was true: it catches a stalled or tampered record, never a liar."],
+                     "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 neighborhood.py roll-call"]},
+    "sentinel": {"facts": ["rapp-sentinel is a watchdog for GitHub-native platforms: stdlib health checks that cost nothing, run every 15 minutes under launchd.",
+                           "Only failure may invoke a model; the amount of freedom is a level dial from 0 (observe and notify) to 3 (evolve while healthy).",
+                           "It exists because a platform once sat frozen for nineteen days with every dashboard green.",
+                           "python3 health.py prints a JSON verdict: healthy, degraded or critical, with the failing check ids and why."],
+                 "install": ["git clone https://github.com/kody-w/rapp-sentinel && cd rapp-sentinel", "python3 health.py"]},
+    "r1r2r3": {"facts": ["R1: receipts aren't evidence — read the artifact, not the log line about it.",
+                         "R2: ran isn't worked — a green job with no output is a stall.",
+                         "R3: require known-good, never enumerate known-bad.",
+                         "These are written down in the sentinel's TRIFECTA-PATTERN document and enforced by its checks."],
+               "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 health.py"]},
+    "neighborhood": {"facts": ["The sentinel's watchers are a declarable roster of AIs from any vendor; each keeps its own rapp/1 chain and can verify the others'.",
+                               "The default cast is five: a local daemon, a scout, Copilot, Claude Code, and the brainstem; more are seated by editing config.json.",
+                               "A neighbor can be given a cadence: how often it must speak, and which frame kinds count as work — silence then fails a check instead of passing as calm."],
+                     "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 neighborhood.py roll-call"]},
+    "factories": {"facts": ["A factory is an agent that builds agents from a description or transcript, so the unit of work is a working file, not a plan.",
+                            "An egg packs a rapplication (a local-first app plus its twin) so it can be hatched on another machine and proven to run.",
+                            "The pattern is: describe → generate a file → run it → keep only what runs."],
+                  "install": ["git clone https://github.com/kody-w/RAR", "ls agents/@kody-w | grep factory"]},
+    "local-first": {"facts": ["Local-first means the runtime, the agents and the records live on the developer's machine; the network is optional, never the source of truth.",
+                              "No API keys are needed to run the brainstem or the sentinel; a model can be attached through tools already signed in on the machine.",
+                              "It makes the whole system inspectable: every stage is a file you can open."],
+                    "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 health.py"]},
+    "above-not-beside": {"facts": ["'Above AI, not beside it' means the human declares the invariants — what must stay true — and agents do the work underneath them.",
+                                   "In practice: checks, receipts, chains and proofs are written by the human once; the models are only allowed to act inside them.",
+                                   "The sentinel is the reference implementation: free checks above, model repair below, and the level dial in between."],
+                         "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 health.py"]},
+    "evidence": {"facts": ["Evidence over claims: an artifact is proven by pointing at the thing a stranger can open — a file, a chain, a rendered page — never by a log line saying it happened.",
+                           "In RAPP repos this shows up as receipts that name a file hash, proofs that reproduce a failure before fixing it, and checks that read the artifact.",
+                           "The rule is the sentinel's R1: receipts aren't evidence."],
+                 "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 health.py"]},
+    "molting": {"facts": ["A running sentinel carries live state written by old code (chains, ledgers, config); an update arrives by git pull into the running install.",
+                          "So every change ships a growth path: new config keys default to old behaviour, check ids never rename, frame formats never change, chain history is never rewritten.",
+                          "Kody calls this molting: the organism grows a new shell without dying."],
+                "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 health.py"]},
+    "proofs": {"facts": ["Every check change in the sentinel ships a prove_*.py: a stdlib script with a break/control pair that reproduces the OLD blindness before showing the new check fires.",
+                         "A proof exits non-zero on deviation, so it can gate a merge; its docstring tells the war story of the failure it prevents.",
+                         "The repo's mutation ledger lists every required check and which proof covers it."],
+               "install": ["git clone https://github.com/kody-w/rapp-sentinel", "python3 prove_neighbor_moving.py"]},
+    "open-estate": {"facts": ["Kody's public estate is hundreds of small repos, each doing one thing, composed by conventions: a registry, chains, checks, static sites.",
+                              "Kody2day itself reads that estate every day from the public GitHub API and publishes one page per day.",
+                              "The digest separates Kody's own commits from the fleet of bots and automated loops that also push."],
+                    "install": ["git clone https://github.com/kody-w/kody2day", "python3 kody2day.py build"]},
+}
 
 LONG_EXAMPLE = {
     "schema": "rapp-education-long/1.0",
@@ -191,7 +257,8 @@ def recent_concepts(days=14):
 
 def stage_brief(ep, d, shorts_n):
     avoid = recent_concepts()
-    menu = [{"id": k, "concept": v} for k, v in CURRICULUM if k not in avoid] or [{"id": k, "concept": v} for k, v in CURRICULUM]
+    menu = [{"id": k, "concept": v, "card": CONCEPT_CARDS.get(k, {})} for k, v in CURRICULUM if k not in avoid] \
+        or [{"id": k, "concept": v, "card": CONCEPT_CARDS.get(k, {})} for k, v in CURRICULUM]
     evidence = []
     for t in d.get("repos", []):
         if not t["human_count"]:
@@ -215,7 +282,11 @@ def write_prompt(brief, issues=None, previous=None):
          "a public registry, tamper-evident rapp/1 chains, sentinels that watch honestly). Each episode teaches ONE concept "
          "from the menu and uses what ACTUALLY SHIPPED that day (the evidence) as the worked example.",
          "HARD RULES: every factual claim about what shipped must be traceable to the evidence list (repo names, commit "
-         "subjects, counts) — never invent commits, features, numbers or quotes. Plain, warm, precise; no hype, no emojis, "
+         "subjects, counts) — never invent commits, features, numbers or quotes. Every claim about RAPP itself must come "
+         "from the chosen menu item's 'card' (facts + install commands); never describe what a README, doc or test file "
+         "contains unless a commit subject in the evidence literally says so; describe commits by their subject lines. "
+         "The install section uses ONLY commands from the card. Do not tie the concept to a commit unless the commit "
+         "subject plainly illustrates it — say what shipped, then teach the concept, and connect them only where honest. Plain, warm, precise; no hype, no emojis, "
          "no URLs, no @handles, no customer or company names other than the public repos named in the evidence. "
          "Explain the concept so a curious developer who has never heard of RAPP follows it. Say 'Kody' in third person.",
          "Return ONE JSON object and nothing else: {\"concept\": <menu id>, \"long\": <LONG.json>, \"shorts\": [<SCRIPT.json>, ...], "
@@ -410,6 +481,51 @@ def emit_frame(kind, payload):
         return "emit failed: %s" % e
 
 
+def imessage(to, text, files=()):
+    """Text the finished episode via Messages.app (macOS). Attachments one by one; oversize files are linked by path.
+    Never fatal, never retried into a loop; returns a one-line receipt for the log."""
+    if not to:
+        return "no KODY2DAY_IMESSAGE set — not texting"
+    if sys.platform != "darwin" or not shutil.which("osascript"):
+        return "no Messages.app here"
+    def _run(script):
+        r = subprocess.run(["osascript", "-"], input=script, capture_output=True, text=True, timeout=120)
+        return r.returncode == 0, (r.stderr or "").strip()[-200:]
+    q = lambda x: str(x).replace("\\", "\\\\").replace('"', '\\"')
+    base = ('tell application "Messages"\n set svc to 1st account whose service type = iMessage\n'
+            ' set who to participant "%s" of svc\n' % q(to))
+    ok, err = _run(base + ' send "%s" to who\nend tell' % q(text))
+    sent = ["text" if ok else "text FAILED %s" % err]
+    for f in files:
+        f = Path(f)
+        if not f.exists():
+            continue
+        mb = f.stat().st_size / 1e6
+        if mb > IMESSAGE_MAX_MB:
+            _run(base + ' send "%s" to who\nend tell' % q("(%s is %.0f MB — too big for iMessage; it is at %s)" % (f.name, mb, f)))
+            sent.append("%s linked (%.0f MB)" % (f.name, mb))
+            continue
+        ok, err = _run(base + ' send POSIX file "%s" to who\nend tell' % q(str(f)))
+        sent.append("%s %s" % (f.name, "sent" if ok else "FAILED " + err))
+    return "; ".join(sent)
+
+
+def stage_notify(ep, episode, draft):
+    if not IMESSAGE_TO:
+        return "no KODY2DAY_IMESSAGE set — not texting"
+    yt = draft.get("youtube") or {}
+    files = [v["path"] for k, v in episode["outputs"].items() if v.get("ok")]
+    queued = sorted(Path(episode["queue"]).glob("*.mp4"))
+    files = [str(f) for f in queued] or files
+    lines = ["Kody2day %s — %s" % (episode["date"], "episode ready" if episode["ok"] else "episode INCOMPLETE"),
+             yt.get("title") or (draft.get("long") or {}).get("title") or "",
+             "concept: %s · refute: %s" % (episode.get("concept"), episode.get("refute"))]
+    for k, v in episode["outputs"].items():
+        lines.append("%s: %s (%ss)" % (k.replace("_", " "), "ok" if v.get("ok") else "FAILED", v.get("seconds")))
+    lines.append("queue: %s" % episode["queue"])
+    return imessage(IMESSAGE_TO, "\n".join(l for l in lines if l), files)
+
+
 # ── driver ───────────────────────────────────────────────────────────────
 def run(date, shorts_n, tts, quality, skip_render=False):
     ep = STUDIO / "episodes" / date
@@ -426,18 +542,19 @@ def run(date, shorts_n, tts, quality, skip_render=False):
     draft = stage_write(ep, pack, brief, shorts_n)
     refute = stage_refute(ep, brief, draft)
     log(ep, "refute: %s (%d issues)" % (refute.get("verdict"), len(refute.get("issues") or [])))
-    if refute.get("verdict") == "fail":
+    rounds = 0
+    while refute.get("verdict") == "fail" and rounds < 2:
+        rounds += 1
         high = [i for i in refute.get("issues") or [] if i.get("severity") == "high"] or refute.get("issues")
         draft = stage_write(ep, pack, brief, shorts_n, issues=high, previous=draft)
-        refute2 = stage_refute(ep, brief, draft)
-        log(ep, "refute (round 2): %s (%d issues)" % (refute2.get("verdict"), len(refute2.get("issues") or [])))
-        if refute2.get("verdict") == "fail":
-            (ep / "episode.json").write_text(json.dumps({"date": date, "ok": False, "why": "refuted twice",
-                                                          "issues": refute2.get("issues")}, indent=1))
-            emit_frame("studio.run", {"date": date, "stage": "refuted", "issues": len(refute2.get("issues") or [])})
-            log(ep, "refuted twice — no episode today (drafts kept for a human)")
-            return 1
-        refute = refute2
+        refute = stage_refute(ep, brief, draft)
+        log(ep, "refute (round %d): %s (%d issues)" % (rounds + 1, refute.get("verdict"), len(refute.get("issues") or [])))
+    if refute.get("verdict") == "fail":
+        (ep / "episode.json").write_text(json.dumps({"date": date, "ok": False, "why": "refuted %d times" % (rounds + 1),
+                                                      "issues": refute.get("issues")}, indent=1))
+        emit_frame("studio.run", {"date": date, "stage": "refuted", "issues": len(refute.get("issues") or [])})
+        log(ep, "refuted %d times — no episode today (drafts kept for a human)" % (rounds + 1))
+        return 1
     (ep / "draft.json").write_text(json.dumps(draft, indent=1))
     if skip_render:
         log(ep, "skip_render — scripts written, stopping")
@@ -447,6 +564,7 @@ def run(date, shorts_n, tts, quality, skip_render=False):
     episode = stage_record(ep, date, draft, refute, verified)
     log(ep, "episode %s: %s — %s" % (date, "OK" if episode["ok"] else "INCOMPLETE",
                                      ", ".join("%s %ss" % (k, v.get("seconds")) for k, v in verified.items())))
+    log(ep, "imessage: %s" % stage_notify(ep, episode, draft))
     log(ep, "sentinel frame: %s" % emit_frame("studio.render", {
         "date": date, "ok": episode["ok"], "concept": episode["concept"],
         "outputs": {k: {"ok": v.get("ok"), "seconds": v.get("seconds")} for k, v in verified.items()}}))
