@@ -292,7 +292,9 @@ def write_prompt(brief, issues=None, previous=None):
          "from the chosen menu item's 'card' (facts + install commands); never describe what a README, doc or test file "
          "contains unless a commit subject in the evidence literally says so; describe commits by their subject lines. "
          "The install section uses ONLY commands from the card. Do not tie the concept to a commit unless the commit "
-         "subject plainly illustrates it — say what shipped, then teach the concept, and connect them only where honest. Plain, warm, precise; no hype, no emojis, "
+         "subject plainly illustrates it — say what shipped, then teach the concept, and connect them only where honest. "
+         "Never promise what a command or change WILL do beyond what the card states; describe, don't guarantee. YouTube tags "
+         "must be plain topic words (rapp, agents, local-first, ...) — no licensing or company claims. Plain, warm, precise; no hype, no emojis, "
          "no URLs, no @handles, no customer or company names other than the public repos named in the evidence. "
          "Explain the concept so a curious developer who has never heard of RAPP follows it. Say 'Kody' in third person.",
          "Return ONE JSON object and nothing else: {\"concept\": <menu id>, \"long\": <LONG.json>, \"shorts\": [<SCRIPT.json>, ...], "
