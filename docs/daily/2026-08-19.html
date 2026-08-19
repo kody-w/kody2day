@@ -15,76 +15,113 @@ nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:
 footer{color:var(--mut);font-size:13px;margin-top:40px}
 </style><main>
 <h1><a href='../'>Kody2day</a> <span class=tag>2026-08-19</span></h1>
-<p class=sub>12 repos touched · 16 commits by Kody · 22 by the fleet · new: kody2day, rapp-sentinel-hub (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-08-19 01:30 UTC.</p>
+<p class=sub>14 repos touched · 69 commits by Kody · 137 by the fleet · new: kody2day, rapp-sentinel-hub (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-08-19 14:44 UTC.</p>
 <nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
 <div class=card><h2><a href='https://github.com/kody-w/openrappter'>openrappter</a></h2>
 <p class=desc>🦖 Local-first AI agent powered by GitHub Copilot SDK — no API keys required</p>
 <ul>
-<li><span class=sha>778359a</span><a href='https://github.com/kody-w/openrappter/commit/778359ac7f4da0003c18fafc19d026d14b3a5529'>ci: give the Windows Electron smoke a cold-start budget (#334)</a></li>
-<li><span class=sha>3fbd81e</span><a href='https://github.com/kody-w/openrappter/commit/3fbd81e1799cb7451d4e585719980581dc45441d'>fix(cli): channels sent a parameter name nothing reads, and --config did nothing (#333)</a></li>
-<li><span class=sha>f521d49</span><a href='https://github.com/kody-w/openrappter/commit/f521d491615f83fb1af47038504ebb0ac7c7f431'>test: isolate the suite from the real installation (#332)</a></li>
-<li><span class=sha>0484aa3</span><a href='https://github.com/kody-w/openrappter/commit/0484aa3debc896171dd4e7c1476557df43065e4c'>fix: OPENRAPPTER_HOME split installs across two directories (4 honoured it, 46 did not) (#331)</a></li>
+<li><span class=sha>7d39c46</span><a href='https://github.com/kody-w/openrappter/commit/7d39c4617cadbf14c9c857ee971a1a5cf182ee75'>fix(gateway): serialisation failures use the RPC error convention, not a new status (#363)</a></li>
+<li><span class=sha>b095b87</span><a href='https://github.com/kody-w/openrappter/commit/b095b87c11d6e660dfcb8ff8ea8d7a624eef0904'>fix(gateway): answer a WebSocket request whose result cannot be serialised (#362)</a></li>
+<li><span class=sha>4402e1c</span><a href='https://github.com/kody-w/openrappter/commit/4402e1c84247f1d87a8cbd835db5fd2d7d41e880'>fix(gateway): a plugin&#x27;s unserialisable result no longer kills the daemon (#361)</a></li>
+<li><span class=sha>63d9904</span><a href='https://github.com/kody-w/openrappter/commit/63d9904ad59923ed9f9eca1a9a8da21a7c0a619e'>fix(gateway): stop GET /readyz from being able to kill the daemon (#359)</a></li>
+<li><span class=sha>f81fb3f</span><a href='https://github.com/kody-w/openrappter/commit/f81fb3f76543d1059bf342682fafd1d41350bb4a'>fix(brainstem): finish the dispatch guard it claimed to have generalised (#358)</a></li>
+<li><span class=sha>9a3bb10</span><a href='https://github.com/kody-w/openrappter/commit/9a3bb10eab19b617fc90eb26498a76c1aa8d0aa7'>fix(brainstem): guarantee every request gets a reply (#357)</a></li>
+<li><span class=sha>a407465</span><a href='https://github.com/kody-w/openrappter/commit/a4074654a443caefe13fda2343f3e4ba245c4111'>fix(brainstem): refuse malformed multipart instead of dropping the connection (#356)</a></li>
+<li><span class=sha>e91758f</span><a href='https://github.com/kody-w/openrappter/commit/e91758f9ea10664e8813ed013380aa91d53354b3'>fix(brainstem): answer malformed Content-Length instead of dropping the connection (#355)</a></li>
+<li class=fleet>… and 22 more</li>
 </ul>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
-<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
-<ul>
-<li><span class=sha>8778cee</span><a href='https://github.com/kody-w/RAR/commit/8778cee4fb1cc3fa6b17b7aa5b4827f341d067e9'>registry: rebuild after rebase (kody2day_agent)</a></li>
-<li><span class=sha>075e7a3</span><a href='https://github.com/kody-w/RAR/commit/075e7a3b8cf977f88a7fed0a615c46b2062b0c77'>publish @kody-w/kody2day_agent: Kody2day — a daily digest of what Kody shipped, so people can keep up</a></li>
-<li><span class=sha>0cac8b2</span><a href='https://github.com/kody-w/RAR/commit/0cac8b2ead93e9791fa77022cbd654990205184e'>publish @kody-w/rapp_sentinel_agent: RAPP Sentinel — the watchdog that can&#x27;t quietly lie, from the brainstem</a></li>
-</ul>
-<p class=fleet>fleet: 2 automated commits — e.g. Auto-build registry.json [skip ci]; Stage RAR request from #579 [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/kody2day'>kody2day</a> <span class=tag>new repo</span></h2>
 <p class=desc>A daily digest of what Kody shipped across his public GitHub — so you can keep up.</p>
 <ul>
-<li><span class=sha>f3e831d</span><a href='https://github.com/kody-w/kody2day/commit/f3e831d6efb1f3743ab946b4c3ae7751b567e129'>kody2day: rebuild 2026-08-19 with the so-far marker</a></li>
-<li><span class=sha>3b492ec</span><a href='https://github.com/kody-w/kody2day/commit/3b492ec3719154630bdcde3b2b97a863405eceff'>kody2day: mark a still-running day as &#x27;so far&#x27;; the cron builds yesterday (final) + today (so far)</a></li>
-<li><span class=sha>1dfbcd9</span><a href='https://github.com/kody-w/kody2day/commit/1dfbcd96a350ee43a9b29196dfbf744403935c2f'>kody2day: a daily digest of what Kody shipped, so people can keep up</a></li>
+<li><span class=sha>b919192</span><a href='https://github.com/kody-w/kody2day/commit/b9191928e5e3191e1aa1f2221c0dcb51e86c7fbb'>studio: install lines may carry the card&#x27;s github URL verbatim; no over-promising; plain YouTube tags</a></li>
+<li><span class=sha>d0aadeb</span><a href='https://github.com/kody-w/kody2day/commit/d0aadeb11736681db595cf49c36a73ce7e21e876'>share: find tailscale outside PATH (launchd)</a></li>
+<li><span class=sha>b7559bd</span><a href='https://github.com/kody-w/kody2day/commit/b7559bd38cbaf5b11228a493b37af34baf7e3099'>studio: private share server (:9798, tokenized, Range) — episodes are texted as tailnet/LAN links, not attachments</a></li>
+<li><span class=sha>de92bdc</span><a href='https://github.com/kody-w/kody2day/commit/de92bdc063d3d1fa5bb79e12c00f225b015ef111'>studio: rapp/1 frame payload uses ints (JCS forbids floats)</a></li>
+<li><span class=sha>8f62a34</span><a href='https://github.com/kody-w/kody2day/commit/8f62a34a8f9331a1e20fea38f5aacd72056fde4c'>studio: resolve claude/copilot/npx from known dirs (launchd + server processes lack them on PATH)</a></li>
+<li><span class=sha>805fe09</span><a href='https://github.com/kody-w/kody2day/commit/805fe09a664ffe2d6117f45f22e49f275a3d355e'>studio: concept cards ground the writer; two refute rounds; iMessage delivery of the finished episode (KODY2DAY_IMESSAGE, env only)</a></li>
+<li><span class=sha>8cd9837</span><a href='https://github.com/kody-w/kody2day/commit/8cd9837e095d7cd46489ee3ce31ac9d9fa1f164c'>studio: Kody2day the show — digest → Claude writes (pack lints gate) → Copilot refutes → long-form + Shorts → queue; sentinel frame per run</a></li>
+<li><span class=sha>a418942</span><a href='https://github.com/kody-w/kody2day/commit/a41894267d7887f910c7ca98f2183a8fa9359568'>kody2day: regenerate index/feed after rebase</a></li>
+<li class=fleet>… and 4 more</li>
 </ul>
 <p class=fleet>fleet: 2 automated commits — e.g. kody2day 2026-08-19: 9 repos touched · 10 commits by Kody · 19 by the ; kody2day 2026-08-19: 9 repos touched · 8 commits by Kody · 18 by the f</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
+<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
+<ul>
+<li><span class=sha>d4704c4</span><a href='https://github.com/kody-w/RAR/commit/d4704c41e4cc600c506f8a8020d0eac36a072acf'>front.json: rebuild — rank all 307 agents (kody2day_studio_agent)</a></li>
+<li><span class=sha>f01992c</span><a href='https://github.com/kody-w/RAR/commit/f01992c65fce032abd8ffd6ecf27b88e2354ac19'>registry: rebuild after rebase (kody2day_studio_agent)</a></li>
+<li><span class=sha>6df086a</span><a href='https://github.com/kody-w/RAR/commit/6df086ae702e7b5f1dbfec69470a242317e780be'>kody2day_studio_agent: a zombie pid is finished, not running (found live on the brainstem)</a></li>
+<li><span class=sha>34241ae</span><a href='https://github.com/kody-w/RAR/commit/34241ae10260c9d29669236e631d5bdd0ec1d141'>publish @kody-w/kody2day_studio_agent: Kody2day Studio — digest → Claude writes, Copilot refutes → long-form + Shorts → queue (background run + status/episode/l</a></li>
+<li><span class=sha>538a4ba</span><a href='https://github.com/kody-w/RAR/commit/538a4baf63366cb5fbdb7e2aec6d9352f6a27ff3'>registry: rebuild after rebase (kody2day_agent impact)</a></li>
+<li><span class=sha>12b7217</span><a href='https://github.com/kody-w/RAR/commit/12b72173806aa97877273642ec6173ce9d4cb154'>kody2day_agent: action=&#x27;impact&#x27; reads the owner&#x27;s PRIVATE local ledger (~/.rapp/kody2day-private) — never fetched, never published</a></li>
+<li><span class=sha>8778cee</span><a href='https://github.com/kody-w/RAR/commit/8778cee4fb1cc3fa6b17b7aa5b4827f341d067e9'>registry: rebuild after rebase (kody2day_agent)</a></li>
+<li><span class=sha>075e7a3</span><a href='https://github.com/kody-w/RAR/commit/075e7a3b8cf977f88a7fed0a615c46b2062b0c77'>publish @kody-w/kody2day_agent: Kody2day — a daily digest of what Kody shipped, so people can keep up</a></li>
+<li class=fleet>… and 1 more</li>
+</ul>
+<p class=fleet>fleet: 12 automated commits — e.g. Dream Catcher frame 1334: fleet content merge [skip ci]; Dream Catcher frame 1333: fleet content merge [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/kody-w.github.io'>kody-w.github.io</a></h2>
+<ul>
+<li><span class=sha>f411a82</span><a href='https://github.com/kody-w/kody-w.github.io/commit/f411a823d7b05b3b4b64c94c26aa06816a4e283a'>colony post: anchor frames to the RAPP rev-5 visual guide (particle/wave, biography, egg, drift ledger)</a></li>
+<li><span class=sha>85c37b4</span><a href='https://github.com/kody-w/kody-w.github.io/commit/85c37b4752ba065c0f41aac1999dd5e82ae5c887'>colony post: drop count flourishes</a></li>
+<li><span class=sha>82e2836</span><a href='https://github.com/kody-w/kody-w.github.io/commit/82e2836b4d3ef2e87c106e3ef8b564baf7149c03'>post: The Colony Calls the Twin (frames, mirrors, brainstem capabilities, Mars Barn end state)</a></li>
+<li><span class=sha>148b958</span><a href='https://github.com/kody-w/kody-w.github.io/commit/148b9586dbea02655ca9605fc086b764b9cc17eb'>post: Scrape Yourself (git scraping x data exhaust)</a></li>
+<li><span class=sha>48076e1</span><a href='https://github.com/kody-w/kody-w.github.io/commit/48076e1c04c1d4d08c680fc79222ffe26141df9d'>rewrite: The Negative — readable pass (scene-first, one metaphor, worked inversions)</a></li>
+<li><span class=sha>38aee37</span><a href='https://github.com/kody-w/kody-w.github.io/commit/38aee3707c7a2a0fdfd1808cfd2cd28f5fd952e8'>rewrite: The Negative (data exhaust thought piece); scrub inventory numbers</a></li>
+<li><span class=sha>b8813bd</span><a href='https://github.com/kody-w/kody-w.github.io/commit/b8813bdc16830670dca708b0243201c2af245c7d'>rewrite: Data Exhaust Is a Negative. Develop It.</a></li>
+<li><span class=sha>6879fe3</span><a href='https://github.com/kody-w/kody-w.github.io/commit/6879fe3d7b2bf22c54ac3c188026803b2f2cacd9'>post: The Trail You Leave Is the Story (plain-language data exhaust)</a></li>
+<li class=fleet>… and 1 more</li>
+</ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel-hub'>rapp-sentinel-hub</a> <span class=tag>new repo</span></h2>
 <p class=desc>Post useful rapp sentinels the way RAR posts agent.pys — single-file watchdog checks that prove themselves (rapp-sentinel/1.0)</p>
 <ul>
+<li><span class=sha>b3a4dfb</span><a href='https://github.com/kody-w/rapp-sentinel-hub/commit/b3a4dfbe05ae9bb291b651e552394aa53e3ee84c'>README: link the RAPP rev-5 visual guide</a></li>
 <li><span class=sha>0a8eb97</span><a href='https://github.com/kody-w/rapp-sentinel-hub/commit/0a8eb97240894a0aeb2668f82ad60d1408f27c49'>README: installing is a molt</a></li>
 <li><span class=sha>b88c110</span><a href='https://github.com/kody-w/rapp-sentinel-hub/commit/b88c1108a400de5f5142fd886612ad54050e149d'>build_registry: stable generated stamp + --check mode for CI</a></li>
 <li><span class=sha>f59cd82</span><a href='https://github.com/kody-w/rapp-sentinel-hub/commit/f59cd82c0896015775c9382b5105cae6cdbc1e11'>RAPP Sentinel Hub: single-file sentinels (rapp-sentinel/1.0), SDK, registry, store, submission pipeline</a></li>
 </ul>
 <p class=fleet>fleet: 2 automated commits — e.g. update @kody-w/hello_world_sentinel@1.0.1 (issue #1) (#2); registry: rebuild</p>
 </div>
-<div class=card><h2><a href='https://github.com/kody-w/kody-w.github.io'>kody-w.github.io</a></h2>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
+<p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
 <ul>
-<li><span class=sha>bab1fbc</span><a href='https://github.com/kody-w/kody-w.github.io/commit/bab1fbcd13247086127cc72f3312559f277eb949'>post: Data Exhaust Is the Fourth Dimension (frame 2026-08-19)</a></li>
+<li><span class=sha>25ef606</span><a href='https://github.com/kody-w/rapp-sentinel/commit/25ef6069a00007edfd76d7d5737a693e2c3f998e'>blog: It just wakes up and tells me what we should do today — the Principal, the morning memo, the new way of working</a></li>
+<li><span class=sha>033fe05</span><a href='https://github.com/kody-w/rapp-sentinel/commit/033fe0564ca9f671c00d28be9d8577e5a56aaebb'>The Principal: a sentinel that sits in on other sentinels (tailnet-wide) and grades them against their declared job (#105)</a></li>
+<li><span class=sha>4d1026c</span><a href='https://github.com/kody-w/rapp-sentinel/commit/4d1026c85a3d4e7236bad35710d841e6aaf6750b'>hub.py: the socket for RAPP Sentinel Hub sentinels (additive, trust is a dial) (#104)</a></li>
 </ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-education-shorts'>rapp-education-shorts</a></h2>
 <p class=desc>Animated-short maker for educational YouTube Shorts: topic → linted script → HyperFrames 9:16 composition → check → render, with a chained ledger. Deterministic compiler, bring-your-own model.</p>
 <ul>
+<li><span class=sha>bbda5b7</span><a href='https://github.com/kody-w/rapp-education-shorts/commit/bbda5b7371f5e635b97d80dd62afaf191ec557e8'>solution mode v2: workbook/slide(waterfall)/diff artifact kinds, chat fidelity (links, review line, agent-call footer, rail history), brand palette, media optio</a></li>
 <li><span class=sha>7c38d41</span><a href='https://github.com/kody-w/rapp-education-shorts/commit/7c38d4196211efd21573d769c721a82f22c2b6c9'>solution mode: industry-video template grounded in the official AIBAST Agents Library</a></li>
-</ul>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
-<p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
-<ul>
-<li><span class=sha>4d1026c</span><a href='https://github.com/kody-w/rapp-sentinel/commit/4d1026c85a3d4e7236bad35710d841e6aaf6750b'>hub.py: the socket for RAPP Sentinel Hub sentinels (additive, trust is a dial) (#104)</a></li>
 </ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterverse'>rappterverse</a></h2>
 <p class=desc>rappterverse</p>
-<p class=fleet>fleet: 9 automated commits — e.g. [state] apply PR #7071; [state] apply PR #7070</p>
+<p class=fleet>fleet: 98 automated commits — e.g. [state] apply PR #7162; [state] apply PR #7161</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
 <p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
-<p class=fleet>fleet: 4 automated commits — e.g. chore: process inbox deltas [skip ci]; chore(overseer): tick from github-actions [skip ci]</p>
+<p class=fleet>fleet: 16 automated commits — e.g. chore: process inbox deltas [skip ci]; chore: zion autonomy update [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/localFirstTools'>localFirstTools</a></h2>
+<p class=desc>localFirstTools</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-08-19; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/localtoolsdev'>localtoolsdev</a></h2>
 <p class=desc>v</p>
-<p class=fleet>fleet: 1 automated commit — e.g. 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-08-19; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/mars-chain-node'>mars-chain-node</a></h2>
 <p class=desc>🔗 MARS Chain Node — Decentralized verification for the MARS virtual token economy. Fork to run your own node.</p>
 <p class=fleet>fleet: 1 automated commit — e.g. consensus: cross-verification report</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-monorepo'>rapp-monorepo</a></h2>
+<p class=desc>Every public RAPP repository, captured in one pass, refreshed daily. One clone = the whole estate with no drift.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. Snapshot: 194 repos captured, 0 not captured</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterbook-agent-exchange'>rappterbook-agent-exchange</a></h2>
 <p class=desc>Agent Stock Exchange — AI agents as tradeable assets on Rappterbook</p>
