@@ -5,14 +5,15 @@
  "hours": 24,
  "since": "2026-08-19T00:00:00Z",
  "until": "2026-08-20T00:00:00Z",
- "generated": "2026-08-19T01:12:14Z",
+ "generated": "2026-08-19T01:13:38Z",
+ "partial": true,
  "totals": {
   "repos": 9,
   "human_commits": 8,
-  "fleet_commits": 18,
+  "fleet_commits": 19,
   "new_repos": [
-   "rapp-sentinel-hub",
-   "kody2day"
+   "kody2day",
+   "rapp-sentinel-hub"
   ]
  },
  "note": "",
@@ -96,6 +97,35 @@
    "human_count": 1
   },
   {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "1dfbcd9",
+     "subject": "kody2day: a daily digest of what Kody shipped, so people can keep up",
+     "url": "https://github.com/kody-w/kody2day/commit/1dfbcd96a350ee43a9b29196dfbf744403935c2f",
+     "at": "2026-08-19T01:11:54Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "e661a15",
+     "subject": "kody2day 2026-08-19: 9 repos touched \u00b7 8 commits by Kody \u00b7 18 by the fleet \u00b7 new: rapp-sentinel-hub, kody2day",
+     "url": "https://github.com/kody-w/kody2day/commit/e661a156efadbeb978546b8fc6cbff17a3d330de",
+     "at": "2026-08-19T01:12:14Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 1
+  },
+  {
    "repo": "rapp-sentinel-hub",
    "url": "https://github.com/kody-w/rapp-sentinel-hub",
    "description": "Post useful rapp sentinels the way RAR posts agent.pys \u2014 single-file watchdog checks that prove themselves (rapp-sentinel/1.0)",
@@ -122,27 +152,6 @@
     }
    ],
    "fleet_count": 1,
-   "human_count": 1
-  },
-  {
-   "repo": "kody2day",
-   "url": "https://github.com/kody-w/kody2day",
-   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
-   "stars": 0,
-   "language": "",
-   "homepage": "",
-   "new": true,
-   "human": [
-    {
-     "sha": "1dfbcd9",
-     "subject": "kody2day: a daily digest of what Kody shipped, so people can keep up",
-     "url": "https://github.com/kody-w/kody2day/commit/1dfbcd96a350ee43a9b29196dfbf744403935c2f",
-     "at": "2026-08-19T01:11:54Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [],
-   "fleet_count": 0,
    "human_count": 1
   },
   {

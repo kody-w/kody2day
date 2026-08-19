@@ -145,13 +145,16 @@ def _parse(s):
 def build_digest(date, hours):
     until = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc) + timedelta(days=1)
     since = until - timedelta(hours=hours)
-    touched = collect(since, until)
+    now = datetime.now(timezone.utc)
+    partial = until > now
+    touched = collect(since, min(until, now))
     note_path = DOCS / "notes" / ("%s.md" % date)
     note = note_path.read_text().strip() if note_path.exists() else ""
     return {
         "schema": "kody2day/1.0", "owner": OWNER, "date": date, "hours": hours,
         "since": since.strftime("%Y-%m-%dT%H:%M:%SZ"), "until": until.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "partial": partial,
         "totals": {"repos": len(touched), "human_commits": sum(t["human_count"] for t in touched),
                    "fleet_commits": sum(t["fleet_count"] for t in touched),
                    "new_repos": [t["repo"] for t in touched if t["new"]]},
@@ -168,7 +171,10 @@ def headline(d):
              "%d by the fleet" % t["fleet_commits"]]
     if t["new_repos"]:
         parts.append("new: " + ", ".join(t["new_repos"][:3]))
-    return " · ".join(parts)
+    line = " · ".join(parts)
+    if d.get("partial"):
+        line += " (so far — the day is still running; rebuilt tomorrow)"
+    return line
 
 
 # ── render ───────────────────────────────────────────────────────────────

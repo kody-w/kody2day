@@ -28,8 +28,13 @@ jobs:
           set -euo pipefail
           DATE="${{ github.event.inputs.date }}"
           HOURS="${{ github.event.inputs.hours || '24' }}"
-          if [ -z "$DATE" ]; then DATE="$(date -u +%Y-%m-%d)"; fi
-          python3 kody2day.py build --date "$DATE" --hours "$HOURS" | tee build.json
+          if [ -n "$DATE" ]; then
+            python3 kody2day.py build --date "$DATE" --hours "$HOURS" | tee build.json
+          else
+            # yesterday is complete (final page); today is "so far" and gets rebuilt tomorrow
+            python3 kody2day.py build --date "$(date -u -d yesterday +%Y-%m-%d)" --hours "$HOURS"
+            python3 kody2day.py build --date "$(date -u +%Y-%m-%d)" --hours "$HOURS" | tee build.json
+          fi
       - name: Commit and push
         run: |
           set -euo pipefail
