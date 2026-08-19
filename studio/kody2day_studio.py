@@ -48,6 +48,12 @@ COPILOT_MODEL = os.environ.get("KODY2DAY_COPILOT_MODEL", "gpt-5.6-sol")
 IMESSAGE_TO = os.environ.get("KODY2DAY_IMESSAGE", "").strip()      # phone/handle to text the finished episode to (never in the repo)
 IMESSAGE_MAX_MB = float(os.environ.get("KODY2DAY_IMESSAGE_MAX_MB", "95"))
 
+# Tools live in places a launchd job or a server process may not have on PATH.
+EXTRA_BIN = [str(Path.home() / ".local" / "bin"), "/opt/homebrew/bin", "/usr/local/bin",
+             str(Path.home() / "Library" / "Application Support" / "Code" / "User" / "globalStorage" / "github.copilot-chat" / "copilotCli"),
+             str(Path.home() / ".copilot" / "bin"), str(Path.home() / ".npm-global" / "bin")]
+os.environ["PATH"] = os.pathsep.join([d for d in EXTRA_BIN if Path(d).is_dir()] + [os.environ.get("PATH", "")])
+
 # The curriculum: one concept per episode, chosen against the day's evidence, never
 # repeated inside 14 days. Kept plain so a viewer could read it as a syllabus.
 CURRICULUM = [
