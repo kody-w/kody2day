@@ -573,7 +573,7 @@ def run(date, shorts_n, tts, quality, skip_render=False):
     log(ep, "imessage: %s" % stage_notify(ep, episode, draft))
     log(ep, "sentinel frame: %s" % emit_frame("studio.render", {
         "date": date, "ok": episode["ok"], "concept": episode["concept"],
-        "outputs": {k: {"ok": v.get("ok"), "seconds": v.get("seconds")} for k, v in verified.items()}}))
+        "outputs": {k: {"ok": bool(v.get("ok")), "seconds": int(v.get("seconds") or 0)} for k, v in verified.items()}}))  # rapp/1 JCS: no floats
     return 0 if episode["ok"] else 1
 
 
