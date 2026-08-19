@@ -53,3 +53,27 @@ user's own repos, private included, plus `impact.json` / `impact.html` — a rol
 repos, busiest day). `@kody-w/kody2day_agent` action=`impact` reads that local
 file only. Run it from a launchd job outside `~/Documents` (TCC blocks launch
 agents there) — e.g. a clone under `~/.rapp/kody2day-private/code`.
+
+## Kody2day, the show (studio/)
+
+`studio/kody2day_studio.py` turns each day's digest into educational YouTube video —
+a long-form 16:9 narrated explainer that teaches ONE RAPP concept using what actually
+shipped that day as the worked example, plus byte-sized 9:16 Shorts that split it up
+("Kody2day <date> · byte 1/3"). Two AIs make it, one AI checks it: **Claude Code**
+writes the scripts in the [rapp-education-shorts](https://github.com/kody-w/rapp-education-shorts)
+contracts (the pack's lints gate them), **GitHub Copilot** is the mandatory REFUTE
+reviewer (every claim must trace to the digest; one revision round, then it refuses),
+the pack renders (VibeVoice narration, HyperFrames), every MP4 is probed, and the
+episode lands in `~/.rapp/kody2day-studio/queue/<date>/` with `YOUTUBE.json`
+(title, description, chapters). Uploading is the human step.
+
+```bash
+python3 studio/kody2day_studio.py run                # yesterday's digest → episode
+python3 studio/kody2day_studio.py run --date 2026-08-18 --shorts 3 --tts none --quality draft
+python3 studio/kody2day_studio.py status
+```
+
+Autonomous: a launchd job (`com.rapp.kody2day-studio`, 07:30 local) runs it every
+morning from a clone under `~/.rapp`, and the studio is seated at the RAPP Sentinel's
+bar as neighbor `kody2day` with a daily cadence — a morning without a rendered
+episode fails `w_neighbor_moving`, so silence can't pass for success.
