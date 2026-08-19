@@ -1,0 +1,48 @@
+name: Kody2day
+on:
+  schedule:
+    - cron: "5 14 * * *"   # 14:05 UTC daily = 7:05am PT — yesterday's 24h, on your desk before standup
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Digest date (UTC, YYYY-MM-DD). Default: today."
+        required: false
+      hours:
+        description: "Window length in hours"
+        required: false
+        default: "24"
+permissions:
+  contents: write
+concurrency:
+  group: kody2day
+  cancel-in-progress: false
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build digest (public repos only)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          DATE="${{ github.event.inputs.date }}"
+          HOURS="${{ github.event.inputs.hours || '24' }}"
+          if [ -z "$DATE" ]; then DATE="$(date -u +%Y-%m-%d)"; fi
+          python3 kody2day.py build --date "$DATE" --hours "$HOURS" | tee build.json
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "kody2day"
+          git config user.email "kody2day@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          HEAD_LINE="$(python3 -c 'import json;d=json.load(open("build.json"));print(d["date"]+": "+d["headline"])')"
+          git commit -m "kody2day $HEAD_LINE"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break || sleep 5; done
+      - name: Prove it (R1 — read the artifact, not the exit code)
+        run: |
+          set -euo pipefail
+          DATE="$(python3 -c 'import json;print(json.load(open("build.json"))["date"])')"
+          test -s "docs/daily/$DATE.html"
+          python3 -c "import json;d=json.load(open('docs/latest.json'));assert d['date']=='$DATE',d['date'];print('latest.json =',d['date'],d['totals'])"
