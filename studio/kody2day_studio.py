@@ -516,20 +516,33 @@ def imessage(to, text, files=()):
     return "; ".join(sent)
 
 
-def stage_notify(ep, episode, draft):
+def stage_share(episode):
+    """Publish the episode on the private share server (tailnet + LAN, tokenized). Never fatal."""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import share_server
+        return share_server.publish(episode["date"])
+    except Exception as e:
+        return {"error": str(e), "urls": []}
+
+
+def stage_notify(ep, episode, draft, share=None):
     if not IMESSAGE_TO:
         return "no KODY2DAY_IMESSAGE set — not texting"
     yt = draft.get("youtube") or {}
-    files = [v["path"] for k, v in episode["outputs"].items() if v.get("ok")]
-    queued = sorted(Path(episode["queue"]).glob("*.mp4"))
-    files = [str(f) for f in queued] or files
     lines = ["Kody2day %s — %s" % (episode["date"], "episode ready" if episode["ok"] else "episode INCOMPLETE"),
              yt.get("title") or (draft.get("long") or {}).get("title") or "",
              "concept: %s · refute: %s" % (episode.get("concept"), episode.get("refute"))]
     for k, v in episode["outputs"].items():
         lines.append("%s: %s (%ss)" % (k.replace("_", " "), "ok" if v.get("ok") else "FAILED", v.get("seconds")))
-    lines.append("queue: %s" % episode["queue"])
-    return imessage(IMESSAGE_TO, "\n".join(l for l in lines if l), files)
+    urls = (share or {}).get("urls") or []
+    if urls:
+        lines.append("Watch (private network):")
+        lines += urls
+    else:
+        lines.append("queue: %s" % episode["queue"])
+    # links, not attachments: iMessage attachments of this size do not deliver reliably; the share page streams them
+    return imessage(IMESSAGE_TO, "\n".join(l for l in lines if l), files=())
 
 
 # ── driver ───────────────────────────────────────────────────────────────
@@ -570,7 +583,9 @@ def run(date, shorts_n, tts, quality, skip_render=False):
     episode = stage_record(ep, date, draft, refute, verified)
     log(ep, "episode %s: %s — %s" % (date, "OK" if episode["ok"] else "INCOMPLETE",
                                      ", ".join("%s %ss" % (k, v.get("seconds")) for k, v in verified.items())))
-    log(ep, "imessage: %s" % stage_notify(ep, episode, draft))
+    share = stage_share(episode)
+    log(ep, "share: %s" % (", ".join(share.get("urls") or []) or share.get("error")))
+    log(ep, "imessage: %s" % stage_notify(ep, episode, draft, share))
     log(ep, "sentinel frame: %s" % emit_frame("studio.render", {
         "date": date, "ok": episode["ok"], "concept": episode["concept"],
         "outputs": {k: {"ok": bool(v.get("ok")), "seconds": int(v.get("seconds") or 0)} for k, v in verified.items()}}))  # rapp/1 JCS: no floats
