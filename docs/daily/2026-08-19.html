@@ -15,20 +15,20 @@ nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:
 footer{color:var(--mut);font-size:13px;margin-top:40px}
 </style><main>
 <h1><a href='../'>Kody2day</a> <span class=tag>2026-08-19</span></h1>
-<p class=sub>14 repos touched · 69 commits by Kody · 137 by the fleet · new: kody2day, rapp-sentinel-hub (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-08-19 14:44 UTC.</p>
+<p class=sub>15 repos touched · 87 commits by Kody · 214 by the fleet · new: kody2day, rapp-sentinel-hub — the last 24h of Kody's public GitHub, generated 2026-08-20 14:47 UTC.</p>
 <nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
 <div class=card><h2><a href='https://github.com/kody-w/openrappter'>openrappter</a></h2>
 <p class=desc>🦖 Local-first AI agent powered by GitHub Copilot SDK — no API keys required</p>
 <ul>
-<li><span class=sha>7d39c46</span><a href='https://github.com/kody-w/openrappter/commit/7d39c4617cadbf14c9c857ee971a1a5cf182ee75'>fix(gateway): serialisation failures use the RPC error convention, not a new status (#363)</a></li>
-<li><span class=sha>b095b87</span><a href='https://github.com/kody-w/openrappter/commit/b095b87c11d6e660dfcb8ff8ea8d7a624eef0904'>fix(gateway): answer a WebSocket request whose result cannot be serialised (#362)</a></li>
-<li><span class=sha>4402e1c</span><a href='https://github.com/kody-w/openrappter/commit/4402e1c84247f1d87a8cbd835db5fd2d7d41e880'>fix(gateway): a plugin&#x27;s unserialisable result no longer kills the daemon (#361)</a></li>
-<li><span class=sha>63d9904</span><a href='https://github.com/kody-w/openrappter/commit/63d9904ad59923ed9f9eca1a9a8da21a7c0a619e'>fix(gateway): stop GET /readyz from being able to kill the daemon (#359)</a></li>
-<li><span class=sha>f81fb3f</span><a href='https://github.com/kody-w/openrappter/commit/f81fb3f76543d1059bf342682fafd1d41350bb4a'>fix(brainstem): finish the dispatch guard it claimed to have generalised (#358)</a></li>
-<li><span class=sha>9a3bb10</span><a href='https://github.com/kody-w/openrappter/commit/9a3bb10eab19b617fc90eb26498a76c1aa8d0aa7'>fix(brainstem): guarantee every request gets a reply (#357)</a></li>
-<li><span class=sha>a407465</span><a href='https://github.com/kody-w/openrappter/commit/a4074654a443caefe13fda2343f3e4ba245c4111'>fix(brainstem): refuse malformed multipart instead of dropping the connection (#356)</a></li>
-<li><span class=sha>e91758f</span><a href='https://github.com/kody-w/openrappter/commit/e91758f9ea10664e8813ed013380aa91d53354b3'>fix(brainstem): answer malformed Content-Length instead of dropping the connection (#355)</a></li>
-<li class=fleet>… and 22 more</li>
+<li><span class=sha>6c06c52</span><a href='https://github.com/kody-w/openrappter/commit/6c06c52dba873eee555ef07c380b2224cdd16678'>fix(registry): an interrupted write destroyed the installed-agent lock (#380)</a></li>
+<li><span class=sha>7ae0be2</span><a href='https://github.com/kody-w/openrappter/commit/7ae0be27631beabfca643a7904636c8811c73921'>fix(rappterhub): installing an agent could delete any directory (#379)</a></li>
+<li><span class=sha>7ab0a49</span><a href='https://github.com/kody-w/openrappter/commit/7ab0a4966a1216a4c2bc106147b0c8afd9302560'>fix(brainstem): the saved Copilot credential was world-readable (#378)</a></li>
+<li><span class=sha>ee03277</span><a href='https://github.com/kody-w/openrappter/commit/ee03277950fb2a42264e10000e443d97727c60ec'>fix(nanorappter): one connection could take the whole gateway offline (#376)</a></li>
+<li><span class=sha>39e16ff</span><a href='https://github.com/kody-w/openrappter/commit/39e16ff1356900f29bbe1a781c8a995f1989c986'>fix(brainstem): the size of a POST body read was the caller&#x27;s choice (#375)</a></li>
+<li><span class=sha>11a2feb</span><a href='https://github.com/kody-w/openrappter/commit/11a2feb3492699e74a1726bdcded1515a861451c'>fix(security): a field named cookies was logged in the clear (#373)</a></li>
+<li><span class=sha>655defc</span><a href='https://github.com/kody-w/openrappter/commit/655defce5fba4ddd719a5f7de70be0ff29939fff'>fix(imessage): the trusted channel could not remember anyone (#371)</a></li>
+<li><span class=sha>69dc4b1</span><a href='https://github.com/kody-w/openrappter/commit/69dc4b14cd271d5924fb011604a42fc37ac2809d'>fix(flight-recorder): credential files that were not on the excluded list (#370)</a></li>
+<li class=fleet>… and 34 more</li>
 </ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/kody2day'>kody2day</a> <span class=tag>new repo</span></h2>
@@ -44,7 +44,7 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li><span class=sha>a418942</span><a href='https://github.com/kody-w/kody2day/commit/a41894267d7887f910c7ca98f2183a8fa9359568'>kody2day: regenerate index/feed after rebase</a></li>
 <li class=fleet>… and 4 more</li>
 </ul>
-<p class=fleet>fleet: 2 automated commits — e.g. kody2day 2026-08-19: 9 repos touched · 10 commits by Kody · 19 by the ; kody2day 2026-08-19: 9 repos touched · 8 commits by Kody · 18 by the f</p>
+<p class=fleet>fleet: 3 automated commits — e.g. kody2day 2026-08-19: 14 repos touched · 69 commits by Kody · 137 by th; kody2day 2026-08-19: 9 repos touched · 10 commits by Kody · 19 by the </p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
 <p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
@@ -59,7 +59,7 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li><span class=sha>075e7a3</span><a href='https://github.com/kody-w/RAR/commit/075e7a3b8cf977f88a7fed0a615c46b2062b0c77'>publish @kody-w/kody2day_agent: Kody2day — a daily digest of what Kody shipped, so people can keep up</a></li>
 <li class=fleet>… and 1 more</li>
 </ul>
-<p class=fleet>fleet: 12 automated commits — e.g. Dream Catcher frame 1334: fleet content merge [skip ci]; Dream Catcher frame 1333: fleet content merge [skip ci]</p>
+<p class=fleet>fleet: 16 automated commits — e.g. Dream Catcher frame 1338: fleet content merge [skip ci]; Dream Catcher frame 1337: fleet content merge [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/kody-w.github.io'>kody-w.github.io</a></h2>
 <ul>
@@ -74,6 +74,16 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li class=fleet>… and 1 more</li>
 </ul>
 </div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
+<p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
+<ul>
+<li><span class=sha>60d99d3</span><a href='https://github.com/kody-w/rapp-sentinel/commit/60d99d32ad8372d0641ab4ed4ee2ee1805c4122b'>fix: retain expired reports without blocking current delivery</a></li>
+<li><span class=sha>c03d646</span><a href='https://github.com/kody-w/rapp-sentinel/commit/c03d646af7177fb015ba6d8bb49fbdc63cd5e782'>fix: a corpus we could not COUNT is not a site computed from less (#41 arm) (#106)</a></li>
+<li><span class=sha>25ef606</span><a href='https://github.com/kody-w/rapp-sentinel/commit/25ef6069a00007edfd76d7d5737a693e2c3f998e'>blog: It just wakes up and tells me what we should do today — the Principal, the morning memo, the new way of working</a></li>
+<li><span class=sha>033fe05</span><a href='https://github.com/kody-w/rapp-sentinel/commit/033fe0564ca9f671c00d28be9d8577e5a56aaebb'>The Principal: a sentinel that sits in on other sentinels (tailnet-wide) and grades them against their declared job (#105)</a></li>
+<li><span class=sha>4d1026c</span><a href='https://github.com/kody-w/rapp-sentinel/commit/4d1026c85a3d4e7236bad35710d841e6aaf6750b'>hub.py: the socket for RAPP Sentinel Hub sentinels (additive, trust is a dial) (#104)</a></li>
+</ul>
+</div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel-hub'>rapp-sentinel-hub</a> <span class=tag>new repo</span></h2>
 <p class=desc>Post useful rapp sentinels the way RAR posts agent.pys — single-file watchdog checks that prove themselves (rapp-sentinel/1.0)</p>
 <ul>
@@ -84,12 +94,13 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 </ul>
 <p class=fleet>fleet: 2 automated commits — e.g. update @kody-w/hello_world_sentinel@1.0.1 (issue #1) (#2); registry: rebuild</p>
 </div>
-<div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
-<p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-skills'>rapp-skills</a></h2>
+<p class=desc>107 verified Agent Skill + RAPP agent.py pairs, including all 76 CAT Agent Skills, powered by the byte-exact converter.</p>
 <ul>
-<li><span class=sha>25ef606</span><a href='https://github.com/kody-w/rapp-sentinel/commit/25ef6069a00007edfd76d7d5737a693e2c3f998e'>blog: It just wakes up and tells me what we should do today — the Principal, the morning memo, the new way of working</a></li>
-<li><span class=sha>033fe05</span><a href='https://github.com/kody-w/rapp-sentinel/commit/033fe0564ca9f671c00d28be9d8577e5a56aaebb'>The Principal: a sentinel that sits in on other sentinels (tailnet-wide) and grades them against their declared job (#105)</a></li>
-<li><span class=sha>4d1026c</span><a href='https://github.com/kody-w/rapp-sentinel/commit/4d1026c85a3d4e7236bad35710d841e6aaf6750b'>hub.py: the socket for RAPP Sentinel Hub sentinels (additive, trust is a dial) (#104)</a></li>
+<li><span class=sha>312617f</span><a href='https://github.com/kody-w/rapp-skills/commit/312617f8479e28c654897d713141573a191d6552'>Report a malformed --tool contract as a clean FAIL instead of a TypeError abort</a></li>
+<li><span class=sha>ea4d9a0</span><a href='https://github.com/kody-w/rapp-skills/commit/ea4d9a0e53ac5228c10eca7195e8bd9a69682896'>Close the convergence-sweep findings: real block-scalar validation, narrowed stray-guard exemption, assert-free tool check, --force and pair-placement docs, lic</a></li>
+<li><span class=sha>5c00e58</span><a href='https://github.com/kody-w/rapp-skills/commit/5c00e58e206a09fb304a3e6f7f62108d890fd4cf'>Fail loudly on unparseable frontmatter, catch stray pairs outside discovery, and run the catalog oracle under -O in CI</a></li>
+<li><span class=sha>b7dfcad</span><a href='https://github.com/kody-w/rapp-skills/commit/b7dfcadd92ac4b8a6fbe40dc93e5c5de014a8b3e'>Retire the stale agentshim naming across all 20 pairs, inline muscle&#x27;s private links, drop a stray miner step, and harden the gates (-O-proof oracle + engine-mi</a></li>
 </ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-education-shorts'>rapp-education-shorts</a></h2>
@@ -101,11 +112,11 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterverse'>rappterverse</a></h2>
 <p class=desc>rappterverse</p>
-<p class=fleet>fleet: 98 automated commits — e.g. [state] apply PR #7162; [state] apply PR #7161</p>
+<p class=fleet>fleet: 167 automated commits — e.g. [state] apply PR #7232; [state] apply PR #7231</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
 <p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
-<p class=fleet>fleet: 16 automated commits — e.g. chore: process inbox deltas [skip ci]; chore: zion autonomy update [skip ci]</p>
+<p class=fleet>fleet: 19 automated commits — e.g. chore(overseer): tick from github-actions [skip ci]; chore: zion autonomy update [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/localFirstTools'>localFirstTools</a></h2>
 <p class=desc>localFirstTools</p>
