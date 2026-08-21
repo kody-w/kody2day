@@ -5,16 +5,16 @@
  "hours": 24,
  "since": "2026-08-20T00:00:00Z",
  "until": "2026-08-21T00:00:00Z",
- "generated": "2026-08-20T14:47:23Z",
- "partial": true,
+ "generated": "2026-08-21T14:46:06Z",
+ "partial": false,
  "totals": {
-  "repos": 13,
-  "human_commits": 32,
-  "fleet_commits": 77,
+  "repos": 17,
+  "human_commits": 55,
+  "fleet_commits": 146,
   "new_repos": [
    "rappvision-pokemon",
-   "ambient-context",
-   "git-molt"
+   "git-molt",
+   "ambient-context"
   ]
  },
  "note": "",
@@ -29,6 +29,90 @@
    "homepage": "",
    "new": false,
    "human": [
+    {
+     "sha": "b5c5709",
+     "subject": "fix(privacy): keep created parent directories private in Python (#413)",
+     "url": "https://github.com/kody-w/openrappter/commit/b5c5709167e1a19ee8fbd83c78f3db9a11a647f5",
+     "at": "2026-08-20T23:32:47Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3845b14",
+     "subject": "fix(gateway): report the channels health check Python advertises but omits (#412)",
+     "url": "https://github.com/kody-w/openrappter/commit/3845b142e49cb6364fb8b8f849ffda880c4ce0a1",
+     "at": "2026-08-20T22:20:17Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0364da8",
+     "subject": "fix(gateway): stop the Python dashboard claiming an HTTP surface it lacks (#411)",
+     "url": "https://github.com/kody-w/openrappter/commit/0364da8aed4648f87113bce343e35235c640c98b",
+     "at": "2026-08-20T21:32:04Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "fc808ba",
+     "subject": "fix(gateway): let Python stream blocks be marked done and replaced by id (#410)",
+     "url": "https://github.com/kody-w/openrappter/commit/fc808ba97a89031fca0120141e23dad22167249b",
+     "at": "2026-08-20T21:15:32Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e9a1a70",
+     "subject": "test(imessage): stop terminal-condition tests racing a cold interpreter spawn (#409)",
+     "url": "https://github.com/kody-w/openrappter/commit/e9a1a701132a802ddc92b0bd9463d4d6a5e9fa7b",
+     "at": "2026-08-20T20:33:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3763cf5",
+     "subject": "fix(mcp): report structured agent failures as MCP tool errors in Python (#408)",
+     "url": "https://github.com/kody-w/openrappter/commit/3763cf560285e872581502791f9f07f7c159d676",
+     "at": "2026-08-20T20:22:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "084a024",
+     "subject": "fix(parity): stop the parity map from declaring shipped Python code absent (#407)",
+     "url": "https://github.com/kody-w/openrappter/commit/084a02432aae75819b07adbab1d18daa880ec262",
+     "at": "2026-08-20T19:40:37Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "929d1d8",
+     "subject": "fix(python): add StreamManager.delete_session for TS parity (#406)",
+     "url": "https://github.com/kody-w/openrappter/commit/929d1d802a64543d9b52dc21c060d2076c8c6673",
+     "at": "2026-08-20T18:54:58Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e0b1c46",
+     "subject": "docs: retract five fabricated findings in the Fable 5 code review, add a citation gate (#405)",
+     "url": "https://github.com/kody-w/openrappter/commit/e0b1c4606539fabfa1cb78f4fef9a9dd1f47b010",
+     "at": "2026-08-20T18:15:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "666f032",
+     "subject": "fix: enforce node_timeout in Python AgentGraph instead of ignoring it (#404)",
+     "url": "https://github.com/kody-w/openrappter/commit/666f032c6da494a00ac92293542cef9766347c60",
+     "at": "2026-08-20T17:15:46Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "26c56af",
+     "subject": "fix: stop step/node timeouts from outliving the work they bound (#403)",
+     "url": "https://github.com/kody-w/openrappter/commit/26c56af54c301af84199b3a7255180de5d1dc9ba",
+     "at": "2026-08-20T16:38:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2e39c40",
+     "subject": "fix: remove four more advertised agent parameters that nothing reads (#402)",
+     "url": "https://github.com/kody-w/openrappter/commit/2e39c40be1f1559bcc70944c02b01f1722523057",
+     "at": "2026-08-20T15:32:42Z",
+     "by": "kody-w"
+    },
     {
      "sha": "11e2b15",
      "subject": "fix: stop DesktopControl advertising a query parameter it silently drops (#401)",
@@ -179,7 +263,7 @@
    ],
    "fleet": [],
    "fleet_count": 0,
-   "human_count": 21
+   "human_count": 33
   },
   {
    "repo": "rappvision-pokemon",
@@ -239,6 +323,128 @@
    "human_count": 6
   },
   {
+   "repo": "git-molt",
+   "url": "https://github.com/kody-w/git-molt",
+   "description": "Git for agents \u2014 version control for self-modifying agents. Rings are commits, loci are refs, frames are bundles.",
+   "stars": 0,
+   "language": "Shell",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "5abf9b9",
+     "subject": "docs: spec must say what the code now does about locus identity",
+     "url": "https://github.com/kody-w/git-molt/commit/5abf9b910377a9e4fbf13699a418debb98a6cd42",
+     "at": "2026-08-20T14:58:24Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d37445d",
+     "subject": "fix: a baseline update must not orphan a lineage",
+     "url": "https://github.com/kody-w/git-molt/commit/d37445d88fc1f124ae9ad7aea8d79af591b6ccd2",
+     "at": "2026-08-20T14:57:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "71021e9",
+     "subject": "fix: do not require a pre-configured git identity",
+     "url": "https://github.com/kody-w/git-molt/commit/71021e9a901488eb8a4be8eeb21f8152377e4d19",
+     "at": "2026-08-20T13:58:35Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "79e539f",
+     "subject": "git-molt 0.1.0 \u2014 version control for autonomous agents",
+     "url": "https://github.com/kody-w/git-molt/commit/79e539f5dddbc9287aa2a95359b9154ddf24e518",
+     "at": "2026-08-20T13:55:19Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 4
+  },
+  {
+   "repo": "rapp-static-apis",
+   "url": "https://github.com/kody-w/rapp-static-apis",
+   "description": "\ud83d\uddff rapp-static-api/1.0 \u2014 the spec for static APIs built entirely on GitHub raw user data (no server). Reference impl: rapp-god.",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "ea4a19e",
+     "subject": "Merge pull request #121 from kody-w/revert/rappid-lineages-to-rago",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/ea4a19eabf00212aa4062a42d530ad3e758c7685",
+     "at": "2026-08-20T20:28:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3b2708c",
+     "subject": "revert: move RAPPID lineages to standalone RaGo",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/3b2708c055f7084266ff27fb12e7d2f52385c629",
+     "at": "2026-08-20T20:11:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f33c341",
+     "subject": "Merge pull request #120 from kody-w/feat/rapp-go-v2-lineages",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/f33c341a5574d2b6916927f952cbe822f9ca8c2d",
+     "at": "2026-08-20T19:41:32Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "01297e7",
+     "subject": "feat(rapp-go): add living RAPPID lineages v2",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/01297e7732430314f8571675594f633a464b3d53",
+     "at": "2026-08-20T19:40:55Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 4
+  },
+  {
+   "repo": "RaGo",
+   "url": "https://github.com/kody-w/RaGo",
+   "description": "RaGo \u2014 RAPPID Go: meet RAPPIDs, choose a starter, and grow private parallel lineages.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RaGo/",
+   "new": false,
+   "human": [
+    {
+     "sha": "426239e",
+     "subject": "Merge pull request #2 from kody-w/feat/rago-rappid-lineages",
+     "url": "https://github.com/kody-w/RaGo/commit/426239e6964ca978346aba777c7389f56c521edb",
+     "at": "2026-08-20T20:23:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e33d9e1",
+     "subject": "fix: keep starter ceremony scrollable",
+     "url": "https://github.com/kody-w/RaGo/commit/e33d9e113d5e721a86646c5f04a81a7f4abbb734",
+     "at": "2026-08-20T20:19:04Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "19c1049",
+     "subject": "feat: evolve rapp-go into RaGo",
+     "url": "https://github.com/kody-w/RaGo/commit/19c104913bf1e59a4b2a9380fe915461e54e33b8",
+     "at": "2026-08-20T20:04:42Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 3
+  },
+  {
    "repo": "ambient-context",
    "url": "https://github.com/kody-w/ambient-context",
    "description": "Context an agent never has to ask for. MCP is pull; this is push.",
@@ -268,27 +474,27 @@
    "human_count": 2
   },
   {
-   "repo": "git-molt",
-   "url": "https://github.com/kody-w/git-molt",
-   "description": "Git for agents \u2014 version control for self-modifying agents. Rings are commits, loci are refs, frames are bundles.",
+   "repo": "rapp-1",
+   "url": "https://github.com/kody-w/rapp-1",
+   "description": "RAPP/1 \u2014 the wire that carries agents. One protocol, five primitives: canonicalization, content addressing, identity, the frame, the egg. Spec + reference implementation + conformance suite + book.",
    "stars": 0,
-   "language": "Shell",
+   "language": "Python",
    "private": false,
    "homepage": "",
-   "new": true,
+   "new": false,
    "human": [
     {
-     "sha": "71021e9",
-     "subject": "fix: do not require a pre-configured git identity",
-     "url": "https://github.com/kody-w/git-molt/commit/71021e9a901488eb8a4be8eeb21f8152377e4d19",
-     "at": "2026-08-20T13:58:35Z",
+     "sha": "ae9f274",
+     "subject": "docs: add the RAPP programming workbook (#7)",
+     "url": "https://github.com/kody-w/rapp-1/commit/ae9f2748c5830dd7cc8d315ca7317f465b4d2cf0",
+     "at": "2026-08-20T23:54:57Z",
      "by": "kody-w"
     },
     {
-     "sha": "79e539f",
-     "subject": "git-molt 0.1.0 \u2014 version control for autonomous agents",
-     "url": "https://github.com/kody-w/git-molt/commit/79e539f5dddbc9287aa2a95359b9154ddf24e518",
-     "at": "2026-08-20T13:55:19Z",
+     "sha": "f233805",
+     "subject": "docs: publish The RAPP Programming Language (#6)",
+     "url": "https://github.com/kody-w/rapp-1/commit/f233805a2b8fe91f26995ed1fd0369400e2e2af2",
+     "at": "2026-08-20T23:33:47Z",
      "by": "kody-w"
     }
    ],
@@ -329,6 +535,447 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "e52f69f",
+     "subject": "[state] apply PR #7345",
+     "url": "https://github.com/kody-w/rappterverse/commit/e52f69f9fb56dfd689a29eb1cc3eb19a2ddf77b6",
+     "at": "2026-08-20T23:49:50Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "3561137",
+     "subject": "[state] apply PR #7344",
+     "url": "https://github.com/kody-w/rappterverse/commit/3561137b11af49580ebb50d119675343078932b5",
+     "at": "2026-08-20T23:43:28Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "d71df7c",
+     "subject": "[state] apply PR #7343",
+     "url": "https://github.com/kody-w/rappterverse/commit/d71df7c3696c07efae51b03d9cf8cbcde7a7fae3",
+     "at": "2026-08-20T23:36:52Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "26ef2a7",
+     "subject": "[state] apply PR #7342",
+     "url": "https://github.com/kody-w/rappterverse/commit/26ef2a7b9d01551887284a87ad90b481340c1ee8",
+     "at": "2026-08-20T23:30:34Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "deb821f",
+     "subject": "[state] apply PR #7341",
+     "url": "https://github.com/kody-w/rappterverse/commit/deb821f1efba5690025420e4fcd2442f62809df4",
+     "at": "2026-08-20T23:24:10Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "878b11f",
+     "subject": "[state] apply PR #7339",
+     "url": "https://github.com/kody-w/rappterverse/commit/878b11f75e7217cabc6be3f66d482e9a4345dbf4",
+     "at": "2026-08-20T23:12:41Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "103b641",
+     "subject": "[state] apply PR #7338",
+     "url": "https://github.com/kody-w/rappterverse/commit/103b641c9713b130eb9a255b547e560e7be3fe12",
+     "at": "2026-08-20T23:06:05Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "aab44b7",
+     "subject": "[state] apply PR #7337",
+     "url": "https://github.com/kody-w/rappterverse/commit/aab44b740dfd4c56afb97ee56b94e13efebd68e9",
+     "at": "2026-08-20T22:59:47Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "1b87830",
+     "subject": "[state] apply PR #7336",
+     "url": "https://github.com/kody-w/rappterverse/commit/1b87830e79ef78b5b19f19a877ab532f07d2f760",
+     "at": "2026-08-20T22:53:29Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "b8dc0bd",
+     "subject": "[state] apply PR #7335",
+     "url": "https://github.com/kody-w/rappterverse/commit/b8dc0bd86aa6b6c6f922f98d31f5d4570020edfd",
+     "at": "2026-08-20T22:47:06Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "490feb9",
+     "subject": "[state] apply PR #7334",
+     "url": "https://github.com/kody-w/rappterverse/commit/490feb9895cabb8d0d963163b8090943f4608ef1",
+     "at": "2026-08-20T22:35:25Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "6673272",
+     "subject": "[state] apply PR #7333",
+     "url": "https://github.com/kody-w/rappterverse/commit/66732727defe5abdc685788d157436e1b794f648",
+     "at": "2026-08-20T22:29:03Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "7ffeb49",
+     "subject": "[state] apply PR #7332",
+     "url": "https://github.com/kody-w/rappterverse/commit/7ffeb49cba9a1e9ed64c8dd2674091820800b09a",
+     "at": "2026-08-20T22:22:45Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "bd7dc71",
+     "subject": "[state] apply PR #7331",
+     "url": "https://github.com/kody-w/rappterverse/commit/bd7dc71e40635d8cd38a2b26a3b0691f69e83ddc",
+     "at": "2026-08-20T22:16:21Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "40b9894",
+     "subject": "[state] apply PR #7330",
+     "url": "https://github.com/kody-w/rappterverse/commit/40b989464eb43edc3697af9ae1cb2ad4b63c6ab5",
+     "at": "2026-08-20T22:10:06Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "521e2bb",
+     "subject": "[state] apply PR #7329",
+     "url": "https://github.com/kody-w/rappterverse/commit/521e2bb30042f85eb57c1d5c3a76692c76b595f4",
+     "at": "2026-08-20T21:59:56Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "86d32ae",
+     "subject": "[state] apply PR #7328",
+     "url": "https://github.com/kody-w/rappterverse/commit/86d32ae453d19e75cec80d29c70027d542060095",
+     "at": "2026-08-20T21:53:34Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "fe7b0e3",
+     "subject": "[state] apply PR #7327",
+     "url": "https://github.com/kody-w/rappterverse/commit/fe7b0e3c051dfd436c0448f2fb4a4a64dbbb8751",
+     "at": "2026-08-20T21:47:13Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "aff5802",
+     "subject": "[state] apply PR #7326",
+     "url": "https://github.com/kody-w/rappterverse/commit/aff5802f310ea617930af201d36cd523044a15a9",
+     "at": "2026-08-20T21:41:06Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "1a0e397",
+     "subject": "[state] apply PR #7325",
+     "url": "https://github.com/kody-w/rappterverse/commit/1a0e39742421910605b8cadfe1667a81e35139a4",
+     "at": "2026-08-20T21:34:43Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "8f0af59",
+     "subject": "[state] apply PR #7324",
+     "url": "https://github.com/kody-w/rappterverse/commit/8f0af593cc655e1fedc6000512a4fe1686aeebfa",
+     "at": "2026-08-20T21:23:41Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c9d6e88",
+     "subject": "[state] apply PR #7323",
+     "url": "https://github.com/kody-w/rappterverse/commit/c9d6e8839834e8b5a2376f8f3ae8ba8a1a2dc609",
+     "at": "2026-08-20T21:17:02Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "1ba99f0",
+     "subject": "[state] apply PR #7322",
+     "url": "https://github.com/kody-w/rappterverse/commit/1ba99f078496f098d61b1849c114458db9b1fc0a",
+     "at": "2026-08-20T21:10:50Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "6ac4db0",
+     "subject": "[state] apply PR #7321",
+     "url": "https://github.com/kody-w/rappterverse/commit/6ac4db0ff1f8a5c81e2d14cad2ef8c75a0e56f5a",
+     "at": "2026-08-20T21:04:38Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c4c4364",
+     "subject": "[state] apply PR #7320",
+     "url": "https://github.com/kody-w/rappterverse/commit/c4c43644e6e30eeac37219011957c91c8b907287",
+     "at": "2026-08-20T20:58:11Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "71565ad",
+     "subject": "[state] apply PR #7319",
+     "url": "https://github.com/kody-w/rappterverse/commit/71565ad47ddd2ee1f1ac898f887f17572d3a8385",
+     "at": "2026-08-20T20:47:53Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "aaef883",
+     "subject": "[state] apply PR #7318",
+     "url": "https://github.com/kody-w/rappterverse/commit/aaef883d071d350799f7a3a86e7834cf8e89aa4a",
+     "at": "2026-08-20T20:41:41Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "659f6ca",
+     "subject": "[state] apply PR #7317",
+     "url": "https://github.com/kody-w/rappterverse/commit/659f6cac49d8b71a770f6e12aba7a878664c09c1",
+     "at": "2026-08-20T20:14:10Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "07969f9",
+     "subject": "[state] apply PR #7315",
+     "url": "https://github.com/kody-w/rappterverse/commit/07969f99c0b81966458ef479b31e6df5ca134f71",
+     "at": "2026-08-20T20:00:05Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "833456d",
+     "subject": "[state] apply PR #7314",
+     "url": "https://github.com/kody-w/rappterverse/commit/833456d717c51408834b4ab4d3ba2f4754c8512a",
+     "at": "2026-08-20T19:53:46Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "820f39f",
+     "subject": "[state] apply PR #7313",
+     "url": "https://github.com/kody-w/rappterverse/commit/820f39f674b728a8e694d780230ce60172e4d7a0",
+     "at": "2026-08-20T19:47:07Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "69adc43",
+     "subject": "[state] apply PR #7312",
+     "url": "https://github.com/kody-w/rappterverse/commit/69adc43dca2c53a35120e9f20bc96a4bbef14d99",
+     "at": "2026-08-20T19:36:41Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "43260a4",
+     "subject": "[state] apply PR #7311",
+     "url": "https://github.com/kody-w/rappterverse/commit/43260a46f7e4067c67e7f6f596b50d2ed821c5c6",
+     "at": "2026-08-20T19:29:44Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c86bfbd",
+     "subject": "[state] apply PR #7310",
+     "url": "https://github.com/kody-w/rappterverse/commit/c86bfbd5b2ea6e5d4ec6cc59fdbb99e8cf27f4b2",
+     "at": "2026-08-20T19:23:21Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "3e636a0",
+     "subject": "[state] apply PR #7309",
+     "url": "https://github.com/kody-w/rappterverse/commit/3e636a0638067e1c6ddcc09180f61fd36258b374",
+     "at": "2026-08-20T19:16:51Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "366bb94",
+     "subject": "[state] apply PR #7308",
+     "url": "https://github.com/kody-w/rappterverse/commit/366bb94fcd8a1924d236687b78b708bfb83c735e",
+     "at": "2026-08-20T19:10:26Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "d183e55",
+     "subject": "[state] apply PR #7307",
+     "url": "https://github.com/kody-w/rappterverse/commit/d183e552d53195bc09f556d0867fabc1e40e1c62",
+     "at": "2026-08-20T18:59:27Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "487b0d5",
+     "subject": "[state] apply PR #7306",
+     "url": "https://github.com/kody-w/rappterverse/commit/487b0d579e7292ea78c0df89c172d44c0982f700",
+     "at": "2026-08-20T18:53:04Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "b3c7653",
+     "subject": "[state] apply PR #7305",
+     "url": "https://github.com/kody-w/rappterverse/commit/b3c7653445fc8d83afb1679133de43f8d60feda5",
+     "at": "2026-08-20T18:46:39Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "1df6440",
+     "subject": "[state] apply PR #7304",
+     "url": "https://github.com/kody-w/rappterverse/commit/1df64402816f61f26277141b3f9eccd4cbb29b8a",
+     "at": "2026-08-20T18:40:01Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "b6dbcbf",
+     "subject": "[state] apply PR #7303",
+     "url": "https://github.com/kody-w/rappterverse/commit/b6dbcbfff0adb6407a957bbf60f1da85e339b196",
+     "at": "2026-08-20T18:33:36Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "5f13fa1",
+     "subject": "[state] apply PR #7302",
+     "url": "https://github.com/kody-w/rappterverse/commit/5f13fa1c98e9432a5f613024ceaf8069da0d7230",
+     "at": "2026-08-20T18:22:29Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "0534555",
+     "subject": "[state] apply PR #7301",
+     "url": "https://github.com/kody-w/rappterverse/commit/05345553bb63552b0b0aa1d72cb2ff64b5d6250e",
+     "at": "2026-08-20T18:16:08Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "bc30f8a",
+     "subject": "[state] apply PR #7300",
+     "url": "https://github.com/kody-w/rappterverse/commit/bc30f8abd1b4374f3a2d2ff6cb8f5c9f834266c1",
+     "at": "2026-08-20T18:09:52Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "4679d1b",
+     "subject": "[state] apply PR #7299",
+     "url": "https://github.com/kody-w/rappterverse/commit/4679d1b49ed837480df40ff937629edd8be72d22",
+     "at": "2026-08-20T18:03:26Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "6ad6652",
+     "subject": "[state] apply PR #7298",
+     "url": "https://github.com/kody-w/rappterverse/commit/6ad66522e65e040fc3cdfe044f57ed48acdcdf5d",
+     "at": "2026-08-20T17:57:15Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "71dfaa6",
+     "subject": "[state] apply PR #7297",
+     "url": "https://github.com/kody-w/rappterverse/commit/71dfaa6ed1527e57a9d625cbd056679ebb22bc14",
+     "at": "2026-08-20T17:46:33Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "faa1345",
+     "subject": "[state] apply PR #7296",
+     "url": "https://github.com/kody-w/rappterverse/commit/faa134511d8c54bb4234b0c035557042cedd11db",
+     "at": "2026-08-20T17:40:11Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "a4ff30f",
+     "subject": "[state] apply PR #7295",
+     "url": "https://github.com/kody-w/rappterverse/commit/a4ff30f1b026cb802de0a23c0e614ff05092ffe2",
+     "at": "2026-08-20T17:33:58Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "38a7df5",
+     "subject": "[state] apply PR #7294",
+     "url": "https://github.com/kody-w/rappterverse/commit/38a7df54a53dd973819991cc5e26414bbd79bd4c",
+     "at": "2026-08-20T17:22:13Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "244ebe1",
+     "subject": "[state] apply PR #7293",
+     "url": "https://github.com/kody-w/rappterverse/commit/244ebe1a47455b975ae3c451d1b0908c13c37c00",
+     "at": "2026-08-20T16:45:53Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "0a5b74f",
+     "subject": "[state] apply PR #7292",
+     "url": "https://github.com/kody-w/rappterverse/commit/0a5b74f3b627f9c58c31cbbb5d9327a3decb6631",
+     "at": "2026-08-20T16:39:29Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "738ff37",
+     "subject": "[state] apply PR #7291",
+     "url": "https://github.com/kody-w/rappterverse/commit/738ff3796166f605d75228b8732edff234354cd3",
+     "at": "2026-08-20T16:24:37Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "af3bc99",
+     "subject": "[state] apply PR #7290",
+     "url": "https://github.com/kody-w/rappterverse/commit/af3bc9940eadc90a309c6e5c4e7e3fffad80431a",
+     "at": "2026-08-20T15:59:36Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "16e95a5",
+     "subject": "[state] apply PR #7289",
+     "url": "https://github.com/kody-w/rappterverse/commit/16e95a5bdbaff0b387fff8af94dc7c3a7c395947",
+     "at": "2026-08-20T15:53:12Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "f0e5c12",
+     "subject": "[state] apply PR #7288",
+     "url": "https://github.com/kody-w/rappterverse/commit/f0e5c127123aacb1454d9e7767bc90932accbf6d",
+     "at": "2026-08-20T15:46:44Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c97d41f",
+     "subject": "[state] apply PR #7287",
+     "url": "https://github.com/kody-w/rappterverse/commit/c97d41fceacb9f21b835bb114029cbe294c255ca",
+     "at": "2026-08-20T15:35:51Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "97ae70c",
+     "subject": "[state] apply PR #7286",
+     "url": "https://github.com/kody-w/rappterverse/commit/97ae70ca52cbb542708203b2069a9e35a488dfa0",
+     "at": "2026-08-20T15:29:25Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "536f9ec",
+     "subject": "[state] apply PR #7285",
+     "url": "https://github.com/kody-w/rappterverse/commit/536f9ece9cb2e06979b02d05cb466331b66e00a3",
+     "at": "2026-08-20T15:22:58Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "7e15e0b",
+     "subject": "[state] apply PR #7284",
+     "url": "https://github.com/kody-w/rappterverse/commit/7e15e0b896133e5d086593ef3567c5ed38bcc4a8",
+     "at": "2026-08-20T15:16:25Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "406d4c4",
+     "subject": "[state] apply PR #7283",
+     "url": "https://github.com/kody-w/rappterverse/commit/406d4c40dc0e7ae27262dcaaf0fc43aab730067c",
+     "at": "2026-08-20T15:10:01Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "611cba1",
+     "subject": "[state] apply PR #7282",
+     "url": "https://github.com/kody-w/rappterverse/commit/611cba121bccd565563534093e60d3093dbe9edc",
+     "at": "2026-08-20T14:59:54Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "0e829ee",
+     "subject": "[state] apply PR #7281",
+     "url": "https://github.com/kody-w/rappterverse/commit/0e829ee1f53574c36134d7f22903affe9d50df54",
+     "at": "2026-08-20T14:53:22Z",
+     "by": "github-actions[bot]"
+    },
     {
      "sha": "7bb0187",
      "subject": "[state] apply PR #7280",
@@ -645,7 +1292,7 @@
      "by": "github-actions[bot]"
     }
    ],
-   "fleet_count": 45,
+   "fleet_count": 108,
    "human_count": 0
   },
   {
@@ -660,109 +1307,116 @@
    "human": [],
    "fleet": [
     {
-     "sha": "4f17edc",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/4f17edc51d801793b990fe4c75968e3a1d68c35f",
-     "at": "2026-08-20T14:46:25Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "4eaf3fd",
-     "subject": "chore: zion autonomy update [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/4eaf3fdc33de74bb9c3d833524586e8e98472a07",
-     "at": "2026-08-20T14:45:35Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "e376d5c",
-     "subject": "chore: agent heartbeat [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e376d5ca4d6d17efa699eabc747d2b459e283ab2",
-     "at": "2026-08-20T14:14:54Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "e22d403",
+     "sha": "986dd09",
      "subject": "chore: cloud brainstem tick [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e22d403cfdb787acd70a881d788f05f39b43414d",
-     "at": "2026-08-20T14:13:08Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/986dd0966ae4e601d316d77de6ea6e97b32a6fe3",
+     "at": "2026-08-20T23:54:39Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "2b2a881",
-     "subject": "chore: reconcile channel counts [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/2b2a88163e4b373c8747e9cb063a270910b8f0e1",
-     "at": "2026-08-20T13:49:56Z",
+     "sha": "07b296d",
+     "subject": "chore: zion autonomy update [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/07b296d7d9dbf38cbb8051674b416e526741f4be",
+     "at": "2026-08-20T23:36:16Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "e34fbb0",
+     "sha": "785b5ec",
      "subject": "twin-author: fresh content + quality report",
-     "url": "https://github.com/kody-w/rappterbook/commit/e34fbb0db78eec64dde9b0e67bf0af751ea0d6cc",
-     "at": "2026-08-20T13:34:59Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/785b5ec7e1b5b583363e8657e2ce0a1da3cb7101",
+     "at": "2026-08-20T23:11:39Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "e12df6f",
-     "subject": "chore: update feeds [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e12df6f2768c44d971a562327d6838ed48bcf24e",
-     "at": "2026-08-20T13:34:25Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "b147d60",
-     "subject": "chore: slop cop review [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b147d60fd7653fe00b8a1893b13bef8158f2f864",
-     "at": "2026-08-20T13:28:17Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "3ca6404",
-     "subject": "chore(api)- rebuild static api [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/3ca64046241242e710e92655572fa9ed83f7ab40",
-     "at": "2026-08-20T13:14:10Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "39fe31c",
-     "subject": "chore: update D365 simulation data [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/39fe31cfa2f2bdc64427e2e62b9d15fcd2657a83",
-     "at": "2026-08-20T13:08:48Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "3e9a8f6",
-     "subject": "twin-driver: autonomous run [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/3e9a8f66e1e5641e798f728b3a0192a660793d30",
-     "at": "2026-08-20T12:58:18Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "af9615b",
+     "sha": "df6596f",
      "subject": "chore(overseer): tick from github-actions [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/af9615b9c8bf38188bd98f7f66dcf03384c4d075",
-     "at": "2026-08-20T12:52:22Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/df6596fa0dd21d97225bfd503027caaf80968b2b",
+     "at": "2026-08-20T23:07:01Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "32a7331",
+     "sha": "3def411",
      "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/32a733134843a293a7f947f63882ab6b22b69a6e",
-     "at": "2026-08-20T11:54:49Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/3def4115c12780b3b3208e942bb931f1f95f1f1f",
+     "at": "2026-08-20T22:55:08Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "328b27e",
+     "sha": "bd4d0d9",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/bd4d0d951fa6a42d3869e6739ed0ac92fce6156e",
+     "at": "2026-08-20T22:38:29Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "491385f",
+     "subject": "chore: agent heartbeat [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/491385fc7869bbe00513a167045678312b3e59d4",
+     "at": "2026-08-20T21:22:21Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "feb7b12",
+     "subject": "chore: reconcile channel counts [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/feb7b12ac20696bec8bd696f9b693e06a7e9b939",
+     "at": "2026-08-20T21:20:08Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "1c31a20",
      "subject": "chore: update trending [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/328b27e02e617e7db8b4ce2eb699e3f22598fc3e",
-     "at": "2026-08-20T09:24:37Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/1c31a20d8484f45fbd266a0b0bae760fc194c277",
+     "at": "2026-08-20T21:16:15Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "5923e66",
+     "sha": "b35f72e",
+     "subject": "chore: update feeds [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/b35f72e21d2a22c2c892eacb208eb46aed66e403",
+     "at": "2026-08-20T21:04:34Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "f29d149",
+     "subject": "chore: slop cop review [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/f29d1491f42e24481e41cbcd9537f00ec7d898f8",
+     "at": "2026-08-20T19:11:13Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "11cc00e",
      "subject": "Refresh Twitter twin data",
-     "url": "https://github.com/kody-w/rappterbook/commit/5923e66c90122841114fe488ce575eb7ec66b4cf",
-     "at": "2026-08-20T07:22:52Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/11cc00e8abec37a8af1599ea74672017e7db165b",
+     "at": "2026-08-20T19:10:36Z",
      "by": "rappter-bot"
+    },
+    {
+     "sha": "2afcc82",
+     "subject": "chore(api)- rebuild static api [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2afcc822a2edbc35ae8652a087dd1295ec0068f4",
+     "at": "2026-08-20T19:03:14Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "7890e9a",
+     "subject": "chore: update D365 simulation data [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/7890e9a4293e4518ed743ac55781a2f188a6125d",
+     "at": "2026-08-20T18:55:58Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "c68fcb0",
+     "subject": "twin-driver: autonomous run [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/c68fcb070818f0b68ce3b021be66b08e0c4aea06",
+     "at": "2026-08-20T18:47:29Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "47d30ff",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/47d30ff39515f78e0ad613c2dc263d609524f8d9",
+     "at": "2026-08-20T15:25:12Z",
+     "by": "rappterbook-bot"
     },
     {
      "sha": "f652592",
@@ -772,7 +1426,7 @@
      "by": "Zion Bounty Bot"
     }
    ],
-   "fleet_count": 16,
+   "fleet_count": 17,
    "human_count": 0
   },
   {
@@ -786,6 +1440,34 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "e47755f",
+     "subject": "Dream Catcher frame 1350: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/e47755faaa0486f3abe54a6a5d29aab74d203dc8",
+     "at": "2026-08-20T22:20:56Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "73136fb",
+     "subject": "Dream Catcher frame 1349: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/73136fb52a9ad60cd069ad95d7d8e5a184bff141",
+     "at": "2026-08-20T20:21:47Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "8335108",
+     "subject": "Dream Catcher frame 1348: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/8335108856744e3803514e108c7ea17283cd8670",
+     "at": "2026-08-20T18:29:07Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "26d4521",
+     "subject": "Dream Catcher frame 1347: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/26d45217acc9d814ea318ac5f0ae4ebc666f803d",
+     "at": "2026-08-20T16:26:45Z",
+     "by": "dream-catcher"
+    },
     {
      "sha": "34624ef",
      "subject": "Dream Catcher frame 1346: fleet content merge [skip ci]",
@@ -850,7 +1532,7 @@
      "by": "dream-catcher"
     }
    ],
-   "fleet_count": 9,
+   "fleet_count": 13,
    "human_count": 0
   },
   {
@@ -912,6 +1594,28 @@
    "human_count": 0
   },
   {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "e8331c4",
+     "subject": "kody2day 2026-08-20: 13 repos touched \u00b7 32 commits by Kody \u00b7 77 by the fleet \u00b7 new: rappvision-pokemon, ambient-context, git-molt (so far \u2014 the day is still run",
+     "url": "https://github.com/kody-w/kody2day/commit/e8331c46b494b0784f945cdac2ae46bfe1780891",
+     "at": "2026-08-20T14:47:28Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
    "repo": "mars-chain-node",
    "url": "https://github.com/kody-w/mars-chain-node",
    "description": "\ud83d\udd17 MARS Chain Node \u2014 Decentralized verification for the MARS virtual token economy. Fork to run your own node.",
@@ -923,10 +1627,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "33283c7",
+     "sha": "211cc85",
      "subject": "consensus: cross-verification report",
-     "url": "https://github.com/kody-w/mars-chain-node/commit/33283c72e90fa0c207aef888020b539b3ba7ac20",
-     "at": "2026-08-20T12:49:28Z",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/211cc85aa937af12b5c3957afd4858a2637b2dce",
+     "at": "2026-08-20T18:38:27Z",
      "by": "MARS Chain Verifier"
     }
    ],
@@ -967,10 +1671,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "caa9830",
+     "sha": "2e08187",
      "subject": "tick: generation 50 [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/caa98309809501d0258e3dcda8f65d8e3f41df9c",
-     "at": "2026-08-20T14:33:54Z",
+     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/2e0818749e2ca30e2ff6b0404681b7c93aac971a",
+     "at": "2026-08-20T22:24:48Z",
      "by": "dreaming-garden[bot]"
     }
    ],
