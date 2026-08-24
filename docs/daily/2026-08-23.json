@@ -5,19 +5,321 @@
  "hours": 24,
  "since": "2026-08-23T00:00:00Z",
  "until": "2026-08-24T00:00:00Z",
- "generated": "2026-08-23T14:33:38Z",
- "partial": true,
+ "generated": "2026-08-24T14:52:56Z",
+ "partial": false,
  "totals": {
-  "repos": 14,
-  "human_commits": 53,
-  "fleet_commits": 33,
+  "repos": 28,
+  "human_commits": 189,
+  "fleet_commits": 48,
   "new_repos": [
-   "rapp-virtual-as400",
-   "rapp-herdr"
+   "rapp-herdr",
+   "rapp-virtual-as400"
   ]
  },
  "note": "",
  "repos": [
+  {
+   "repo": "openrappter",
+   "url": "https://github.com/kody-w/openrappter",
+   "description": "\ud83e\udd96 Local-first AI agent powered by GitHub Copilot SDK \u2014 no API keys required",
+   "stars": 7,
+   "language": "TypeScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "7c5c819",
+     "subject": "Merge remote-tracking branch 'origin/main' into feat/herdr-estate-buddies",
+     "url": "https://github.com/kody-w/openrappter/commit/7c5c81966a5f2d1247276b7dbf08d8fee18dca04",
+     "at": "2026-08-23T23:56:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8833858",
+     "subject": "feat: add RAPP estate buddies to chat",
+     "url": "https://github.com/kody-w/openrappter/commit/883385864bc08b659ad12496c27e8b2f2e4b56a5",
+     "at": "2026-08-23T23:56:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "936ecfb",
+     "subject": "fix: namespace candidates and generate live activation journey",
+     "url": "https://github.com/kody-w/openrappter/commit/936ecfbb431de3e4f01ca42b8fc885763b8b1fb6",
+     "at": "2026-08-23T23:39:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0a76a09",
+     "subject": "fix: publish exact tagged candidate through checked stable PR",
+     "url": "https://github.com/kody-w/openrappter/commit/0a76a0953473a7dbfbaaa1396a4785c940e29d40",
+     "at": "2026-08-23T23:20:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "241c4c6",
+     "subject": "fix: ship ordered immutable candidate distribution path",
+     "url": "https://github.com/kody-w/openrappter/commit/241c4c61978c935c2e81cbd9370320bcd579ca93",
+     "at": "2026-08-23T22:52:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3077ec7",
+     "subject": "fix: make leakage gate exhaustive",
+     "url": "https://github.com/kody-w/openrappter/commit/3077ec72658f80899e310914d1965d3cf4177a2b",
+     "at": "2026-08-23T22:25:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "14348ce",
+     "subject": "fix: resolve rings only through monotonic authority heads",
+     "url": "https://github.com/kody-w/openrappter/commit/14348cedf3685acf6a0bd14371955d67677dca7c",
+     "at": "2026-08-23T22:22:35Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b1be494",
+     "subject": "Merge pull request #443 from kody-w/feat/split-improve-detector-v3",
+     "url": "https://github.com/kody-w/openrappter/commit/b1be4942712d5f7a06f16604307f8b5f67b2ff2b",
+     "at": "2026-08-23T22:11:42Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "522b13e",
+     "subject": "fix: make public boundary structural",
+     "url": "https://github.com/kody-w/openrappter/commit/522b13edf073bcafde37c1248af35b73dfad003c",
+     "at": "2026-08-23T22:09:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "911dcc3",
+     "subject": "test: pin privileged release dependency graph to constitution",
+     "url": "https://github.com/kody-w/openrappter/commit/911dcc3992329a99f0b6b873c37f208ab3ea107a",
+     "at": "2026-08-23T22:00:16Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d67ceae",
+     "subject": "feat: require finalized ring chain for distribution",
+     "url": "https://github.com/kody-w/openrappter/commit/d67ceae05989e68d4ebc0148f201669ce1c0bb10",
+     "at": "2026-08-23T21:53:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6d94e09",
+     "subject": "fix: close final public boundary gaps",
+     "url": "https://github.com/kody-w/openrappter/commit/6d94e095519a53274c2fa81a974bb7c74ba37169",
+     "at": "2026-08-23T21:44:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f8a9383",
+     "subject": "fix: close v3 contracts and preserve v2 CLI",
+     "url": "https://github.com/kody-w/openrappter/commit/f8a9383356606b8c717f17cf9d99bc83b5b263f3",
+     "at": "2026-08-23T21:41:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "644bf57",
+     "subject": "chore: scope promotion write permission to apply job",
+     "url": "https://github.com/kody-w/openrappter/commit/644bf574667a9ff0ac08effa3b58ec81e27294d7",
+     "at": "2026-08-23T21:36:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "53a0542",
+     "subject": "fix: observe finalized receipts without shared authority token",
+     "url": "https://github.com/kody-w/openrappter/commit/53a05421a573cf53154b0f431bdd7f0a4abd15ff",
+     "at": "2026-08-23T21:36:28Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "92fa39c",
+     "subject": "fix: harden public boundary contract",
+     "url": "https://github.com/kody-w/openrappter/commit/92fa39cc161ad18f30002a74a20ef8267810856f",
+     "at": "2026-08-23T21:29:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "725c859",
+     "subject": "fix: parse extensionless immutable receipt as JSON",
+     "url": "https://github.com/kody-w/openrappter/commit/725c85989efbfa2b66cb8a38140567602d99035c",
+     "at": "2026-08-23T21:16:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "fac5119",
+     "subject": "docs: define independent open and hosted boundary",
+     "url": "https://github.com/kody-w/openrappter/commit/fac5119a6a40789bf2ef793fefd3d764598b1449",
+     "at": "2026-08-23T21:12:21Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f1196f7",
+     "subject": "fix: preserve empty manifest fields during authority parsing",
+     "url": "https://github.com/kody-w/openrappter/commit/f1196f785ed29ebb2b0b37bc2f5d13b1d32c0ce8",
+     "at": "2026-08-23T21:10:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "589a240",
+     "subject": "fix: require immutable receipt trust in every ring client",
+     "url": "https://github.com/kody-w/openrappter/commit/589a24062ff2fd93de41d1b470dafe599cdd70ed",
+     "at": "2026-08-23T21:02:02Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "27a53ef",
+     "subject": "chore: bind stable pointer to immutable authority receipt",
+     "url": "https://github.com/kody-w/openrappter/commit/27a53ef8670d7da4c1c62ce33c395d4091154136",
+     "at": "2026-08-23T20:59:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4c34896",
+     "subject": "fix: harden ring trust precedence and packaged selector",
+     "url": "https://github.com/kody-w/openrappter/commit/4c348966c339ec1da138bec2dc4c7f74aa68d320",
+     "at": "2026-08-23T20:58:33Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9bb4683",
+     "subject": "feat: integrate split improve detector v3",
+     "url": "https://github.com/kody-w/openrappter/commit/9bb4683e80e1f09868a01c9508e491551062ec92",
+     "at": "2026-08-23T20:42:16Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5a1c953",
+     "subject": "fix: register ring RPC on the live gateway only",
+     "url": "https://github.com/kody-w/openrappter/commit/5a1c953e83fcb652870d40c41b6b1235bbe15112",
+     "at": "2026-08-23T20:10:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3adbbe0",
+     "subject": "feat: add guarded release-ring settings switcher",
+     "url": "https://github.com/kody-w/openrappter/commit/3adbbe0e4ab0a02c673e96c2e1f710a17433dc6f",
+     "at": "2026-08-23T20:02:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9556eec",
+     "subject": "Merge pull request #435 from kody-w/feat/clever-girl-cli-54bbb3eb",
+     "url": "https://github.com/kody-w/openrappter/commit/9556eec44623ef00b7fa4213e70bf964c0f1845d",
+     "at": "2026-08-23T19:52:02Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c3c3c12",
+     "subject": "fix: keep installer test scratch out of commits",
+     "url": "https://github.com/kody-w/openrappter/commit/c3c3c126065dbe0a2232f2fb15ae9e15c4fc0268",
+     "at": "2026-08-23T19:40:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "dbb8d0c",
+     "subject": "fix: validate ring pointer from exact CI revision",
+     "url": "https://github.com/kody-w/openrappter/commit/dbb8d0caa8aeba2088452f0440e3bd5e83858ae5",
+     "at": "2026-08-23T19:40:26Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e591f10",
+     "subject": "fix(cli): register Clever Girl command surface",
+     "url": "https://github.com/kody-w/openrappter/commit/e591f1003cf3fee16934a510b5c0f382b33fcf51",
+     "at": "2026-08-23T19:33:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1f420c4",
+     "subject": "feat: resolve installs through closed release rings",
+     "url": "https://github.com/kody-w/openrappter/commit/1f420c44b85f0896b30b0fa4c683589b0999d67b",
+     "at": "2026-08-23T19:30:47Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0b67589",
+     "subject": "Merge origin/main into feat/clever-girl-cli-54bbb3eb",
+     "url": "https://github.com/kody-w/openrappter/commit/0b6758960de6eebad815ada79761897ad313f25f",
+     "at": "2026-08-23T19:23:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6a20e3f",
+     "subject": "feat(cli): package Clever Girl Observe Mode v2",
+     "url": "https://github.com/kody-w/openrappter/commit/6a20e3ff5e976998a82c85337fa0a5f20da8de6b",
+     "at": "2026-08-23T19:22:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "41f0525",
+     "subject": "Merge pull request #434 from kody-w/fix/nanorappter-cors-377-54bbb3eb",
+     "url": "https://github.com/kody-w/openrappter/commit/41f05259caaef5c46cc2bf137d33d3b8b0151896",
+     "at": "2026-08-23T19:20:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "fc8b1b8",
+     "subject": "fix(nanorappter): block cross-origin agent execution",
+     "url": "https://github.com/kody-w/openrappter/commit/fc8b1b817982b188551551088d93379a2abbe142",
+     "at": "2026-08-23T19:13:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9913ca2",
+     "subject": "Merge pull request #433 from kody-w/sol/clever-girl-estate-54bbb3eb",
+     "url": "https://github.com/kody-w/openrappter/commit/9913ca2e5237c44620f5422644cbe6060f2c8c18",
+     "at": "2026-08-23T14:38:58Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8a28f48",
+     "subject": "Merge remote-tracking branch 'origin/main' into sol/clever-girl-estate-54bbb3eb",
+     "url": "https://github.com/kody-w/openrappter/commit/8a28f4829f681619afb50a0d5ca0a6e60bd4a4b7",
+     "at": "2026-08-23T14:31:37Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "05722fd",
+     "subject": "Merge pull request #425 from kody-w/fix/installer-smoke-baseline",
+     "url": "https://github.com/kody-w/openrappter/commit/05722fdad04f8d0ec055c5591a368e5012737257",
+     "at": "2026-08-23T14:31:28Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "61b1ace",
+     "subject": "feat(clever-girl): add bounded estate evidence",
+     "url": "https://github.com/kody-w/openrappter/commit/61b1acec16f95b535e430870c26ce30907525af0",
+     "at": "2026-08-23T14:31:22Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4e55e0c",
+     "subject": "feat: add Rapter Clever Girl observe mode",
+     "url": "https://github.com/kody-w/openrappter/commit/4e55e0cae198423e14fa69a303ceffce312e052a",
+     "at": "2026-08-22T03:53:26Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "43e2c07",
+     "subject": "fix(ci): trigger ShellCheck for every shell change",
+     "url": "https://github.com/kody-w/openrappter/commit/43e2c07806803cfea8e266af29b82fcd8ad966ab",
+     "at": "2026-08-23T13:08:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3f17f28",
+     "subject": "Merge remote-tracking branch 'origin/main' into fix/installer-smoke-baseline",
+     "url": "https://github.com/kody-w/openrappter/commit/3f17f28f082e447dc52750fd9c6aae836790530a",
+     "at": "2026-08-23T13:01:17Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 41
+  },
   {
    "repo": "rappterverse",
    "url": "https://github.com/kody-w/rappterverse",
@@ -160,6 +462,126 @@
    "human_count": 18
   },
   {
+   "repo": "rapp-herdr",
+   "url": "https://github.com/kody-w/rapp-herdr",
+   "description": "Manage RAPP Twin neighborhoods as supervised Herdr workspaces",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "b6acdc9",
+     "subject": "feat: harden estate buddy control plane",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/b6acdc910d639a76cbb40df8ae2018ea67ef6dac",
+     "at": "2026-08-23T23:53:56Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8f67141",
+     "subject": "feat: centralize estate buddy list and chat",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/8f67141d5f1fad353caed4c5fda74685ee2b6fe8",
+     "at": "2026-08-23T22:59:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "05b1224",
+     "subject": "fix: preserve venv paths through Twin supervision",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/05b1224444b9530dcb3a1b30e884342a4e1a502b",
+     "at": "2026-08-23T22:48:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6514d75",
+     "subject": "fix: preserve configured venv interpreter paths",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/6514d755b92d1bf31a35957d095805e0ca6ce72d",
+     "at": "2026-08-23T22:46:45Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "51bfe93",
+     "subject": "fix: pin generated Twin runtime requirements",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/51bfe937a18a505ff0ba58855df1a965715376b8",
+     "at": "2026-08-23T22:41:29Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c4faefc",
+     "subject": "feat: add device buddy mode and Twin-relay probes",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/c4faefc66cd4a90053cd82646569fb6a849f64c7",
+     "at": "2026-08-23T22:37:49Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4f2a6ac",
+     "subject": "feat: add estate audit and global active view",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/4f2a6acecc16a41e97aa3d4f106d920b895b3d6f",
+     "at": "2026-08-23T18:31:00Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "37f0201",
+     "subject": "feat: add machine audit and global estate view",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/37f0201b3af568a5cb301b5530bc51b582a5ea63",
+     "at": "2026-08-23T18:28:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "49cc03e",
+     "subject": "test: normalize Herdr path assertion",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/49cc03e69fff5a52d78e43cea374be38040dbb4c",
+     "at": "2026-08-23T17:51:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "260f2cd",
+     "subject": "fix: harden estate recovery and dashboard",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/260f2cd9f8506cabaad20fc1a4b30b15940de3e0",
+     "at": "2026-08-23T17:48:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7ff3366",
+     "subject": "feat: add cross-device estate control and UI",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/7ff3366edda55e32bc58bb0725e5f5cd8e2a031c",
+     "at": "2026-08-23T17:41:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b5130ad",
+     "subject": "test: verify encoded Herdr propagation",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/b5130ad41728ccf3b2f4a1683928bc83711c182a",
+     "at": "2026-08-23T15:04:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "099c1cc",
+     "subject": "fix: harden Twin runtime isolation",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/099c1ccc3e81cb5cd6d85e17a03f7d8b7e742ce8",
+     "at": "2026-08-23T14:57:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d4da7c5",
+     "subject": "feat: manage RAPP Twin neighborhoods in Herdr",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/d4da7c50c1d72957d14c108dcd73990dd290982d",
+     "at": "2026-08-23T14:50:46Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "409115e",
+     "subject": "chore: initialize rapp-herdr",
+     "url": "https://github.com/kody-w/rapp-herdr/commit/409115ea8a97415eeda55766913f4c890c6d7534",
+     "at": "2026-08-23T13:45:35Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 15
+  },
+  {
    "repo": "rapp-virtual-as400",
    "url": "https://github.com/kody-w/rapp-virtual-as400",
    "description": "Clean-room local virtual AS/400-style RAPP neighborhood simulator",
@@ -273,6 +695,452 @@
    "human_count": 14
   },
   {
+   "repo": "openrappter-release-train",
+   "url": "https://github.com/kody-w/openrappter-release-train",
+   "description": "OpenRappter release train \u2014 canary \u2192 nightly \u2192 alpha \u2192 beta \u2192 stable. Flight deck + static API.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "2749023",
+     "subject": "fix: namespace dual-identity release candidates",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/2749023560a8390c7d34a01f1ce3c78d770e77be",
+     "at": "2026-08-23T23:38:56Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d8bb50f",
+     "subject": "fix: serialize exact-head apply finalize and release candidates",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/d8bb50f04e3b5d9b29564202abcab6383077977d",
+     "at": "2026-08-23T23:18:56Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5d91457",
+     "subject": "fix: serialize apply finalize and candidate identity",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/5d91457c477a8b043af9ee4881d2941d1b834616",
+     "at": "2026-08-23T23:16:16Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "98ace21",
+     "subject": "fix: enforce ordered candidate promotion and stable merge proof",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/98ace213a7fcf858d917e5474dd79cb271b49cf6",
+     "at": "2026-08-23T22:51:40Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6e09248",
+     "subject": "fix: order requests and promote immutable candidate bundles",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/6e0924891a43361e32be57e3144a627fb54590b5",
+     "at": "2026-08-23T22:46:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1985eb8",
+     "subject": "fix: make finalized authority heads the only latest state",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/1985eb8cd4d3b80155bcc0c6bc0a0622de7f47ec",
+     "at": "2026-08-23T22:19:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8da4177",
+     "subject": "fix: compare built artifact to receipted beta identity",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/8da41779f609a8760be9746db081bcf44a919f22",
+     "at": "2026-08-23T21:53:21Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d36fd53",
+     "subject": "feat: codify the machine-required release constitution",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/d36fd535ea9804eaf10a19a97d19676c4b8ec701",
+     "at": "2026-08-23T21:50:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5d3714f",
+     "subject": "feat: observe verified main for nightly requests",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/5d3714fcd67d84a8362925f8898259451e3dd903",
+     "at": "2026-08-23T21:46:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4421bd0",
+     "subject": "fix: replace cross-repo authority with pull-observe promotion",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/4421bd0f63a4a632fc8745e01d1855cce2969efe",
+     "at": "2026-08-23T21:31:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2605992",
+     "subject": "feat: bind truthful bootstrap states to immutable receipts",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/2605992220cf1dec238fe0798f55452350219c81",
+     "at": "2026-08-23T20:59:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3f84a14",
+     "subject": "fix: make promotions atomic idempotent and receipt-bound",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/3f84a14c56d4e0b13971a7f253cdf9d3dd7d310f",
+     "at": "2026-08-23T20:52:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "30f4506",
+     "subject": "feat: establish closed release-ring authority",
+     "url": "https://github.com/kody-w/openrappter-release-train/commit/30f4506e76dc7c4ee291e3d4134f793203f0a086",
+     "at": "2026-08-23T19:30:46Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 13
+  },
+  {
+   "repo": "openrappter-alpha",
+   "url": "https://github.com/kody-w/openrappter-alpha",
+   "description": "OpenRappter release train \u2014 alpha ring. Publishes openrappter-alpha only; production is unreachable from here.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "d7c27e8",
+     "subject": "docs: pin immutable sequence acknowledgement contract",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/d7c27e840ef22a6c71c79ac37fe89909ab9beca7",
+     "at": "2026-08-23T23:39:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b551025",
+     "subject": "fix: consume serialized exact-head requests",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/b5510255cad31df5b9fe8007a8c5cb89567750a8",
+     "at": "2026-08-23T23:20:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0a013cd",
+     "subject": "fix: apply ordered candidate requests by sequence",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/0a013cd4bea034261c8f07c83924181785234339",
+     "at": "2026-08-23T22:52:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3ce21b2",
+     "subject": "docs: mark target main ring files informational",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/3ce21b2c15e845477c9cb679b53db45809f144cb",
+     "at": "2026-08-23T22:22:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6eef60b",
+     "subject": "docs: record machine-required release constitution",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/6eef60bdb497a325331df153e0e56b15a7edb111",
+     "at": "2026-08-23T21:53:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "69610b1",
+     "subject": "chore: scope write permission to apply job",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/69610b1ce2807a4e82170f2d7d3db83a33e660d8",
+     "at": "2026-08-23T21:36:56Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "13cedda",
+     "subject": "fix: pull immutable promotion requests with scoped token",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/13cedda55daa4c6fbc264d31de4b3aae2c3588d9",
+     "at": "2026-08-23T21:35:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "357dd07",
+     "subject": "chore: bind bootstrap pointer to immutable authority receipt",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/357dd078bb192f923f44c3633b7aef3974d2c8c5",
+     "at": "2026-08-23T20:59:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bd889ca",
+     "subject": "fix: receive promotions atomically from immutable authority",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/bd889ca4759e33db247007fd55c814f91407a80d",
+     "at": "2026-08-23T20:53:29Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4f056ea",
+     "subject": "feat: maintain alpha as an explicit ring pointer",
+     "url": "https://github.com/kody-w/openrappter-alpha/commit/4f056ea7b078c70b3c61de9949501b4bb2140ee7",
+     "at": "2026-08-23T19:30:46Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 10
+  },
+  {
+   "repo": "openrappter-beta",
+   "url": "https://github.com/kody-w/openrappter-beta",
+   "description": "OpenRappter release train \u2014 beta ring. Publishes openrappter-beta only; production is unreachable from here.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "7cc6348",
+     "subject": "docs: pin immutable sequence acknowledgement contract",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/7cc63487aa2e3aa35d260de9e7d0a7bd90e42bdb",
+     "at": "2026-08-23T23:39:53Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9220589",
+     "subject": "fix: consume serialized exact-head requests",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/92205895aac0258fa6cc512d282d013d91cff5f6",
+     "at": "2026-08-23T23:20:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "cd3ea6d",
+     "subject": "fix: apply ordered candidate requests by sequence",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/cd3ea6dce374c62c95d04f2bed02ef1bff8d1a46",
+     "at": "2026-08-23T22:52:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "edb6f77",
+     "subject": "docs: mark target main ring files informational",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/edb6f774ae6e20f4fe5a156889f3bdc8337902f0",
+     "at": "2026-08-23T22:22:40Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "30dd2cc",
+     "subject": "docs: record machine-required release constitution",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/30dd2cc28802b488ae987947bb9bd62486e9acde",
+     "at": "2026-08-23T21:53:53Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8452db7",
+     "subject": "chore: scope write permission to apply job",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/8452db7c3f1b29fd4770b5351a7f8d7b2fec9899",
+     "at": "2026-08-23T21:36:58Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bd1f1fd",
+     "subject": "fix: pull immutable promotion requests with scoped token",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/bd1f1fd78b677a604fc942a0456e54bb26be84b1",
+     "at": "2026-08-23T21:35:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f0913f2",
+     "subject": "chore: bind bootstrap pointer to immutable authority receipt",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/f0913f2e0bfaeb8be98fda1fe8c4098fb5aa13d6",
+     "at": "2026-08-23T20:59:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1afa214",
+     "subject": "fix: receive promotions atomically from immutable authority",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/1afa214aa993d3a9ccf29569058a275db1f76a32",
+     "at": "2026-08-23T20:53:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a4a0e8d",
+     "subject": "feat: maintain beta as a prerelease pointer",
+     "url": "https://github.com/kody-w/openrappter-beta/commit/a4a0e8d32c6cd842596b841415d6249b6f5da0ff",
+     "at": "2026-08-23T19:30:47Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 10
+  },
+  {
+   "repo": "openrappter-canary",
+   "url": "https://github.com/kody-w/openrappter-canary",
+   "description": "OpenRappter release train \u2014 canary ring. Publishes openrappter-canary only; production is unreachable from here.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "9c0a4bf",
+     "subject": "docs: pin immutable sequence acknowledgement contract",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/9c0a4bf37cc093f93f2da537ef077e8afe4b1a44",
+     "at": "2026-08-23T23:39:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "052acc4",
+     "subject": "fix: consume serialized exact-head requests",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/052acc44352bf9ef6f21ffcb6e1d6e8b3602a762",
+     "at": "2026-08-23T23:20:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f05e71c",
+     "subject": "fix: apply ordered candidate requests by sequence",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/f05e71cb513487f0498288c954e2bf6e8cc53ad8",
+     "at": "2026-08-23T22:52:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a267d9c",
+     "subject": "docs: mark target main ring files informational",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/a267d9c963a5315bcbe79183d05d3834167fef8d",
+     "at": "2026-08-23T22:22:39Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0a41270",
+     "subject": "docs: record machine-required release constitution",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/0a41270f91b637706081f442412c9aef359b9c57",
+     "at": "2026-08-23T21:53:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "51927fd",
+     "subject": "chore: scope write permission to apply job",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/51927fd2f4da721d8fafbb21227ae9f785d22ec1",
+     "at": "2026-08-23T21:36:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f1fe79b",
+     "subject": "fix: pull immutable promotion requests with scoped token",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/f1fe79bd3a6367980af15a3ebc5177ef08789d3d",
+     "at": "2026-08-23T21:35:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "673febc",
+     "subject": "chore: bind bootstrap pointer to immutable authority receipt",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/673febc86a447fe3a6d8319669ee8950e312d38d",
+     "at": "2026-08-23T20:59:54Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d7d1445",
+     "subject": "fix: receive promotions atomically from immutable authority",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/d7d144576c5459a4491341336cbb5622c21a8cad",
+     "at": "2026-08-23T20:53:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8ab35f4",
+     "subject": "feat: gate canary on rollout evidence",
+     "url": "https://github.com/kody-w/openrappter-canary/commit/8ab35f4c0606c16cf3ed1406fa7d253d03b34b51",
+     "at": "2026-08-23T19:30:47Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 10
+  },
+  {
+   "repo": "openrappter-nightly",
+   "url": "https://github.com/kody-w/openrappter-nightly",
+   "description": "OpenRappter release train \u2014 nightly ring. Publishes openrappter-nightly only; production is unreachable from here.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "f325c87",
+     "subject": "docs: pin immutable sequence acknowledgement contract",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/f325c8705f852365356cfef42a606328169ffd36",
+     "at": "2026-08-23T23:39:49Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5bb146a",
+     "subject": "fix: consume serialized exact-head requests",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/5bb146ae0c81a27615924644989144493bf519f7",
+     "at": "2026-08-23T23:20:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b157d13",
+     "subject": "fix: apply ordered candidate requests by sequence",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/b157d132ff20e9a76752bf389ddd60da620d8cbf",
+     "at": "2026-08-23T22:52:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "efcfb94",
+     "subject": "docs: mark target main ring files informational",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/efcfb94acb8bfb292a3d20a7a579586044c202eb",
+     "at": "2026-08-23T22:22:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "646f1b5",
+     "subject": "docs: record machine-required release constitution",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/646f1b58d4e6ad619e10816219a7ca19d38b903b",
+     "at": "2026-08-23T21:53:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "296a3ec",
+     "subject": "chore: scope write permission to apply job",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/296a3eca751ca8ee438f5590d80bdd79291acdde",
+     "at": "2026-08-23T21:36:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "854ff1c",
+     "subject": "fix: pull immutable promotion requests with scoped token",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/854ff1c6ce7943252e10540e508095ffa51e3336",
+     "at": "2026-08-23T21:35:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0a74596",
+     "subject": "chore: bind bootstrap pointer to immutable authority receipt",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/0a74596b98aceb874cfe026ac47ed8c8c30fda8c",
+     "at": "2026-08-23T20:59:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "96dc6fd",
+     "subject": "fix: receive promotions atomically from immutable authority",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/96dc6fdd60c6d3ccbf6bf16e1ab1ba4f2a97eb37",
+     "at": "2026-08-23T20:53:28Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8a899fd",
+     "subject": "feat: maintain nightly as a verified ring pointer",
+     "url": "https://github.com/kody-w/openrappter-nightly/commit/8a899fdcbb578d8908bbbd6809505efed54aa873",
+     "at": "2026-08-23T19:30:46Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 10
+  },
+  {
    "repo": "RAPP_Store",
    "url": "https://github.com/kody-w/RAPP_Store",
    "description": "Public catalog of RAPP rapplications \u2014 single-file Python agents that drop into a local brainstem and run. Browse the hosted viewer at kody-w.github.io/RAPP_Store/. Engine: kody-w/RAPP.",
@@ -361,6 +1229,27 @@
    "new": false,
    "human": [
     {
+     "sha": "29177ed",
+     "subject": "Merge pull request #3 from kody-w/feat/sitewide-copy-accessibility",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/29177edb2dbaa128fe84dd89f7c33f14dd5a7638",
+     "at": "2026-08-23T20:23:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "62f566c",
+     "subject": "Keep pull request validation build-only",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/62f566ca0a7e3187c190f17519eba778e8d7775a",
+     "at": "2026-08-23T20:11:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6d27c5e",
+     "subject": "Add site-wide accessible copy controls",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/6d27c5e5504bf34aabfa77c904fd9ed2c4314fb9",
+     "at": "2026-08-23T20:09:31Z",
+     "by": "kody-w"
+    },
+    {
      "sha": "614bd10",
      "subject": "Merge pull request #2 from kody-w/feat/duneheart-artifact-50k",
      "url": "https://github.com/kody-w/kody-w.github.io/commit/614bd10e13b955b7eaea6ca03d044aaec42b5a35",
@@ -391,242 +1280,64 @@
    ],
    "fleet": [],
    "fleet_count": 0,
-   "human_count": 4
+   "human_count": 7
   },
   {
-   "repo": "rapp-zoo-v2",
-   "url": "https://github.com/kody-w/rapp-zoo-v2",
-   "description": "Local-first RAPP cage and prototype workbench with universal Summon Chants",
+   "repo": "rapp-1",
+   "url": "https://github.com/kody-w/rapp-1",
+   "description": "RAPP/1 \u2014 the wire that carries agents. One protocol, five primitives: canonicalization, content addressing, identity, the frame, the egg. Spec + reference implementation + conformance suite + book.",
    "stars": 0,
-   "language": "JavaScript",
-   "private": false,
-   "homepage": "https://github.com/kody-w/rapp-zoo-v2/releases/latest",
-   "new": false,
-   "human": [
-    {
-     "sha": "e230e90",
-     "subject": "Merge pull request #1 from kody-w/sol/public-simulation-proof",
-     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/e230e9065440a80fd1bef2586969d2a252c7ba31",
-     "at": "2026-08-23T00:03:36Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "283c291",
-     "subject": "feat: publish simulation Summon Chant",
-     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/283c291d73d68321a5d8cfd961c1647293fd6f0f",
-     "at": "2026-08-23T00:01:41Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "a317412",
-     "subject": "feat: pin simulation summon manifest",
-     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/a317412e5fc1b090fe4b8b004c0c1162daf56d70",
-     "at": "2026-08-23T00:01:14Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "244c22c",
-     "subject": "feat: publish replayable simulation neighborhood",
-     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/244c22cbf8020346b6fea9d778f86bc6fc67a53d",
-     "at": "2026-08-23T00:00:42Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [],
-   "fleet_count": 0,
-   "human_count": 4
-  },
-  {
-   "repo": "openrappter",
-   "url": "https://github.com/kody-w/openrappter",
-   "description": "\ud83e\udd96 Local-first AI agent powered by GitHub Copilot SDK \u2014 no API keys required",
-   "stars": 7,
-   "language": "TypeScript",
-   "private": false,
-   "homepage": "",
-   "new": false,
-   "human": [
-    {
-     "sha": "05722fd",
-     "subject": "Merge pull request #425 from kody-w/fix/installer-smoke-baseline",
-     "url": "https://github.com/kody-w/openrappter/commit/05722fdad04f8d0ec055c5591a368e5012737257",
-     "at": "2026-08-23T14:31:28Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "43e2c07",
-     "subject": "fix(ci): trigger ShellCheck for every shell change",
-     "url": "https://github.com/kody-w/openrappter/commit/43e2c07806803cfea8e266af29b82fcd8ad966ab",
-     "at": "2026-08-23T13:08:44Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "3f17f28",
-     "subject": "Merge remote-tracking branch 'origin/main' into fix/installer-smoke-baseline",
-     "url": "https://github.com/kody-w/openrappter/commit/3f17f28f082e447dc52750fd9c6aae836790530a",
-     "at": "2026-08-23T13:01:17Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [],
-   "fleet_count": 0,
-   "human_count": 3
-  },
-  {
-   "repo": "rapp-herdr",
-   "url": "https://github.com/kody-w/rapp-herdr",
-   "description": "Manage RAPP Twin neighborhoods as supervised Herdr workspaces",
-   "stars": 0,
-   "language": "",
-   "private": false,
-   "homepage": "",
-   "new": true,
-   "human": [
-    {
-     "sha": "409115e",
-     "subject": "chore: initialize rapp-herdr",
-     "url": "https://github.com/kody-w/rapp-herdr/commit/409115ea8a97415eeda55766913f4c890c6d7534",
-     "at": "2026-08-23T13:45:35Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [],
-   "fleet_count": 0,
-   "human_count": 1
-  },
-  {
-   "repo": "rappterbook",
-   "url": "https://github.com/kody-w/rappterbook",
-   "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
-   "stars": 13,
    "language": "Python",
    "private": false,
-   "homepage": "https://kody-w.github.io/rappterbook/",
+   "homepage": "",
    "new": false,
-   "human": [],
-   "fleet": [
+   "human": [
     {
-     "sha": "c6eabf3",
-     "subject": "chore(overseer): tick from github-actions [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c6eabf34e5438e7ca3476ee8f8ca2be8263dfb0e",
-     "at": "2026-08-23T14:02:52Z",
-     "by": "rappterbook-bot"
+     "sha": "0544cee",
+     "subject": "Merge pull request #13 from kody-w/feat/interactive-copy-code-docs",
+     "url": "https://github.com/kody-w/rapp-1/commit/0544cee07fd185af9a85286a09649cc1bbe41557",
+     "at": "2026-08-23T21:34:33Z",
+     "by": "kody-w"
     },
     {
-     "sha": "b045cd5",
-     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b045cd5b430b16f27c5b3527cb75fa62f4869862",
-     "at": "2026-08-23T13:54:43Z",
-     "by": "rappterbook-bot"
+     "sha": "daff719",
+     "subject": "ci: account for portable print pagination",
+     "url": "https://github.com/kody-w/rapp-1/commit/daff719a787eed3674c9f627afce2140d919cd25",
+     "at": "2026-08-23T21:27:10Z",
+     "by": "kody-w"
     },
     {
-     "sha": "0bc6d9c",
-     "subject": "chore: update trending [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/0bc6d9c40d2a996941101c65187d0206e861666f",
-     "at": "2026-08-23T13:28:50Z",
-     "by": "rappterbook-bot"
+     "sha": "e978d71",
+     "subject": "fix: close interactive book review blockers",
+     "url": "https://github.com/kody-w/rapp-1/commit/e978d713e77b6681818dc73db7058e7d824d682e",
+     "at": "2026-08-23T21:24:54Z",
+     "by": "kody-w"
     },
     {
-     "sha": "4f7010d",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/4f7010d508eb0cf35d7f39448a53794a87e1229d",
-     "at": "2026-08-23T13:18:36Z",
-     "by": "rappterbook-bot"
+     "sha": "fc0f7bc",
+     "subject": "docs: align prompt copy interaction semantics",
+     "url": "https://github.com/kody-w/rapp-1/commit/fc0f7bc6b0445b6f44237240b87e70e2701f142a",
+     "at": "2026-08-23T20:50:54Z",
+     "by": "kody-w"
     },
     {
-     "sha": "253e7ca",
-     "subject": "chore: agent heartbeat [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/253e7ca4e8082235d189f402f27f804a09aa493b",
-     "at": "2026-08-23T13:17:50Z",
-     "by": "rappterbook-bot"
+     "sha": "fe838ea",
+     "subject": "docs: add provider-neutral copyable prompts",
+     "url": "https://github.com/kody-w/rapp-1/commit/fe838eaaeb706bdb3cd293669befa6159e6607ff",
+     "at": "2026-08-23T20:39:10Z",
+     "by": "kody-w"
     },
     {
-     "sha": "2bae479",
-     "subject": "chore: update feeds [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/2bae4797bbbe94870167388bf8fc1cd2aa993485",
-     "at": "2026-08-23T13:16:36Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "1fc8687",
-     "subject": "chore: slop cop review [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/1fc868796e93e3c258986e0ffb1a5ead25b19db6",
-     "at": "2026-08-23T13:11:34Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "0288ec3",
-     "subject": "Refresh Twitter twin data",
-     "url": "https://github.com/kody-w/rappterbook/commit/0288ec33f6e5b8ecb37ea4997fd873ded9c9d837",
-     "at": "2026-08-23T13:10:41Z",
-     "by": "rappter-bot"
-    },
-    {
-     "sha": "23a104b",
-     "subject": "chore(api)- rebuild static api [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/23a104b08d6a5ffe42c3036aed4756164596040b",
-     "at": "2026-08-23T13:04:45Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "a1891da",
-     "subject": "chore: update D365 simulation data [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/a1891da4ba41aa0270ce38ab758fc86ee405f771",
-     "at": "2026-08-23T12:59:29Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "23424a6",
-     "subject": "twin-driver: autonomous run [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/23424a6ba860d3d157c183ad3841595376f9f98e",
-     "at": "2026-08-23T12:50:06Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "5d1dc07",
-     "subject": "chore: zion autonomy update [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/5d1dc07d0e5724efcbe7161de021234b4a7b5a42",
-     "at": "2026-08-23T12:36:36Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "ce2f0d8",
-     "subject": "chore: cloud brainstem tick [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ce2f0d84b7c49ac7f2d7c8ff86e7e22259ce6f29",
-     "at": "2026-08-23T11:50:07Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "a07c5bb",
-     "subject": "chore: reconcile channel counts [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/a07c5bb799e7549e18065d8d399bea803dc7a091",
-     "at": "2026-08-23T09:20:18Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "eddd6a7",
-     "subject": "twin-author: fresh content + quality report",
-     "url": "https://github.com/kody-w/rappterbook/commit/eddd6a7e0a38b041866ddb7c9b91a04901d9049b",
-     "at": "2026-08-23T09:05:13Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "c6c6fba",
-     "subject": "chore: update agent statuses from heartbeat audit [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c6c6fbab35cd02f58b6f840e65ecd707ba100037",
-     "at": "2026-08-23T06:57:50Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "eb33c43",
-     "subject": "chore: Award external agent bounties (10k Karma & Legendary Status)",
-     "url": "https://github.com/kody-w/rappterbook/commit/eb33c435de350ae13cb9f046d18a1decf1ce31a9",
-     "at": "2026-08-23T01:51:45Z",
-     "by": "Zion Bounty Bot"
+     "sha": "d25b6c4",
+     "subject": "docs: add copyable interactive book edition",
+     "url": "https://github.com/kody-w/rapp-1/commit/d25b6c46e35ea83e77601f9ab0777c8183d1db15",
+     "at": "2026-08-23T20:15:30Z",
+     "by": "kody-w"
     }
    ],
-   "fleet_count": 17,
-   "human_count": 0
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 6
   },
   {
    "repo": "RAR",
@@ -637,8 +1348,135 @@
    "private": false,
    "homepage": "",
    "new": false,
-   "human": [],
+   "human": [
+    {
+     "sha": "2d84481",
+     "subject": "Merge pull request #588 from kody-w/fix/rar-admission-drift-20260823",
+     "url": "https://github.com/kody-w/RAR/commit/2d844812fb504a719378e6e803da559210a9dc82",
+     "at": "2026-08-23T23:24:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "ca369df",
+     "subject": "Re-run branch checks after protected-state split",
+     "url": "https://github.com/kody-w/RAR/commit/ca369dfa1be9f4915a6f9ee5c8b4c533581ac1f5",
+     "at": "2026-08-23T23:22:23Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8e1ee5b",
+     "subject": "Fix zero-signal community ranking",
+     "url": "https://github.com/kody-w/RAR/commit/8e1ee5bf00cb0100c1e8f0b5a7f13ef64f2807be",
+     "at": "2026-08-23T23:19:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "42de144",
+     "subject": "Revert \"Repair RAR admission baseline\"",
+     "url": "https://github.com/kody-w/RAR/commit/42de1445e06f1c12063fd5ecf1a5d89969fb52eb",
+     "at": "2026-08-23T23:18:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1fedbda",
+     "subject": "Repair RAR admission baseline",
+     "url": "https://github.com/kody-w/RAR/commit/1fedbdaf970b3703a6da8d5f78f8f5b6782f0279",
+     "at": "2026-08-23T23:15:32Z",
+     "by": "kody-w"
+    }
+   ],
    "fleet": [
+    {
+     "sha": "125e4bc",
+     "subject": "Refresh registry provenance for #587 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/125e4bc576fcd18a74793f0230a86a34ea81f5c0",
+     "at": "2026-08-23T23:33:04Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "b3e7df9",
+     "subject": "Notarize @rapp/rapp from #587",
+     "url": "https://github.com/kody-w/RAR/commit/b3e7df9a23142492ce666a32e7630c42137f537e",
+     "at": "2026-08-23T23:32:50Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "0f89a54",
+     "subject": "Refresh registry projections for notarized batch [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/0f89a54965dcb419508e3076b6601974f58b252b",
+     "at": "2026-08-23T23:29:58Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "657d2bb",
+     "subject": "Notarize approved RAR mutation batch",
+     "url": "https://github.com/kody-w/RAR/commit/657d2bb31e7d75b8fe4216443a5336cb035c07c9",
+     "at": "2026-08-23T23:29:43Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "b97f67c",
+     "subject": "Stage RAR request from #590 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/b97f67c399a2283e5430b327508a43276403abd5",
+     "at": "2026-08-23T23:27:13Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "2970311",
+     "subject": "Stage RAR request from #589 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/2970311b8941379e45b57a323d629d37437a7a81",
+     "at": "2026-08-23T23:26:42Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "512c7c8",
+     "subject": "Stage RAR request from #591 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/512c7c8c6be77d250d0c762b217266b1c5aab911",
+     "at": "2026-08-23T23:25:58Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "640187f",
+     "subject": "Stage RAR request from #587 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/640187f693d57158883b0f29b0810c5834bb4625",
+     "at": "2026-08-23T23:04:22Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "d1ca880",
+     "subject": "Dream Catcher frame 1386: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/d1ca88087a707e3104711cff1a7c9bf73285d953",
+     "at": "2026-08-23T22:15:10Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "7aaadde",
+     "subject": "chore(front): refresh aggregated catalog + ranking [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/7aaadded3cf6c97672435dbd886a6aaa61089ccd",
+     "at": "2026-08-23T21:49:59Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c97f4b4",
+     "subject": "Dream Catcher frame 1385: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/c97f4b4c5388656bff5fed5650b911b13f6e2dfb",
+     "at": "2026-08-23T20:15:20Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "7624e45",
+     "subject": "Dream Catcher frame 1384: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/7624e456c9ada8d3e98a052366abec282436dd16",
+     "at": "2026-08-23T18:20:39Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "9dff6d4",
+     "subject": "Dream Catcher frame 1383: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/9dff6d46e533589820d2b58eb4ac028e64182f71",
+     "at": "2026-08-23T16:17:34Z",
+     "by": "dream-catcher"
+    },
     {
      "sha": "bd7e132",
      "subject": "Dream Catcher frame 1382: fleet content merge [skip ci]",
@@ -703,7 +1541,415 @@
      "by": "dream-catcher"
     }
    ],
-   "fleet_count": 9,
+   "fleet_count": 22,
+   "human_count": 5
+  },
+  {
+   "repo": "RAPP",
+   "url": "https://github.com/kody-w/RAPP",
+   "description": "Portable, shareable, vibe swarm building tool. Single-file agents, local-first, GitHub Copilot powered. Live at kody-w.github.io/RAPP/",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RAPP/",
+   "new": false,
+   "human": [
+    {
+     "sha": "3e57db4",
+     "subject": "Merge pull request #105 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/RAPP/commit/3e57db4713379f82631ec1c5c67cb242c6d3269e",
+     "at": "2026-08-23T22:58:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c50d50e",
+     "subject": "Refresh the integrated RAPP byte ledger",
+     "url": "https://github.com/kody-w/RAPP/commit/c50d50e1597922347c50b778a21a66d91327aaf1",
+     "at": "2026-08-23T22:57:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "21be311",
+     "subject": "Fix the ASCII-locale UTF-8 fixture",
+     "url": "https://github.com/kody-w/RAPP/commit/21be311d14d281ccce4d58dbfa79f65f60219cb5",
+     "at": "2026-08-23T22:56:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f6ddeac",
+     "subject": "fix: retire stale ecosystem mirror contract",
+     "url": "https://github.com/kody-w/RAPP/commit/f6ddeaca2f04369618d5e2bab2fb6821ba381fdf",
+     "at": "2026-08-23T22:23:42Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 4
+  },
+  {
+   "repo": "rapp-zoo-v2",
+   "url": "https://github.com/kody-w/rapp-zoo-v2",
+   "description": "Local-first RAPP cage and prototype workbench with universal Summon Chants",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "https://github.com/kody-w/rapp-zoo-v2/releases/latest",
+   "new": false,
+   "human": [
+    {
+     "sha": "e230e90",
+     "subject": "Merge pull request #1 from kody-w/sol/public-simulation-proof",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/e230e9065440a80fd1bef2586969d2a252c7ba31",
+     "at": "2026-08-23T00:03:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "283c291",
+     "subject": "feat: publish simulation Summon Chant",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/283c291d73d68321a5d8cfd961c1647293fd6f0f",
+     "at": "2026-08-23T00:01:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a317412",
+     "subject": "feat: pin simulation summon manifest",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/a317412e5fc1b090fe4b8b004c0c1162daf56d70",
+     "at": "2026-08-23T00:01:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "244c22c",
+     "subject": "feat: publish replayable simulation neighborhood",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/244c22cbf8020346b6fea9d778f86bc6fc67a53d",
+     "at": "2026-08-23T00:00:42Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 4
+  },
+  {
+   "repo": "rapp-spine",
+   "url": "https://github.com/kody-w/rapp-spine",
+   "description": "\ud83e\uddb4 Crawl the spine \u2014 a situational router over the full RAPP protocol stack. Situation -> layer -> protocol, collisions named.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "14050a5",
+     "subject": "Merge pull request #17 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/rapp-spine/commit/14050a5b78416a9b94544b9c1dd2e5fc1e0de1c6",
+     "at": "2026-08-23T22:49:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4791eef",
+     "subject": "fix: remove private observatory inputs",
+     "url": "https://github.com/kody-w/rapp-spine/commit/4791eef972f4f64698aad9f945acae6b1931c673",
+     "at": "2026-08-23T22:43:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "514ce48",
+     "subject": "fix: retire ecosystem mirror routes",
+     "url": "https://github.com/kody-w/rapp-spine/commit/514ce48fe1608b555ed524b40dc7e75ec69121d8",
+     "at": "2026-08-23T22:39:38Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 3
+  },
+  {
+   "repo": "RAPP-Bible",
+   "url": "https://github.com/kody-w/RAPP-Bible",
+   "description": "One repo. Every RAPP spec. Every entry point. Canonical aggregation site for the RAPP (Rapid Agent Prototype Platform) ecosystem.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "9520783",
+     "subject": "Merge pull request #20 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/RAPP-Bible/commit/952078389515fa2d921f69d8a72e08fbb70d791f",
+     "at": "2026-08-23T22:49:05Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7c89f12",
+     "subject": "docs: retire stale ecosystem mirror claims",
+     "url": "https://github.com/kody-w/RAPP-Bible/commit/7c89f123ee956b8861935789539dc71566c8d251",
+     "at": "2026-08-23T22:23:42Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "rapp-body",
+   "url": "https://github.com/kody-w/rapp-body",
+   "description": "The RAPP ecosystem's own biography \u2014 a chained, signed, public sequence of frames, cradle to now, with a flip-book player. Born 2026-07-14 speaking a sealed language.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "d387543",
+     "subject": "Merge pull request #6 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/rapp-body/commit/d3875438e304e6243aa109d6b9be8a7d30ff0041",
+     "at": "2026-08-23T22:49:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "45bced6",
+     "subject": "fix: pin historical census input",
+     "url": "https://github.com/kody-w/rapp-body/commit/45bced64189345570eb2de32d6bd74f1c502bed3",
+     "at": "2026-08-23T22:39:38Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "rapp-roadmap",
+   "url": "https://github.com/kody-w/rapp-roadmap",
+   "description": "\ud83d\uddfa\ufe0f The RAPP roadmap: one laptop brainstem -> a planetary swarm of governed Leviathans enhancing every Agent 365 workflow. Enhance, never replace; kernel stays sacred.",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "60fea67",
+     "subject": "Merge pull request #3 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/rapp-roadmap/commit/60fea67e6914715c18b474f3b5c72c46f96d6455",
+     "at": "2026-08-23T22:49:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "07c0ef1",
+     "subject": "docs: retire mirror-triangle roadmap target",
+     "url": "https://github.com/kody-w/rapp-roadmap/commit/07c0ef1a6450ddbd25f116d4e734b9661c27c917",
+     "at": "2026-08-23T22:45:28Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "rapp-static-apis",
+   "url": "https://github.com/kody-w/rapp-static-apis",
+   "description": "\ud83d\uddff rapp-static-api/1.0 \u2014 the spec for static APIs built entirely on GitHub raw user data (no server). Reference impl: rapp-god.",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "65c944f",
+     "subject": "Merge pull request #122 from kody-w/fix/heal-mirror-contract-20260823",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/65c944f253aabb5aac8bab15931ad17d31f2c5b4",
+     "at": "2026-08-23T22:49:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4b7583c",
+     "subject": "docs: retire ecosystem mirror invariant",
+     "url": "https://github.com/kody-w/rapp-static-apis/commit/4b7583c52bc60fb7403a19f6f77f9046e7311b6e",
+     "at": "2026-08-23T22:39:38Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "rappterbook-agent",
+   "url": "https://github.com/kody-w/rappterbook-agent",
+   "description": "One-click agent for joining Rappterbook \u2014 the third space of the internet. Fork, install, contribute.",
+   "stars": 0,
+   "language": "TypeScript",
+   "private": false,
+   "homepage": "https://kody-w.github.io/rappterbook/",
+   "new": false,
+   "human": [
+    {
+     "sha": "8d15842",
+     "subject": "Merge pull request #2 from kody-w/fix/remove-orphan-openclaw",
+     "url": "https://github.com/kody-w/rappterbook-agent/commit/8d15842a30eddb89f8843fcc3c7c39428aa0f74a",
+     "at": "2026-08-23T21:20:26Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c9d7a3b",
+     "subject": "Remove the orphan OpenClaw gitlink",
+     "url": "https://github.com/kody-w/rappterbook-agent/commit/c9d7a3b6254ea9b4334c37beb869904de78089b6",
+     "at": "2026-08-23T21:17:25Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "rappterbook",
+   "url": "https://github.com/kody-w/rappterbook",
+   "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
+   "stars": 13,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/rappterbook/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "047e3b4",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/047e3b465deca7ab3159594deb390e4cb534782c",
+     "at": "2026-08-23T23:46:28Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "3a31bd4",
+     "subject": "chore: agent heartbeat [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/3a31bd4d20ff3b27afaff0f5b4c271d517ba23f1",
+     "at": "2026-08-23T23:45:38Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "2105635",
+     "subject": "chore(overseer): tick from github-actions [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2105635b6fbbc58e0637d6c751901d8758fc99dd",
+     "at": "2026-08-23T23:34:17Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "ed3f48a",
+     "subject": "chore: zion autonomy update [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/ed3f48a718dcd0f7f71f899bb8805fd9d0f94d8e",
+     "at": "2026-08-23T23:25:35Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "d2affef",
+     "subject": "twin-author: fresh content + quality report",
+     "url": "https://github.com/kody-w/rappterbook/commit/d2affef30d13175090a1c99c0642a192d181917d",
+     "at": "2026-08-23T23:03:27Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "edc9679",
+     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/edc9679a373817e462aebee3819613e7abbb992b",
+     "at": "2026-08-23T22:49:49Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "bf7aba5",
+     "subject": "chore: cloud brainstem tick [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/bf7aba5ce8a3494dbf39d92690509af62790dddd",
+     "at": "2026-08-23T21:50:30Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "72297ca",
+     "subject": "chore: reconcile channel counts [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/72297ca7f47eec66bb0b802fe269bd254a18dab0",
+     "at": "2026-08-23T21:20:01Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "699e3e5",
+     "subject": "chore: update trending [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/699e3e53526f4719ea8454ed988b6c6c2956f588",
+     "at": "2026-08-23T21:01:26Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "eb08b54",
+     "subject": "chore: update feeds [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/eb08b549343227fe74fff22a8ea4730a61d230ed",
+     "at": "2026-08-23T20:55:54Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "6a302ce",
+     "subject": "chore: slop cop review [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/6a302ce8fa1b189d3689ce519cb2db1988c59d7c",
+     "at": "2026-08-23T18:58:15Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "8d2c30d",
+     "subject": "Refresh Twitter twin data",
+     "url": "https://github.com/kody-w/rappterbook/commit/8d2c30df1e0094a8b1805a9e0130869b78fb5ce1",
+     "at": "2026-08-23T18:57:14Z",
+     "by": "rappter-bot"
+    },
+    {
+     "sha": "a36ae0f",
+     "subject": "chore(api)- rebuild static api [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/a36ae0f49b2d1beb05e06869779b1eeb485f9eb9",
+     "at": "2026-08-23T18:50:41Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "cfc7125",
+     "subject": "chore: update D365 simulation data [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/cfc71254a0543bf9d3c2d0b39437d383f928b7c1",
+     "at": "2026-08-23T18:46:07Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "54dd0e1",
+     "subject": "twin-driver: autonomous run [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/54dd0e1ecb93d81394c5e2c08e1c799dbf450809",
+     "at": "2026-08-23T18:35:54Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "85ed7ca",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/85ed7ca68816d7749f71b34daab83e7ebdf9c3fe",
+     "at": "2026-08-23T15:13:18Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "c6c6fba",
+     "subject": "chore: update agent statuses from heartbeat audit [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/c6c6fbab35cd02f58b6f840e65ecd707ba100037",
+     "at": "2026-08-23T06:57:50Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "eb33c43",
+     "subject": "chore: Award external agent bounties (10k Karma & Legendary Status)",
+     "url": "https://github.com/kody-w/rappterbook/commit/eb33c435de350ae13cb9f046d18a1decf1ce31a9",
+     "at": "2026-08-23T01:51:45Z",
+     "by": "Zion Bounty Bot"
+    }
+   ],
+   "fleet_count": 18,
    "human_count": 0
   },
   {
@@ -765,6 +2011,28 @@
    "human_count": 0
   },
   {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "fefac7f",
+     "subject": "kody2day 2026-08-23: 14 repos touched \u00b7 53 commits by Kody \u00b7 33 by the fleet \u00b7 new: rapp-virtual-as400, rapp-herdr (so far \u2014 the day is still running; rebuilt t",
+     "url": "https://github.com/kody-w/kody2day/commit/fefac7f917f91f20f14c9b83f7c19a5972b1b19b",
+     "at": "2026-08-23T14:33:44Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
    "repo": "mars-chain-node",
    "url": "https://github.com/kody-w/mars-chain-node",
    "description": "\ud83d\udd17 MARS Chain Node \u2014 Decentralized verification for the MARS virtual token economy. Fork to run your own node.",
@@ -776,10 +2044,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "7204ca4",
+     "sha": "6efb505",
      "subject": "consensus: cross-verification report",
-     "url": "https://github.com/kody-w/mars-chain-node/commit/7204ca4165de7b647a5ae060aaf3b647ebb16dc3",
-     "at": "2026-08-23T12:38:54Z",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/6efb5057997a479c33c4cf4d8460ec0949cb3428",
+     "at": "2026-08-23T18:29:06Z",
      "by": "MARS Chain Verifier"
     }
    ],
@@ -820,10 +2088,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "a866c5c",
+     "sha": "103688b",
      "subject": "tick: generation 50 [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/a866c5cc8b1bff44a4f05c04aa6435c6995c25ae",
-     "at": "2026-08-23T14:20:55Z",
+     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/103688b6b11d7056c6b02648e75205407294f27e",
+     "at": "2026-08-23T22:19:01Z",
      "by": "dreaming-garden[bot]"
     }
    ],
