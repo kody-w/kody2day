@@ -5,13 +5,17 @@
  "hours": 24,
  "since": "2026-08-24T00:00:00Z",
  "until": "2026-08-25T00:00:00Z",
- "generated": "2026-08-24T14:53:06Z",
- "partial": true,
+ "generated": "2026-08-25T14:56:00Z",
+ "partial": false,
  "totals": {
-  "repos": 17,
-  "human_commits": 101,
-  "fleet_commits": 45,
-  "new_repos": []
+  "repos": 24,
+  "human_commits": 132,
+  "fleet_commits": 51,
+  "new_repos": [
+   "rappid",
+   "rappidverse-field",
+   "rappvision-rappid-zoo"
+  ]
  },
  "note": "",
  "repos": [
@@ -204,6 +208,133 @@
    "fleet": [],
    "fleet_count": 0,
    "human_count": 25
+  },
+  {
+   "repo": "rappid",
+   "url": "https://github.com/kody-w/rappid",
+   "description": "RAPPid \u2014 every AI is a creature, every creature has a call. The rappidex/1 species protocol, the rite of hatching, portable eggs, and the RAPPid Zoo estate.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "69ea628",
+     "subject": "DOGG federation: curated peers, a leaving story, and the demanded rappid (SPEC \u00a711)",
+     "url": "https://github.com/kody-w/rappid/commit/69ea628e060c73785084a4c8626ab5ec6a179b4f",
+     "at": "2026-08-24T23:20:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "281d440",
+     "subject": "mute: silence every cry device-wide \u2014 demo-safe roars",
+     "url": "https://github.com/kody-w/rappid/commit/281d440094f8ae6f0c15f827a31086d70a56f4c2",
+     "at": "2026-08-24T23:10:21Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b98f734",
+     "subject": "DOGG federation: a door is trusted for what it proves (SPEC \u00a711 hardening)",
+     "url": "https://github.com/kody-w/rappid/commit/b98f734d035a84fa42d7f9c508814968874881df",
+     "at": "2026-08-24T23:06:17Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8522d02",
+     "subject": "DOGG federation: dogg follow \u2014 the rappidverse-* owner convention (SPEC \u00a711)",
+     "url": "https://github.com/kody-w/rappid/commit/8522d0287d873a1bb9374c3395a885e3d4c9e97d",
+     "at": "2026-08-24T22:58:45Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "88df8a4",
+     "subject": "rappidverse: front door for Brainstem of \u201cBookFactory\u201d (jade-quiver-thicket-gale-islet-frost-yonder)",
+     "url": "https://github.com/kody-w/rappid/commit/88df8a4f96d8850639676c1957f47e8f150d8452",
+     "at": "2026-08-24T21:41:34Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "053ab64",
+     "subject": "The DOGG federation: seven-word summons, globally self-assembling rappids (SPEC \u00a711)",
+     "url": "https://github.com/kody-w/rappid/commit/053ab649610f932e07b2823dcbc8fcf7a9fc83a6",
+     "at": "2026-08-24T21:41:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2b29d4c",
+     "subject": "launcher: prefer a rappid-capable Frontier checkout",
+     "url": "https://github.com/kody-w/rappid/commit/2b29d4ceaaee6fc88447f6af18a1804911519cde",
+     "at": "2026-08-24T21:28:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "aa8f8c5",
+     "subject": "Frontier is the base Electron app; the Zoo becomes the in-repo reference estate",
+     "url": "https://github.com/kody-w/rappid/commit/aa8f8c5d05840162b407593398b90e7bca5b16b0",
+     "at": "2026-08-24T20:32:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "22048b4",
+     "subject": "RAPPid: shipped default shapes, the shape verb, and the brand-base port",
+     "url": "https://github.com/kody-w/rappid/commit/22048b4e8eb95d536c3d1121150f4f1ff7b57aae",
+     "at": "2026-08-24T19:55:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "eedaa6a",
+     "subject": "Frames, mutation, and the reunion molt (SPEC \u00a715)",
+     "url": "https://github.com/kody-w/rappid/commit/eedaa6aa923fcbb7fb30db8cc75f23e64d401bd3",
+     "at": "2026-08-24T18:59:02Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d4d5a42",
+     "subject": "Point at the companion as a product; the protocol stays the commons",
+     "url": "https://github.com/kody-w/rappid/commit/d4d5a425ca939628b19b2d7e8b7605acec06d477",
+     "at": "2026-08-24T18:52:42Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "764dc9f",
+     "subject": "emit + bless: a discovered species hands back its own agent.py and skill",
+     "url": "https://github.com/kody-w/rappid/commit/764dc9fe1d95bb23ee07f04fe77a395c7612bbee",
+     "at": "2026-08-24T18:49:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3f7f8eb",
+     "subject": "Docs: the rite and discovery are the headline, not a footnote",
+     "url": "https://github.com/kody-w/rappid/commit/3f7f8eb28e1c32d4e37a3885b1ed999cdd3fcd62",
+     "at": "2026-08-24T18:44:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "05336fc",
+     "subject": "The Rite of Hatching, species discovery, and 14 verified fixes",
+     "url": "https://github.com/kody-w/rappid/commit/05336fc3572b28f1afcc24174c4d8ad1aa3e3624",
+     "at": "2026-08-24T18:40:21Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1134f78",
+     "subject": "Field transfer + the GODD layer; our-own-mythology pass (Roost, field guide)",
+     "url": "https://github.com/kody-w/rappid/commit/1134f78938afc3a954beb7acc857d89dc5ff2ef2",
+     "at": "2026-08-24T18:00:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f3722c6",
+     "subject": "RAPPid Zoo: the species layer \u2014 rappidex/1 spec, cries, skins, RAPPidex + Holodex, Party & PC",
+     "url": "https://github.com/kody-w/rappid/commit/f3722c63be77a5e5a3cd46881470213ddb57408a",
+     "at": "2026-08-24T17:51:43Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 16
   },
   {
    "repo": "openrappter-nightly",
@@ -822,6 +953,113 @@
    "human_count": 14
   },
   {
+   "repo": "rapp-zoo-v2",
+   "url": "https://github.com/kody-w/rapp-zoo-v2",
+   "description": "\ud83e\udd96 RAPPid Zoo \u2014 every AI is a creature with a species call. rapp/1 rappids: hatch, roar, egg, convert, fuse, holograms, party & PC. Provider-neutral Electron estate + the rappidex/1 protocol.",
+   "stars": 0,
+   "language": "JavaScript",
+   "private": false,
+   "homepage": "https://kody-w.github.io/rapp-zoo-v2/",
+   "new": false,
+   "human": [
+    {
+     "sha": "b394aa5",
+     "subject": "RAPPID: the name, the shapes, and every confirmed fix from review pass 2",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/b394aa53aab5b2ec63b850fb4cf34f07c1965b41",
+     "at": "2026-08-24T19:26:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "eedaa6a",
+     "subject": "Frames, mutation, and the reunion molt (SPEC \u00a715)",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/eedaa6aa923fcbb7fb30db8cc75f23e64d401bd3",
+     "at": "2026-08-24T18:59:02Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d4d5a42",
+     "subject": "Point at the companion as a product; the protocol stays the commons",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/d4d5a425ca939628b19b2d7e8b7605acec06d477",
+     "at": "2026-08-24T18:52:42Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "764dc9f",
+     "subject": "emit + bless: a discovered species hands back its own agent.py and skill",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/764dc9fe1d95bb23ee07f04fe77a395c7612bbee",
+     "at": "2026-08-24T18:49:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3f7f8eb",
+     "subject": "Docs: the rite and discovery are the headline, not a footnote",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/3f7f8eb28e1c32d4e37a3885b1ed999cdd3fcd62",
+     "at": "2026-08-24T18:44:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "05336fc",
+     "subject": "The Rite of Hatching, species discovery, and 14 verified fixes",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/05336fc3572b28f1afcc24174c4d8ad1aa3e3624",
+     "at": "2026-08-24T18:40:21Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1134f78",
+     "subject": "Field transfer + the GODD layer; our-own-mythology pass (Roost, field guide)",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/1134f78938afc3a954beb7acc857d89dc5ff2ef2",
+     "at": "2026-08-24T18:00:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f3722c6",
+     "subject": "RAPPid Zoo: the species layer \u2014 rappidex/1 spec, cries, skins, RAPPidex + Holodex, Party & PC",
+     "url": "https://github.com/kody-w/rapp-zoo-v2/commit/f3722c63be77a5e5a3cd46881470213ddb57408a",
+     "at": "2026-08-24T17:51:43Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 8
+  },
+  {
+   "repo": "RAPP_Store",
+   "url": "https://github.com/kody-w/RAPP_Store",
+   "description": "Public catalog of RAPP rapplications \u2014 single-file Python agents that drop into a local brainstem and run. Browse the hosted viewer at kody-w.github.io/RAPP_Store/. Engine: kody-w/RAPP.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RAPP_Store/",
+   "new": false,
+   "human": [
+    {
+     "sha": "d3b7038",
+     "subject": "vbrainstem: carry the #rapp deep link through the heimdall redirect",
+     "url": "https://github.com/kody-w/RAPP_Store/commit/d3b7038c2407a1c75c72edea1a38505a24ce2ed6",
+     "at": "2026-08-24T23:42:24Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3785dd2",
+     "subject": "fix(producer): builds are byte-reproducible; regenerate api/v1; re-pin thoughtbox egg",
+     "url": "https://github.com/kody-w/RAPP_Store/commit/3785dd233821b40d74ea88fa883b642f67e5313c",
+     "at": "2026-08-24T21:23:33Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2cac64d",
+     "subject": "fix(catalog): BookFactory loads again; thoughtbox egg pin matches the served egg",
+     "url": "https://github.com/kody-w/RAPP_Store/commit/2cac64decbd4486be9fd20110c815b1586f1689a",
+     "at": "2026-08-24T20:31:32Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 3
+  },
+  {
    "repo": "rapp-herdr",
    "url": "https://github.com/kody-w/rapp-herdr",
    "description": "Manage RAPP Twin neighborhoods as supervised Herdr workspaces",
@@ -887,6 +1125,35 @@
    "human_count": 2
   },
   {
+   "repo": "rappidverse-field",
+   "url": "https://github.com/kody-w/rappidverse-field",
+   "description": "A DOGG federation repo by the rappidverse-* owner convention \u2014 creating this repo was joining the network (SPEC \u00a711)",
+   "stars": 0,
+   "language": "",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "7c7e313",
+     "subject": "rappidverse: front door for Claude Code of kodys-macbook-pro (alder-ivy-juniper-wharf-yarrow-dusk-vessel)",
+     "url": "https://github.com/kody-w/rappidverse-field/commit/7c7e313f30c307d5c09a210126dc3c353659e876",
+     "at": "2026-08-24T22:54:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2089593",
+     "subject": "the front porch",
+     "url": "https://github.com/kody-w/rappidverse-field/commit/208959337365a283476d8a5cbeefab92e91530ee",
+     "at": "2026-08-24T22:54:36Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
    "repo": "rapp-sentinel",
    "url": "https://github.com/kody-w/rapp-sentinel",
    "description": "A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model \u2014 and outsiders can join the neighborhoo",
@@ -909,6 +1176,50 @@
    "human_count": 1
   },
   {
+   "repo": "rapp-vision",
+   "url": "https://github.com/kody-w/rapp-vision",
+   "description": "A local-first YouTube. One HTML file, no server. Videos are either static mp4/webm or LIVE \u2014 a few KB of JSON that replays real interactions against the real app.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "7210a04",
+     "subject": "RAPP Hive: follow a GitHub account \u2014 the rappvision-* owner convention auto-subscribes",
+     "url": "https://github.com/kody-w/rapp-vision/commit/7210a04065ceb13e416856d66c97c19e411fc38f",
+     "at": "2026-08-24T22:44:53Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 1
+  },
+  {
+   "repo": "rappvision-rappid-zoo",
+   "url": "https://github.com/kody-w/rappvision-rappid-zoo",
+   "description": "Ten Summons \u2014 card-only RAPP Vision channel of runnable demo prompts for kody-w/rappid",
+   "stars": 0,
+   "language": "",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "34244eb",
+     "subject": "RAPPid Zoo \u2014 Ten Summons: card-only channel; the repo itself is the publish",
+     "url": "https://github.com/kody-w/rappvision-rappid-zoo/commit/34244eb16b22389fa1e311c1689ecd6ee46f6c3b",
+     "at": "2026-08-24T22:44:21Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 1
+  },
+  {
    "repo": "rappterbook",
    "url": "https://github.com/kody-w/rappterbook",
    "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
@@ -920,108 +1231,115 @@
    "human": [],
    "fleet": [
     {
-     "sha": "15e4ad1",
-     "subject": "chore: zion autonomy update [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/15e4ad143542bb2a781f7d3fbfc6a594716c1dfe",
-     "at": "2026-08-24T14:52:56Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "4203aa7",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/4203aa7b57b467ff8de468a7ecd4380d55b59920",
-     "at": "2026-08-24T14:13:17Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "0ffb32b",
-     "subject": "chore: agent heartbeat [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/0ffb32b0ce7621d9599c0fe217020c22333b0042",
-     "at": "2026-08-24T14:12:30Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "fff32fa",
+     "sha": "9ddc101",
      "subject": "chore(overseer): tick from github-actions [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/fff32fa4bb9133a80541bd6a5e08c0ef3b746744",
-     "at": "2026-08-24T13:59:51Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/9ddc10145f442294f64b8090a02557b875152441",
+     "at": "2026-08-24T23:59:47Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "ca47f7c",
-     "subject": "chore: reconcile channel counts [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ca47f7cb32d38f917c59fd182d0d9c95ac492a95",
-     "at": "2026-08-24T13:51:08Z",
+     "sha": "7948cb0",
+     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/7948cb0e84c6450aeaac27d8446f7cc2afa943dd",
+     "at": "2026-08-24T23:48:41Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "8607c3d",
-     "subject": "chore: update trending [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/8607c3d931c9f43c06195b4e0210e61e79efa305",
-     "at": "2026-08-24T13:41:05Z",
+     "sha": "561259f",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/561259f28bb081191e7deaa38bd611d9438a4e44",
+     "at": "2026-08-24T23:16:39Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "ed07665",
-     "subject": "chore: update feeds [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ed076650263fc6d1029457e0723e729cb8d4f9b6",
-     "at": "2026-08-24T13:37:34Z",
+     "sha": "9fcc22c",
+     "subject": "chore: agent heartbeat [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/9fcc22c4b59e7dfd2f4238de81f59f8f7311d516",
+     "at": "2026-08-24T23:15:51Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "50fee0e",
+     "sha": "6849925",
+     "subject": "chore: zion autonomy update [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/6849925606f2a2145d648c393b8063f0601af0b5",
+     "at": "2026-08-24T22:36:09Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "a7afa45",
      "subject": "chore: cloud brainstem tick [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/50fee0e4e723b5d758548149326e01d9bfcfd8d3",
-     "at": "2026-08-24T13:36:21Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/a7afa45eda480417aa839432c40894c17215eb55",
+     "at": "2026-08-24T21:58:33Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "81a5d31",
+     "sha": "ce3bf23",
+     "subject": "chore: reconcile channel counts [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/ce3bf23b77394d506d1ff7bcc7e93a81b370c22b",
+     "at": "2026-08-24T21:14:18Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "2ce7aee",
+     "subject": "chore: update feeds [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2ce7aeea95684d318f01e761fc733d6d58265df4",
+     "at": "2026-08-24T21:06:47Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "37069d0",
+     "subject": "chore: update trending [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/37069d06c7e519c0dd2f30ba08d5284fd8bbedf2",
+     "at": "2026-08-24T21:03:58Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "a0ac712",
+     "subject": "twin-author: fresh content + quality report",
+     "url": "https://github.com/kody-w/rappterbook/commit/a0ac712886f9254770dabc634d4acfe1c37f45cd",
+     "at": "2026-08-24T19:20:16Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "e7e395c",
      "subject": "chore: slop cop review [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/81a5d315aef2c2ec08b58b825eba1bd58c0674fc",
-     "at": "2026-08-24T13:31:38Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/e7e395c125d645a8e340c08399a83f4aec7f92ca",
+     "at": "2026-08-24T19:11:49Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "ec1c66e",
+     "sha": "eac7f57",
      "subject": "Refresh Twitter twin data",
-     "url": "https://github.com/kody-w/rappterbook/commit/ec1c66ed1b1c4000b41bd8c6e895e2e370f26f22",
-     "at": "2026-08-24T13:30:37Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/eac7f57bae8fd6f452b29137857f2477b9edb623",
+     "at": "2026-08-24T19:10:21Z",
      "by": "rappter-bot"
     },
     {
-     "sha": "29a4536",
-     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/29a45361548bcb40f098504e4ad264a1226b8418",
-     "at": "2026-08-24T13:25:48Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "c667ed4",
+     "sha": "aad625d",
      "subject": "chore(api)- rebuild static api [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c667ed43a20f3bd81a6068751aa3628ec5d56baa",
-     "at": "2026-08-24T13:16:34Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/aad625d15e89b355c1832414beb7169fb010698c",
+     "at": "2026-08-24T19:03:28Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "b4962cf",
+     "sha": "c2dc827",
      "subject": "chore: update D365 simulation data [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b4962cf783fd7b04971ddd8affd6e4a07c0803ef",
-     "at": "2026-08-24T13:10:29Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/c2dc82713e1c6a6cf1a5b7bc292105b107c14c2c",
+     "at": "2026-08-24T18:57:25Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "3388d2f",
+     "sha": "e5d7cc2",
      "subject": "twin-driver: autonomous run [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/3388d2fbef06d74f54a3fb5618de5aa43c74b74f",
-     "at": "2026-08-24T12:59:41Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/e5d7cc25fefe3c6721dd7c0e15619d72827759a6",
+     "at": "2026-08-24T18:51:17Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "0898f90",
-     "subject": "twin-author: fresh content + quality report",
-     "url": "https://github.com/kody-w/rappterbook/commit/0898f90381dac3539247b2a3944c0c2a8594aa55",
-     "at": "2026-08-24T11:17:57Z",
+     "sha": "598a646",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/598a64601738f79740ccffb40c91ca6febcaeb1e",
+     "at": "2026-08-24T15:30:57Z",
      "by": "rappterbook-bot"
     },
     {
@@ -1053,7 +1371,7 @@
      "by": "Zion Bounty Bot"
     }
    ],
-   "fleet_count": 19,
+   "fleet_count": 20,
    "human_count": 0
   },
   {
@@ -1067,6 +1385,34 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "956b767",
+     "subject": "Dream Catcher frame 1398: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/956b767823ff7b0d50119111c96c55a9753bdab9",
+     "at": "2026-08-24T22:19:59Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "7f80fce",
+     "subject": "Dream Catcher frame 1397: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/7f80fce2c1bac2a7b38c6e9c000852862941435c",
+     "at": "2026-08-24T20:22:49Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "1acaf72",
+     "subject": "Dream Catcher frame 1396: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/1acaf720e86997b5c07041ea842d9493a141f67e",
+     "at": "2026-08-24T18:30:53Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "3fb552f",
+     "subject": "Dream Catcher frame 1395: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/3fb552f28658d14cad5bbb5523ec4ab06717ae4f",
+     "at": "2026-08-24T16:29:26Z",
+     "by": "dream-catcher"
+    },
     {
      "sha": "3d4f838",
      "subject": "Dream Catcher frame 1394: fleet content merge [skip ci]",
@@ -1138,7 +1484,7 @@
      "by": "dream-catcher"
     }
    ],
-   "fleet_count": 10,
+   "fleet_count": 14,
    "human_count": 0
   },
   {
@@ -1229,6 +1575,28 @@
    "human_count": 0
   },
   {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "0b2aa8a",
+     "subject": "kody2day 2026-08-24: 17 repos touched \u00b7 101 commits by Kody \u00b7 45 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/0b2aa8a50c980694e8c3dfefc413a36d12791d55",
+     "at": "2026-08-24T14:53:11Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
    "repo": "mars-chain-node",
    "url": "https://github.com/kody-w/mars-chain-node",
    "description": "\ud83d\udd17 MARS Chain Node \u2014 Decentralized verification for the MARS virtual token economy. Fork to run your own node.",
@@ -1240,10 +1608,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "e5910d2",
+     "sha": "75e9694",
      "subject": "consensus: cross-verification report",
-     "url": "https://github.com/kody-w/mars-chain-node/commit/e5910d2593a5cddb505d0430cb0696ba451fdbb7",
-     "at": "2026-08-24T12:50:05Z",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/75e96942f35f81b8a9d7249f852dfdce0fd8c4c0",
+     "at": "2026-08-24T18:39:15Z",
      "by": "MARS Chain Verifier"
     }
    ],
@@ -1284,10 +1652,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "40aecd7",
+     "sha": "a4f29dc",
      "subject": "tick: generation 50 [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/40aecd7108af3995ec869f72af93a2c0c3743964",
-     "at": "2026-08-24T14:39:03Z",
+     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/a4f29dc8cee79f214343b75ed351f589ec90cc4a",
+     "at": "2026-08-24T22:23:36Z",
      "by": "dreaming-garden[bot]"
     }
    ],
