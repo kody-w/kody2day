@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-08-27T00:00:00Z",
  "until": "2026-08-28T00:00:00Z",
- "generated": "2026-08-27T23:44:41Z",
- "partial": true,
+ "generated": "2026-08-28T23:30:59Z",
+ "partial": false,
  "totals": {
-  "repos": 17,
-  "human_commits": 115,
-  "fleet_commits": 43,
+  "repos": 18,
+  "human_commits": 116,
+  "fleet_commits": 45,
   "new_repos": []
  },
  "note": "",
@@ -25,6 +25,13 @@
    "homepage": "",
    "new": false,
    "human": [
+    {
+     "sha": "ef0d698",
+     "subject": "tick 367: global anchor 3a256a9ab241 + world",
+     "url": "https://github.com/kody-w/dogg/commit/ef0d69836dff485c33e061b4889874674aa75be9",
+     "at": "2026-08-27T23:50:36Z",
+     "by": "kody-w"
+    },
     {
      "sha": "4d60ecb",
      "subject": "tick 366: global anchor 0da05617fca6 + world",
@@ -792,7 +799,7 @@
     }
    ],
    "fleet_count": 2,
-   "human_count": 107
+   "human_count": 108
   },
   {
    "repo": "RAR",
@@ -1081,6 +1088,42 @@
    "human_count": 0
   },
   {
+   "repo": "dogg-api",
+   "url": "https://github.com/kody-w/dogg-api",
+   "description": "Free static JSON API over the DOGG global tick network \u2014 per-source time series + latest world state, every row auditable back to the verified chains.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "c9d97bf",
+     "subject": "api: 2026-08-27T23:56:35Z",
+     "url": "https://github.com/kody-w/dogg-api/commit/c9d97bf23d441fa68091a4e078b09a5f2e5a52fb",
+     "at": "2026-08-27T23:56:35Z",
+     "by": "actions"
+    },
+    {
+     "sha": "0ea3be3",
+     "subject": "api: 2026-08-27T14:33:58Z",
+     "url": "https://github.com/kody-w/dogg-api/commit/0ea3be315c46c3e81c529b31e32945b2b8518865",
+     "at": "2026-08-27T14:33:58Z",
+     "by": "actions"
+    },
+    {
+     "sha": "9d8bb97",
+     "subject": "api: 2026-08-27T03:31:26Z",
+     "url": "https://github.com/kody-w/dogg-api/commit/9d8bb978dcba8b329828befa1076f996bc85b4de",
+     "at": "2026-08-27T03:31:26Z",
+     "by": "actions"
+    }
+   ],
+   "fleet_count": 3,
+   "human_count": 0
+  },
+  {
    "repo": "dogg-markets",
    "url": "https://github.com/kody-w/dogg-markets",
    "description": "Federated node of the global tick network \u2014 its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg",
@@ -1150,35 +1193,6 @@
     }
    ],
    "fleet_count": 3,
-   "human_count": 0
-  },
-  {
-   "repo": "dogg-api",
-   "url": "https://github.com/kody-w/dogg-api",
-   "description": "Free static JSON API over the DOGG global tick network \u2014 per-source time series + latest world state, every row auditable back to the verified chains.",
-   "stars": 0,
-   "language": "Python",
-   "private": false,
-   "homepage": "",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "0ea3be3",
-     "subject": "api: 2026-08-27T14:33:58Z",
-     "url": "https://github.com/kody-w/dogg-api/commit/0ea3be315c46c3e81c529b31e32945b2b8518865",
-     "at": "2026-08-27T14:33:58Z",
-     "by": "actions"
-    },
-    {
-     "sha": "9d8bb97",
-     "subject": "api: 2026-08-27T03:31:26Z",
-     "url": "https://github.com/kody-w/dogg-api/commit/9d8bb978dcba8b329828befa1076f996bc85b4de",
-     "at": "2026-08-27T03:31:26Z",
-     "by": "actions"
-    }
-   ],
-   "fleet_count": 2,
    "human_count": 0
   },
   {
@@ -1266,6 +1280,28 @@
     }
    ],
    "fleet_count": 2,
+   "human_count": 0
+  },
+  {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "8d87eb2",
+     "subject": "kody2day 2026-08-27: 17 repos touched \u00b7 115 commits by Kody \u00b7 43 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/8d87eb20f0d136aaa55bc882230f39e03b31ddda",
+     "at": "2026-08-27T23:44:49Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
    "human_count": 0
   },
   {
