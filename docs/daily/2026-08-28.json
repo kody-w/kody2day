@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-08-28T00:00:00Z",
  "until": "2026-08-29T00:00:00Z",
- "generated": "2026-08-28T23:31:21Z",
- "partial": true,
+ "generated": "2026-08-29T17:39:55Z",
+ "partial": false,
  "totals": {
-  "repos": 72,
-  "human_commits": 417,
-  "fleet_commits": 81,
+  "repos": 73,
+  "human_commits": 427,
+  "fleet_commits": 83,
   "new_repos": [
    "rappter-prompts",
    "dogg-muster",
@@ -39,6 +39,27 @@
    "homepage": "",
    "new": false,
    "human": [
+    {
+     "sha": "d9d7de8",
+     "subject": "tick 502: global anchor 7fb1cffd922e + world",
+     "url": "https://github.com/kody-w/dogg/commit/d9d7de8988e13de8fb2dc4914c0e96f2595f5697",
+     "at": "2026-08-28T23:57:20Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a4ed211",
+     "subject": "tick 501: global anchor 968a76f8f218 + world",
+     "url": "https://github.com/kody-w/dogg/commit/a4ed211e23ce2285d9ece38ae1bd29e9808f013d",
+     "at": "2026-08-28T23:47:13Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3c3bf3c",
+     "subject": "tick 500: global anchor c71ba71e4fb8 + world",
+     "url": "https://github.com/kody-w/dogg/commit/3c3bf3c6cbcb18f9204ab1213082578dfbc23f34",
+     "at": "2026-08-28T23:37:04Z",
+     "by": "kody-w"
+    },
     {
      "sha": "f4f1ab1",
      "subject": "tick 499: global anchor 6f40ac4e9724 + world",
@@ -1107,7 +1128,7 @@
     }
    ],
    "fleet_count": 1,
-   "human_count": 151
+   "human_count": 154
   },
   {
    "repo": "rappter-site",
@@ -1454,6 +1475,260 @@
    "human_count": 47
   },
   {
+   "repo": "AINexus",
+   "url": "https://github.com/kody-w/AINexus",
+   "description": "AI Nexus",
+   "stars": 1,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "2928599",
+     "subject": "gen-21: quantum hot-loading \u2014 one brainstem, many players, frames as the lock",
+     "url": "https://github.com/kody-w/AINexus/commit/29285995b67d168c9e3d37d29d2a60c7256284a8",
+     "at": "2026-08-28T23:54:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5e9b1e5",
+     "subject": "gen-20: the world is an agent, and agents hot-load into a running player",
+     "url": "https://github.com/kody-w/AINexus/commit/5e9b1e59c653e0e5649c9471ec4948e8e56791ac",
+     "at": "2026-08-28T23:45:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7aa8e77",
+     "subject": "gen-19: the rapplication loop \u2014 players run themselves, and a tick is a frame",
+     "url": "https://github.com/kody-w/AINexus/commit/7aa8e7715c57c56fdf92f05cb526e3c3b8896c2d",
+     "at": "2026-08-28T23:42:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "678b429",
+     "subject": "gen-18: the dialogue ring, in character",
+     "url": "https://github.com/kody-w/AINexus/commit/678b429ad9b155193823abc29de7172dcb8e2847",
+     "at": "2026-08-28T23:27:45Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0fff879",
+     "subject": "gen-17: a real brainstem in the page, and the world's verbs as tools",
+     "url": "https://github.com/kody-w/AINexus/commit/0fff879565ad50d9f352fd84d79056fcb8ba5860",
+     "at": "2026-08-28T23:22:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "95201ca",
+     "subject": "gen-16: the sign-in button was lying",
+     "url": "https://github.com/kody-w/AINexus/commit/95201ca8ce763b406f3cf21d54f19111189067a3",
+     "at": "2026-08-28T23:13:29Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7d735c7",
+     "subject": "gen-15: clean the overlay, orbs over people, and a mind without an install",
+     "url": "https://github.com/kody-w/AINexus/commit/7d735c7c3deb4dc154f49712675c39796aad31c4",
+     "at": "2026-08-28T23:09:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "464c4e9",
+     "subject": "gen-14: nine more defects, including a token leak my own last fix created",
+     "url": "https://github.com/kody-w/AINexus/commit/464c4e92daab18411d0246fc0a49c0d9f333b430",
+     "at": "2026-08-28T23:01:49Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2d7f903",
+     "subject": "gen-13: the dialogue ring is generated, not a menu",
+     "url": "https://github.com/kody-w/AINexus/commit/2d7f9032aa51262677befb31ac1152d022b43171",
+     "at": "2026-08-28T22:44:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3e4ea5f",
+     "subject": "gen-12: eyes, brow and a heartbeat \u2014 plus 13 confirmed defects fixed",
+     "url": "https://github.com/kody-w/AINexus/commit/3e4ea5fb1f1902d0dd2797a6d103544b35ceee8d",
+     "at": "2026-08-28T22:37:01Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "20051f0",
+     "subject": "gen-11: conversation orbs \u2014 rest on a person, a ring of things to say fans out; people are orbs so humans and AIs talk through one mechanic. Fixes a trust bug: ",
+     "url": "https://github.com/kody-w/AINexus/commit/20051f0a625bf0ea047dfcdf1b0a044bcccb296f",
+     "at": "2026-08-28T22:08:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d4f5452",
+     "subject": "orbs: the VUI model in the world \u2014 every portal is an option orb with a hit-circle, hover names it, a 2.5s dwell ring fills and snaps, pinch or click fires; mos",
+     "url": "https://github.com/kody-w/AINexus/commit/d4f5452e5028f601fdf41b8e696ff3bd461c0eb2",
+     "at": "2026-08-28T21:57:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "59231e9",
+     "subject": "gen-10: the hand is a cursor \u2014 hover names what is under the pointer, a pinch presses it; pointing no longer steers",
+     "url": "https://github.com/kody-w/AINexus/commit/59231e9c9cc649a92859d3743c73fd1c4fdce8a5",
+     "at": "2026-08-28T21:41:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5bb4941",
+     "subject": "gen-9: camera operator that cannot fall into a portal, frontier out-there mode (hands + voice), and three real defects fixed \u2014 look was a no-op without pointer ",
+     "url": "https://github.com/kody-w/AINexus/commit/5bb4941397c29845d8b2f05894f5ef3ec4c37120",
+     "at": "2026-08-28T21:11:23Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d5c7fce",
+     "subject": "gen-8: correction \u2014 index.html WAS consolidated onto net/multiplayer.js before the interrupt; generation 7's claim that the duplicate remained is withdrawn",
+     "url": "https://github.com/kody-w/AINexus/commit/d5c7fce63feed024ea015ddae466cefe7aa78ebf",
+     "at": "2026-08-28T20:56:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "33ae66d",
+     "subject": "gen-7: autodrive \u2014 AIs play as people through the real UI, with vision, chain-verified bytecode, the NEXUS sense, a bounded slosh, and a ME view you can fall ou",
+     "url": "https://github.com/kody-w/AINexus/commit/33ae66dd8ac98289d84749113bbe113a2203f43d",
+     "at": "2026-08-28T20:54:54Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "52aa7c6",
+     "subject": "gen-6: multiplayer as a drop-in, five destination worlds join the room, AI portal traversal proven end to end; CapsuleGeometry report withdrawn (no page calls i",
+     "url": "https://github.com/kody-w/AINexus/commit/52aa7c6dde48cc513b428c1350b6afa56235e215",
+     "at": "2026-08-28T20:18:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5087543",
+     "subject": "worlds: wire multiplayer/AI drop-ins into 5 destination world pages",
+     "url": "https://github.com/kody-w/AINexus/commit/508754357530e86db4e15c7b1b66522c564769dc",
+     "at": "2026-08-28T20:16:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d6b2ddf",
+     "subject": "Add net/multiplayer.js drop-in: MultiplayerManager for world pages",
+     "url": "https://github.com/kody-w/AINexus/commit/d6b2ddf72deff1ec762d2709f590998494032af3",
+     "at": "2026-08-28T20:14:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "02f5b0c",
+     "subject": "gen-5: invite-an-AI button, AI player as a drop-in (single source, own movement loop), secure portal traversal fragment, three worlds repaired",
+     "url": "https://github.com/kody-w/AINexus/commit/02f5b0cb3f036a2fb146f4e3b5e0f3780e09f6ba",
+     "at": "2026-08-28T19:28:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f611bc9",
+     "subject": "AI player: make portal traversal real, not refused",
+     "url": "https://github.com/kody-w/AINexus/commit/f611bc986a9335309068d2a38076d4f97e55faa7",
+     "at": "2026-08-28T19:17:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "579e0a8",
+     "subject": "Add \"Invite an AI player\" button to the share/QR modal",
+     "url": "https://github.com/kody-w/AINexus/commit/579e0a869de5b6f519ca15a8374ceff3f96eccf9",
+     "at": "2026-08-28T19:07:05Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8efdc78",
+     "subject": "Fix viking longship spawn camera starting flush against the hull",
+     "url": "https://github.com/kody-w/AINexus/commit/8efdc7835127ee16d0a4a4e8d09c5f70c3305bfc",
+     "at": "2026-08-28T19:06:53Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "36096a4",
+     "subject": "fix: train-world negative-distance modulo crashed CatmullRom curve lookups",
+     "url": "https://github.com/kody-w/AINexus/commit/36096a4b0ecc1967fbeb52c370a9285fdc5fac07",
+     "at": "2026-08-28T19:06:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "595a68d",
+     "subject": "fix: wrap ROMWORLD.html into a valid document, fix null gameboy-screen ref",
+     "url": "https://github.com/kody-w/AINexus/commit/595a68db4d340892114c9caf765c69ba64af3bc8",
+     "at": "2026-08-28T19:09:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5416976",
+     "subject": "gen-4: tab-scoped brainstem grant (sessionStorage) + in-repo rapp/1 chain verifier",
+     "url": "https://github.com/kody-w/AINexus/commit/5416976ba96aefdcd0def2862893e9875f573116",
+     "at": "2026-08-28T13:53:22Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e39f5b4",
+     "subject": "gen-3: the AI player \u2014 Pyodide brainstem.py in-tab, Copilot-minded via local brainstem secret, joins as a real P2P peer, learns agents at runtime",
+     "url": "https://github.com/kody-w/AINexus/commit/e39f5b41c5860ae83ccdd564086aa8fd7649d79f",
+     "at": "2026-08-28T02:18:54Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bf1d2c8",
+     "subject": "worlds gen-1: 48 pages improved in parallel (12 agents) \u2014 portal labels ported, meta/OG everywhere, 45/48 verified green, 3 baseline-broken documented; one fram",
+     "url": "https://github.com/kody-w/AINexus/commit/bf1d2c8140458cc294d6bfc8585267fbc4e0e194",
+     "at": "2026-08-28T02:09:32Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c724428",
+     "subject": "Merge remote-tracking branch 'origin/main'",
+     "url": "https://github.com/kody-w/AINexus/commit/c724428663b88f54212309edf1b74f0106780473",
+     "at": "2026-08-28T02:05:44Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "17e2b5e",
+     "subject": "gen-2: secure P2P rooms \u2014 fragment-borne secret handshake, host-verified joins, room dies with the host tab",
+     "url": "https://github.com/kody-w/AINexus/commit/17e2b5e91b88eb70f90ebcefc6bfc38528d6df09",
+     "at": "2026-08-28T02:05:29Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "74c77be",
+     "subject": "frames: gen-1 sealed \u2014 chain walks clean",
+     "url": "https://github.com/kody-w/AINexus/commit/74c77beea56973f9317b6165b3a6283341f79523",
+     "at": "2026-08-28T02:00:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7099242",
+     "subject": "gen-1: portal name labels, clean world names, meta/OG \u2014 frame chain begins (full HTML inside each frame)",
+     "url": "https://github.com/kody-w/AINexus/commit/70992423c08b0c0d3e2642cafa4f1319e4efcd03",
+     "at": "2026-08-28T01:59:34Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "89eadc1",
+     "subject": "pages: Article XXIV compliance \u2014 worlds discovered from committed state/tree.json, never the GitHub API",
+     "url": "https://github.com/kody-w/AINexus/commit/89eadc1ea61045131295bd3c94d7a4344fb653eb",
+     "at": "2026-08-28T01:49:25Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "98e12de",
+     "subject": "chore: refresh tree snapshot [skip ci]",
+     "url": "https://github.com/kody-w/AINexus/commit/98e12decdbcca77e22607eecf262ff2c772617d7",
+     "at": "2026-08-28T23:54:54Z",
+     "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 33
+  },
+  {
    "repo": "rappter-prompts",
    "url": "https://github.com/kody-w/rappter-prompts",
    "description": "Ten prompts a small-business owner can use with any AI \u2014 each reads a method page here first. From RappterBox.",
@@ -1693,239 +1968,6 @@
    "human_count": 32
   },
   {
-   "repo": "AINexus",
-   "url": "https://github.com/kody-w/AINexus",
-   "description": "AI Nexus",
-   "stars": 1,
-   "language": "HTML",
-   "private": false,
-   "homepage": "",
-   "new": false,
-   "human": [
-    {
-     "sha": "678b429",
-     "subject": "gen-18: the dialogue ring, in character",
-     "url": "https://github.com/kody-w/AINexus/commit/678b429ad9b155193823abc29de7172dcb8e2847",
-     "at": "2026-08-28T23:27:45Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "0fff879",
-     "subject": "gen-17: a real brainstem in the page, and the world's verbs as tools",
-     "url": "https://github.com/kody-w/AINexus/commit/0fff879565ad50d9f352fd84d79056fcb8ba5860",
-     "at": "2026-08-28T23:22:11Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "95201ca",
-     "subject": "gen-16: the sign-in button was lying",
-     "url": "https://github.com/kody-w/AINexus/commit/95201ca8ce763b406f3cf21d54f19111189067a3",
-     "at": "2026-08-28T23:13:29Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "7d735c7",
-     "subject": "gen-15: clean the overlay, orbs over people, and a mind without an install",
-     "url": "https://github.com/kody-w/AINexus/commit/7d735c7c3deb4dc154f49712675c39796aad31c4",
-     "at": "2026-08-28T23:09:12Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "464c4e9",
-     "subject": "gen-14: nine more defects, including a token leak my own last fix created",
-     "url": "https://github.com/kody-w/AINexus/commit/464c4e92daab18411d0246fc0a49c0d9f333b430",
-     "at": "2026-08-28T23:01:49Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "2d7f903",
-     "subject": "gen-13: the dialogue ring is generated, not a menu",
-     "url": "https://github.com/kody-w/AINexus/commit/2d7f9032aa51262677befb31ac1152d022b43171",
-     "at": "2026-08-28T22:44:09Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "3e4ea5f",
-     "subject": "gen-12: eyes, brow and a heartbeat \u2014 plus 13 confirmed defects fixed",
-     "url": "https://github.com/kody-w/AINexus/commit/3e4ea5fb1f1902d0dd2797a6d103544b35ceee8d",
-     "at": "2026-08-28T22:37:01Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "20051f0",
-     "subject": "gen-11: conversation orbs \u2014 rest on a person, a ring of things to say fans out; people are orbs so humans and AIs talk through one mechanic. Fixes a trust bug: ",
-     "url": "https://github.com/kody-w/AINexus/commit/20051f0a625bf0ea047dfcdf1b0a044bcccb296f",
-     "at": "2026-08-28T22:08:51Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "d4f5452",
-     "subject": "orbs: the VUI model in the world \u2014 every portal is an option orb with a hit-circle, hover names it, a 2.5s dwell ring fills and snaps, pinch or click fires; mos",
-     "url": "https://github.com/kody-w/AINexus/commit/d4f5452e5028f601fdf41b8e696ff3bd461c0eb2",
-     "at": "2026-08-28T21:57:18Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "59231e9",
-     "subject": "gen-10: the hand is a cursor \u2014 hover names what is under the pointer, a pinch presses it; pointing no longer steers",
-     "url": "https://github.com/kody-w/AINexus/commit/59231e9c9cc649a92859d3743c73fd1c4fdce8a5",
-     "at": "2026-08-28T21:41:07Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "5bb4941",
-     "subject": "gen-9: camera operator that cannot fall into a portal, frontier out-there mode (hands + voice), and three real defects fixed \u2014 look was a no-op without pointer ",
-     "url": "https://github.com/kody-w/AINexus/commit/5bb4941397c29845d8b2f05894f5ef3ec4c37120",
-     "at": "2026-08-28T21:11:23Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "d5c7fce",
-     "subject": "gen-8: correction \u2014 index.html WAS consolidated onto net/multiplayer.js before the interrupt; generation 7's claim that the duplicate remained is withdrawn",
-     "url": "https://github.com/kody-w/AINexus/commit/d5c7fce63feed024ea015ddae466cefe7aa78ebf",
-     "at": "2026-08-28T20:56:06Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "33ae66d",
-     "subject": "gen-7: autodrive \u2014 AIs play as people through the real UI, with vision, chain-verified bytecode, the NEXUS sense, a bounded slosh, and a ME view you can fall ou",
-     "url": "https://github.com/kody-w/AINexus/commit/33ae66dd8ac98289d84749113bbe113a2203f43d",
-     "at": "2026-08-28T20:54:54Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "52aa7c6",
-     "subject": "gen-6: multiplayer as a drop-in, five destination worlds join the room, AI portal traversal proven end to end; CapsuleGeometry report withdrawn (no page calls i",
-     "url": "https://github.com/kody-w/AINexus/commit/52aa7c6dde48cc513b428c1350b6afa56235e215",
-     "at": "2026-08-28T20:18:44Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "5087543",
-     "subject": "worlds: wire multiplayer/AI drop-ins into 5 destination world pages",
-     "url": "https://github.com/kody-w/AINexus/commit/508754357530e86db4e15c7b1b66522c564769dc",
-     "at": "2026-08-28T20:16:38Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "d6b2ddf",
-     "subject": "Add net/multiplayer.js drop-in: MultiplayerManager for world pages",
-     "url": "https://github.com/kody-w/AINexus/commit/d6b2ddf72deff1ec762d2709f590998494032af3",
-     "at": "2026-08-28T20:14:51Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "02f5b0c",
-     "subject": "gen-5: invite-an-AI button, AI player as a drop-in (single source, own movement loop), secure portal traversal fragment, three worlds repaired",
-     "url": "https://github.com/kody-w/AINexus/commit/02f5b0cb3f036a2fb146f4e3b5e0f3780e09f6ba",
-     "at": "2026-08-28T19:28:18Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "f611bc9",
-     "subject": "AI player: make portal traversal real, not refused",
-     "url": "https://github.com/kody-w/AINexus/commit/f611bc986a9335309068d2a38076d4f97e55faa7",
-     "at": "2026-08-28T19:17:44Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "579e0a8",
-     "subject": "Add \"Invite an AI player\" button to the share/QR modal",
-     "url": "https://github.com/kody-w/AINexus/commit/579e0a869de5b6f519ca15a8374ceff3f96eccf9",
-     "at": "2026-08-28T19:07:05Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "8efdc78",
-     "subject": "Fix viking longship spawn camera starting flush against the hull",
-     "url": "https://github.com/kody-w/AINexus/commit/8efdc7835127ee16d0a4a4e8d09c5f70c3305bfc",
-     "at": "2026-08-28T19:06:53Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "36096a4",
-     "subject": "fix: train-world negative-distance modulo crashed CatmullRom curve lookups",
-     "url": "https://github.com/kody-w/AINexus/commit/36096a4b0ecc1967fbeb52c370a9285fdc5fac07",
-     "at": "2026-08-28T19:06:25Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "595a68d",
-     "subject": "fix: wrap ROMWORLD.html into a valid document, fix null gameboy-screen ref",
-     "url": "https://github.com/kody-w/AINexus/commit/595a68db4d340892114c9caf765c69ba64af3bc8",
-     "at": "2026-08-28T19:09:12Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "5416976",
-     "subject": "gen-4: tab-scoped brainstem grant (sessionStorage) + in-repo rapp/1 chain verifier",
-     "url": "https://github.com/kody-w/AINexus/commit/5416976ba96aefdcd0def2862893e9875f573116",
-     "at": "2026-08-28T13:53:22Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "e39f5b4",
-     "subject": "gen-3: the AI player \u2014 Pyodide brainstem.py in-tab, Copilot-minded via local brainstem secret, joins as a real P2P peer, learns agents at runtime",
-     "url": "https://github.com/kody-w/AINexus/commit/e39f5b41c5860ae83ccdd564086aa8fd7649d79f",
-     "at": "2026-08-28T02:18:54Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "bf1d2c8",
-     "subject": "worlds gen-1: 48 pages improved in parallel (12 agents) \u2014 portal labels ported, meta/OG everywhere, 45/48 verified green, 3 baseline-broken documented; one fram",
-     "url": "https://github.com/kody-w/AINexus/commit/bf1d2c8140458cc294d6bfc8585267fbc4e0e194",
-     "at": "2026-08-28T02:09:32Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "c724428",
-     "subject": "Merge remote-tracking branch 'origin/main'",
-     "url": "https://github.com/kody-w/AINexus/commit/c724428663b88f54212309edf1b74f0106780473",
-     "at": "2026-08-28T02:05:44Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "17e2b5e",
-     "subject": "gen-2: secure P2P rooms \u2014 fragment-borne secret handshake, host-verified joins, room dies with the host tab",
-     "url": "https://github.com/kody-w/AINexus/commit/17e2b5e91b88eb70f90ebcefc6bfc38528d6df09",
-     "at": "2026-08-28T02:05:29Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "74c77be",
-     "subject": "frames: gen-1 sealed \u2014 chain walks clean",
-     "url": "https://github.com/kody-w/AINexus/commit/74c77beea56973f9317b6165b3a6283341f79523",
-     "at": "2026-08-28T02:00:06Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "7099242",
-     "subject": "gen-1: portal name labels, clean world names, meta/OG \u2014 frame chain begins (full HTML inside each frame)",
-     "url": "https://github.com/kody-w/AINexus/commit/70992423c08b0c0d3e2642cafa4f1319e4efcd03",
-     "at": "2026-08-28T01:59:34Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "89eadc1",
-     "subject": "pages: Article XXIV compliance \u2014 worlds discovered from committed state/tree.json, never the GitHub API",
-     "url": "https://github.com/kody-w/AINexus/commit/89eadc1ea61045131295bd3c94d7a4344fb653eb",
-     "at": "2026-08-28T01:49:25Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [
-    {
-     "sha": "7a3360b",
-     "subject": "chore: refresh tree snapshot [skip ci]",
-     "url": "https://github.com/kody-w/AINexus/commit/7a3360be243e942e8d4721bf730b279a34b32d1c",
-     "at": "2026-08-28T23:27:56Z",
-     "by": "github-actions[bot]"
-    }
-   ],
-   "fleet_count": 1,
-   "human_count": 30
-  },
-  {
    "repo": "kody-w.github.io",
    "url": "https://github.com/kody-w/kody-w.github.io",
    "description": "",
@@ -2092,6 +2134,34 @@
    "new": false,
    "human": [
     {
+     "sha": "0c12946",
+     "subject": "Fix Scout projection during agent notarization (#637)",
+     "url": "https://github.com/kody-w/RAR/commit/0c1294687d3d4f8d38101ad66c3ed4f35893400b",
+     "at": "2026-08-28T23:59:23Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b8aed43",
+     "subject": "Rebuild Scout exports during agent notarization",
+     "url": "https://github.com/kody-w/RAR/commit/b8aed4389253f9abbe6f431de6f2a495521c085b",
+     "at": "2026-08-28T23:51:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "dbdc4f7",
+     "subject": "Merge summonable hologram DOGG channel (#635)",
+     "url": "https://github.com/kody-w/RAR/commit/dbdc4f76bd55e5e0adb9ec4c0ab364b8e3074a36",
+     "at": "2026-08-28T23:39:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "20f564c",
+     "subject": "Add summonable hologram DOGG channel",
+     "url": "https://github.com/kody-w/RAR/commit/20f564c8ab216e729b41a6f75d0bff714efce4cf",
+     "at": "2026-08-28T23:32:32Z",
+     "by": "kody-w"
+    },
+    {
      "sha": "19b7178",
      "subject": "Article XXIII.3: retirement is a tombstone at the same path \u2014 agent.delete writes a stub, restore replaces it, registry/discovery/resolver skip stubs, URL contr",
      "url": "https://github.com/kody-w/RAR/commit/19b7178995693abc21cebabefa85dbf24889bb8d",
@@ -2192,6 +2262,13 @@
    ],
    "fleet": [
     {
+     "sha": "7d3f43e",
+     "subject": "Stage RAR request from #636 [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/7d3f43e61b915a63200756af5d9d07ac377361a6",
+     "at": "2026-08-28T23:40:51Z",
+     "by": "rapp-bot"
+    },
+    {
      "sha": "fb73d12",
      "subject": "Auto-build registry.json [skip ci]",
      "url": "https://github.com/kody-w/RAR/commit/fb73d12fbf15097f1f07ff31d515333af76af2e7",
@@ -2248,8 +2325,8 @@
      "by": "dream-catcher"
     }
    ],
-   "fleet_count": 8,
-   "human_count": 14
+   "fleet_count": 9,
+   "human_count": 18
   },
   {
    "repo": "rappterbook",
@@ -2333,6 +2410,20 @@
     }
    ],
    "fleet": [
+    {
+     "sha": "e914b6e",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/e914b6e6ab7ced861bffe18b3f594a71141c1dcf",
+     "at": "2026-08-28T23:47:08Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "878b7a9",
+     "subject": "twin-author: fresh content + quality report",
+     "url": "https://github.com/kody-w/rappterbook/commit/878b7a9839957323a88f4003d747df7ddceca96a",
+     "at": "2026-08-28T23:46:31Z",
+     "by": "rappterbook-bot"
+    },
     {
      "sha": "6952015",
      "subject": "chore: process inbox deltas [skip ci]",
@@ -2474,13 +2565,6 @@
      "by": "rappterbook-bot"
     },
     {
-     "sha": "9d14735",
-     "subject": "twin-author: fresh content + quality report",
-     "url": "https://github.com/kody-w/rappterbook/commit/9d14735279eb16aeded358cd8ba76f11bfed6c88",
-     "at": "2026-08-28T14:44:35Z",
-     "by": "rappterbook-bot"
-    },
-    {
      "sha": "8d73f39",
      "subject": "chore: refresh commit-history snapshots [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/8d73f393fc66535f3fa2560de468cab1e98cae3f",
@@ -2493,13 +2577,6 @@
      "url": "https://github.com/kody-w/rappterbook/commit/53f5aa16db1f31223f78daab4d1e05b3bc27c5d3",
      "at": "2026-08-28T11:09:54Z",
      "by": "Zion Bounty Bot"
-    },
-    {
-     "sha": "83dccd7",
-     "subject": "chore: daily glitch report [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/83dccd707ced699fd25ca11b66501a1784c39d28",
-     "at": "2026-08-28T00:10:17Z",
-     "by": "rappterbook-bot"
     }
    ],
    "fleet_count": 24,
@@ -4513,6 +4590,28 @@
     }
    ],
    "fleet_count": 2,
+   "human_count": 0
+  },
+  {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "03e673c",
+     "subject": "kody2day 2026-08-28: 72 repos touched \u00b7 417 commits by Kody \u00b7 81 by the fleet \u00b7 new: rappter-prompts, dogg-muster, dogg-sky (so far \u2014 the day is still running; ",
+     "url": "https://github.com/kody-w/kody2day/commit/03e673cbdc7c0716bc11289f6124580dc6611038",
+     "at": "2026-08-28T23:31:46Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
    "human_count": 0
   },
   {
