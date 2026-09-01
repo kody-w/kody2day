@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-08-31T00:00:00Z",
  "until": "2026-09-01T00:00:00Z",
- "generated": "2026-08-31T19:57:53Z",
- "partial": true,
+ "generated": "2026-09-01T17:46:58Z",
+ "partial": false,
  "totals": {
-  "repos": 42,
-  "human_commits": 75,
-  "fleet_commits": 82,
+  "repos": 45,
+  "human_commits": 185,
+  "fleet_commits": 96,
   "new_repos": [
    "rapterbot.com",
    "rapp-projects"
@@ -18,6 +18,850 @@
  },
  "note": "",
  "repos": [
+  {
+   "repo": "rapp-vision",
+   "url": "https://github.com/kody-w/rapp-vision",
+   "description": "A local-first YouTube. One HTML file, no server. Videos are either static mp4/webm or LIVE \u2014 a few KB of JSON that replays real interactions against the real app.",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "b1a20f4",
+     "subject": "Merge pull request #61 from kody-w/policy/paired-publications-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/b1a20f41b8f5985ca5afb17c0e238322d0ce6041",
+     "at": "2026-08-31T18:34:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "47076df",
+     "subject": "Merge trusted constitutional bootstrap",
+     "url": "https://github.com/kody-w/rapp-vision/commit/47076df58d7f58edf6052093730b5b3c1aa2542b",
+     "at": "2026-08-31T18:32:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0d9b366",
+     "subject": "Canonicalize publication IDs and URLs",
+     "url": "https://github.com/kody-w/rapp-vision/commit/0d9b366348e69c84922813ef0fda66f1d3cb81da",
+     "at": "2026-08-31T18:32:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "69fcb66",
+     "subject": "Align URL validation and media paths",
+     "url": "https://github.com/kody-w/rapp-vision/commit/69fcb665f991de22d9849391104594e5b7923130",
+     "at": "2026-08-31T18:13:05Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6e6d42d",
+     "subject": "Harden live media and automation publishing",
+     "url": "https://github.com/kody-w/rapp-vision/commit/6e6d42dcf22f5afa2d0ca82685add29296acf542",
+     "at": "2026-08-31T18:02:49Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "68c2007",
+     "subject": "Fix Mars repair scope contrast",
+     "url": "https://github.com/kody-w/rapp-vision/commit/68c2007bd09dbad19f20748153b461b59c3b5be4",
+     "at": "2026-08-31T17:45:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3b220a4",
+     "subject": "Fix Frame 04 intro layout overlap",
+     "url": "https://github.com/kody-w/rapp-vision/commit/3b220a46f3626642dd2103fbe49c291a9acd0106",
+     "at": "2026-08-31T17:44:35Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "268b73c",
+     "subject": "Fix Futures Museum marker contrast",
+     "url": "https://github.com/kody-w/rapp-vision/commit/268b73c7c8c994dc2f8c35c4b3ee69fd0cf1b1e2",
+     "at": "2026-08-31T17:44:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2e9823e",
+     "subject": "Fix frame 08 title contrast",
+     "url": "https://github.com/kody-w/rapp-vision/commit/2e9823e2cae62f24a80a11ac543a24dc48a36405",
+     "at": "2026-08-31T17:43:26Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6cd4977",
+     "subject": "Reject null replay actions",
+     "url": "https://github.com/kody-w/rapp-vision/commit/6cd49776229da0c1bc654dfd5f8ffa5605b7e9fa",
+     "at": "2026-08-31T17:42:42Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "08f0f0e",
+     "subject": "Bootstrap trusted legacy freeze",
+     "url": "https://github.com/kody-w/rapp-vision/commit/08f0f0e464eb6f295f8c25fa2c4e65238398b6a9",
+     "at": "2026-08-31T17:37:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5291753",
+     "subject": "Stage immutable legacy trust root",
+     "url": "https://github.com/kody-w/rapp-vision/commit/52917531d34763b36db2dc680a0f3d570b32091d",
+     "at": "2026-08-31T17:31:35Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2186810",
+     "subject": "Merge branch 'frame-film/07-constitution-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/2186810f9ad80ae14ef937913f6ae3779e7b0ba8",
+     "at": "2026-08-31T17:30:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3c127c1",
+     "subject": "Merge branch 'frame-film/04-five-realities-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/3c127c1877b6f39535d0e2e26f4c821767afeef2",
+     "at": "2026-08-31T17:30:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0252545",
+     "subject": "Harden reproducible flagship assembly",
+     "url": "https://github.com/kody-w/rapp-vision/commit/02525453ad9ba337994c04081a88afcd5318faee",
+     "at": "2026-08-31T17:30:52Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1830e34",
+     "subject": "Normalize Frame 07 element IDs",
+     "url": "https://github.com/kody-w/rapp-vision/commit/1830e3466afd0d85093984ace29d7f7ecee774af",
+     "at": "2026-08-31T17:30:01Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5fd0fcb",
+     "subject": "Fix Frame 04 assembled media lanes",
+     "url": "https://github.com/kody-w/rapp-vision/commit/5fd0fcb461099a4a5223ac211c2a3ab7f5a19567",
+     "at": "2026-08-31T17:29:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "ba1f669",
+     "subject": "Merge branch 'frame-film/08-teleporting-roguelike-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/ba1f669a1bb093bafb5a0e8438f785ad68d9cab3",
+     "at": "2026-08-31T17:24:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "41922f6",
+     "subject": "Hoist flagship scene proof videos",
+     "url": "https://github.com/kody-w/rapp-vision/commit/41922f6aa5181d9df3527e8518aaedb90e494e23",
+     "at": "2026-08-31T17:12:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a6bdfc8",
+     "subject": "Secure legacy freeze enforcement",
+     "url": "https://github.com/kody-w/rapp-vision/commit/a6bdfc86d1794f80bcc2a1463eb208edf6dc7331",
+     "at": "2026-08-31T17:11:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4a4fddc",
+     "subject": "Mark ten flagship scenes animated",
+     "url": "https://github.com/kody-w/rapp-vision/commit/4a4fddc32b46e831e2aff1ab3f680e2cd28c24eb",
+     "at": "2026-08-31T17:05:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "54de15f",
+     "subject": "Merge branch 'frame-film/10-futures-museum-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/54de15ff56771aea139e557b9cdb8d9901ba9b65",
+     "at": "2026-08-31T17:04:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "aa75a0f",
+     "subject": "Merge branch 'frame-film/09-attack-timeline-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/aa75a0f8f932db4f8e6211aeebf4ee00d16b91fb",
+     "at": "2026-08-31T17:04:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "80784e9",
+     "subject": "Merge branch 'frame-film/06-space-station-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/80784e9d08edfb9883e909c0931579f068d5b516",
+     "at": "2026-08-31T17:04:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e51e442",
+     "subject": "Merge branch 'frame-film/05-causal-detective-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/e51e4421d1fce9ba9da48d8b412e861a224c8d1a",
+     "at": "2026-08-31T17:04:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e332a4f",
+     "subject": "Merge branch 'frame-film/03-mars-colony-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/e332a4f8140013630010a723db2c46847dfd3e33",
+     "at": "2026-08-31T17:04:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "2378222",
+     "subject": "Accept named scene timeline identity",
+     "url": "https://github.com/kody-w/rapp-vision/commit/2378222b74ab1372ee6e31e9fa0c277522a8a2df",
+     "at": "2026-08-31T17:04:22Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "ac5b6db",
+     "subject": "Merge branch 'frame-film/02-soul-passport-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/ac5b6db3d3a636e4a5778f122b38040a892333b3",
+     "at": "2026-08-31T17:03:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "40f70c2",
+     "subject": "Merge branch 'frame-film/01-many-worlds-capture' into video/frame-chains-paired-films-54",
+     "url": "https://github.com/kody-w/rapp-vision/commit/40f70c2d626447b0efa7a927610de5e4dedd133e",
+     "at": "2026-08-31T17:03:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0d009ba",
+     "subject": "Allow pinned GSAP in scene gate",
+     "url": "https://github.com/kody-w/rapp-vision/commit/0d009baf099d2d0aff6bb0d45be605aed5b01486",
+     "at": "2026-08-31T17:03:36Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6542fd0",
+     "subject": "Match assembled scene asset paths",
+     "url": "https://github.com/kody-w/rapp-vision/commit/6542fd039c18ce7991a8bc8ac2c372b491dc0bac",
+     "at": "2026-08-31T17:02:29Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "43c5a8a",
+     "subject": "Build state-not-pixels flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/43c5a8a0c6a10908f159e2fc6b522e6a95205c62",
+     "at": "2026-08-31T16:56:14Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "fd133fe",
+     "subject": "Build Futures Museum flagship close",
+     "url": "https://github.com/kody-w/rapp-vision/commit/fd133fea912ae888d02f68b505ce786442b63938",
+     "at": "2026-08-31T16:55:33Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5eb4c1c",
+     "subject": "Harden paired publication invariants",
+     "url": "https://github.com/kody-w/rapp-vision/commit/5eb4c1c16456388f01b643339d946f45d51e6e5e",
+     "at": "2026-08-31T16:55:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d00c0db",
+     "subject": "Build identity history flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/d00c0db648a22be7df9497aca934f596fbc4a0fb",
+     "at": "2026-08-31T16:51:19Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "173f37c",
+     "subject": "Build preserve disagreement flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/173f37cfaf39aae77bc06987ee5fd6ac3a959f50",
+     "at": "2026-08-31T16:49:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5c05721",
+     "subject": "Build five realities flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/5c05721a66045507dff3b209233ea80c0efd7d2d",
+     "at": "2026-08-31T16:49:47Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "98e6d9d",
+     "subject": "Build understand-operate flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/98e6d9d60623edf6d107b440f77abfc1b738cc56",
+     "at": "2026-08-31T16:49:00Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "751a852",
+     "subject": "Build correct-hash wrong-repair scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/751a852be04f549c7d81a568968eb97f697f73a5",
+     "at": "2026-08-31T16:47:45Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "add6fb3",
+     "subject": "Build cryptography causality flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/add6fb36b1948cc07c571870294d129d587c19cb",
+     "at": "2026-08-31T16:47:32Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b2b5655",
+     "subject": "Build executable law flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/b2b565545ad4dc3d150d0b59c087232dcd3d7004",
+     "at": "2026-08-31T16:45:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "85ab7dc",
+     "subject": "Build attack boundaries flagship scene",
+     "url": "https://github.com/kody-w/rapp-vision/commit/85ab7dc957b365421ba23a2f829756b4bd125834",
+     "at": "2026-08-31T16:43:47Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "54a5462",
+     "subject": "Separate film and replay durations",
+     "url": "https://github.com/kody-w/rapp-vision/commit/54a546205cd0401816a97aff6820a5bd27f5527e",
+     "at": "2026-08-31T16:42:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "39f84be",
+     "subject": "Enforce paired RAPP Vision publications",
+     "url": "https://github.com/kody-w/rapp-vision/commit/39f84bef9d117cf9326b4bac3af26e25843545b7",
+     "at": "2026-08-31T16:37:56Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4f27b1d",
+     "subject": "Plan no-loss flagship frame build",
+     "url": "https://github.com/kody-w/rapp-vision/commit/4f27b1dd72e50302cba105c8635d226f3ba2a273",
+     "at": "2026-08-31T16:37:33Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4ca9de7",
+     "subject": "Record ten-film capture ledger",
+     "url": "https://github.com/kody-w/rapp-vision/commit/4ca9de7dccc96f53a071e6ae7de1f054475bfd51",
+     "at": "2026-08-31T16:36:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4902572",
+     "subject": "Normalize space station clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/49025722d865f7b60803328f0d1c82a0d2a9198b",
+     "at": "2026-08-31T16:35:25Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6923f39",
+     "subject": "Normalize teleporting roguelike clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/6923f39abc82922d2b217bdb433169d6e0019555",
+     "at": "2026-08-31T16:35:17Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3d45c7e",
+     "subject": "Normalize attack timeline clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/3d45c7e25e969f111c2b72153b62802a6fa0d6e9",
+     "at": "2026-08-31T16:35:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "78ed3c4",
+     "subject": "Normalize Constitution clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/78ed3c4f7b707f59bc06fcdc4861318c994d3be7",
+     "at": "2026-08-31T16:35:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "63c6eb7",
+     "subject": "Normalize Futures Museum clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/63c6eb7f8ff4b880b3d5556d25de74bf0e995bc9",
+     "at": "2026-08-31T16:35:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a9383b1",
+     "subject": "Normalize five realities clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/a9383b1f52fef03ff34720e5139190624fa4432f",
+     "at": "2026-08-31T16:35:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e15e515",
+     "subject": "Normalize Mars colony clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/e15e51565349990af64825d73d2dc11020b95d39",
+     "at": "2026-08-31T16:35:07Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "58177f1",
+     "subject": "Normalize causal detective clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/58177f1b4a4707a5040ab0ecb66ed12d673e7a19",
+     "at": "2026-08-31T16:35:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "25d740a",
+     "subject": "Normalize soul passport clip metadata",
+     "url": "https://github.com/kody-w/rapp-vision/commit/25d740a92ed40f0aed80aa20f7c02d6ccb366cbe",
+     "at": "2026-08-31T16:35:03Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b410a8c",
+     "subject": "Tighten proof clip merge contract",
+     "url": "https://github.com/kody-w/rapp-vision/commit/b410a8c87933b87c0ab469d4d29ac796bcf55308",
+     "at": "2026-08-31T16:34:33Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0b88221",
+     "subject": "Add Constitution proof capture",
+     "url": "https://github.com/kody-w/rapp-vision/commit/0b88221e75b5c49c1a307208095447e8e758860f",
+     "at": "2026-08-31T16:32:51Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f01ecea",
+     "subject": "Capture attack timeline proof clip",
+     "url": "https://github.com/kody-w/rapp-vision/commit/f01ecea8e81ec153dadfd048e452bbdcf9dd4893",
+     "at": "2026-08-31T16:32:50Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a5f4082",
+     "subject": "Capture soul passport rejection proof",
+     "url": "https://github.com/kody-w/rapp-vision/commit/a5f408288189f2a6dee626cefa5ac05213edb17d",
+     "at": "2026-08-31T16:32:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5efe4fd",
+     "subject": "Capture space station overwrite proof",
+     "url": "https://github.com/kody-w/rapp-vision/commit/5efe4fd117d1e0587933eec45e5855cbf4053b8b",
+     "at": "2026-08-31T16:31:37Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "433a2e6",
+     "subject": "Capture Mars colony proof footage",
+     "url": "https://github.com/kody-w/rapp-vision/commit/433a2e6ef414859df130c0de4290615f545f26cc",
+     "at": "2026-08-31T16:31:23Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5af36bc",
+     "subject": "Add causal detective proof capture",
+     "url": "https://github.com/kody-w/rapp-vision/commit/5af36bc2cb452b075d3ff492e85f93fd0fa53455",
+     "at": "2026-08-31T16:30:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "06b2999",
+     "subject": "Capture Futures Museum proof film",
+     "url": "https://github.com/kody-w/rapp-vision/commit/06b2999113d8d4ca259b854ea098e748da6bd9bf",
+     "at": "2026-08-31T16:30:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d6ddb44",
+     "subject": "Capture five realities proof footage",
+     "url": "https://github.com/kody-w/rapp-vision/commit/d6ddb447528bd1d9f9b5cbe0e300516c69e3e61a",
+     "at": "2026-08-31T16:30:05Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "35b53ef",
+     "subject": "Capture teleporting roguelike proof clip",
+     "url": "https://github.com/kody-w/rapp-vision/commit/35b53efc4cc2fa238e86c91703b24f39f2f362c6",
+     "at": "2026-08-31T16:29:41Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "08558ba",
+     "subject": "Add Many-Worlds browser proof capture",
+     "url": "https://github.com/kody-w/rapp-vision/commit/08558baf7d55f73fa68b9a1b861aea0abe9d1fe5",
+     "at": "2026-08-31T16:29:34Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a966a34",
+     "subject": "Correct RAPP caption branding",
+     "url": "https://github.com/kody-w/rapp-vision/commit/a966a34d6f62af5ff4bf8b9b2013697b24468e76",
+     "at": "2026-08-31T16:23:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "192b144",
+     "subject": "Bundle reproducible film typography and captions",
+     "url": "https://github.com/kody-w/rapp-vision/commit/192b1449bee29881a699a83d538a5d8dbbb6b7da",
+     "at": "2026-08-31T16:22:39Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "53f9fba",
+     "subject": "Add no-loss film capture merger",
+     "url": "https://github.com/kody-w/rapp-vision/commit/53f9fba207c31dbfd8fac51c1d977c83ccc6edbb",
+     "at": "2026-08-31T16:21:08Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "6fb2bdb",
+     "subject": "Add reproducible paired video delivery cuts",
+     "url": "https://github.com/kody-w/rapp-vision/commit/6fb2bdbf839ce2b58a34f1f806d7550b653f36f4",
+     "at": "2026-08-31T16:20:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e78f687",
+     "subject": "Build bounded flagship frame packets",
+     "url": "https://github.com/kody-w/rapp-vision/commit/e78f68753a134bbc566e19093a2488b8450cf48d",
+     "at": "2026-08-31T16:19:00Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9992f6d",
+     "subject": "Direct flagship visuals and original score",
+     "url": "https://github.com/kody-w/rapp-vision/commit/9992f6dd4dff6d64de547ad733ae7d6387b8e30c",
+     "at": "2026-08-31T16:17:47Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a02e516",
+     "subject": "Plan and voice ten-scene flagship film",
+     "url": "https://github.com/kody-w/rapp-vision/commit/a02e5163f016a6f62878361fdfcac3cccfbee210",
+     "at": "2026-08-31T16:15:18Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0ed78fd",
+     "subject": "Plan ten-source film capture loop",
+     "url": "https://github.com/kody-w/rapp-vision/commit/0ed78fd1549c02c047aa7357ebdc0dbc73c8856c",
+     "at": "2026-08-31T16:05:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "ec96b15",
+     "subject": "Initialize paired Frame Chains film production",
+     "url": "https://github.com/kody-w/rapp-vision/commit/ec96b15838af89ceaa6f2e1039e8cbceb9a2e500",
+     "at": "2026-08-31T16:04:44Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "f2a95dc",
+     "subject": "chore(machine): refresh proposals + editorial reviews [skip ci]",
+     "url": "https://github.com/kody-w/rapp-vision/commit/f2a95dc4c5c4e8dd46934099787512ff67e0a601",
+     "at": "2026-08-31T17:12:46Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "999ac46",
+     "subject": "chore(follows): refresh follow index snapshot [skip ci]",
+     "url": "https://github.com/kody-w/rapp-vision/commit/999ac468c7768e072839efa274fac931acc2efea",
+     "at": "2026-08-31T16:21:44Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "555050d",
+     "subject": "chore(metrics): refresh channel metrics snapshot [skip ci]",
+     "url": "https://github.com/kody-w/rapp-vision/commit/555050d807d4deaa68a78f4372b007858b9597a9",
+     "at": "2026-08-31T16:07:53Z",
+     "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 3,
+   "human_count": 75
+  },
+  {
+   "repo": "RAR",
+   "url": "https://github.com/kody-w/RAR",
+   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
+   "stars": 2,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "98d5d0a",
+     "subject": "Merge registry bot output before CI fix",
+     "url": "https://github.com/kody-w/RAR/commit/98d5d0aa8f3d52b500c215face2ad245aac5ab80",
+     "at": "2026-08-31T21:05:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "dfd0504",
+     "subject": "ci: fetch receipt provenance history in full tests",
+     "url": "https://github.com/kody-w/RAR/commit/dfd05042a24e88b3cc257ffa8684d3dada5d315a",
+     "at": "2026-08-31T21:04:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "97d50aa",
+     "subject": "chore: notarize the RAPP Projects publication",
+     "url": "https://github.com/kody-w/RAR/commit/97d50aa9bf131719063598acdf4e6f953b3bd218",
+     "at": "2026-08-31T20:47:46Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b364924",
+     "subject": "build: regenerate projections after upstream merge",
+     "url": "https://github.com/kody-w/RAR/commit/b3649247ad8bf0737201102601ba6980c92d2539",
+     "at": "2026-08-31T20:04:45Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "59a9ea2",
+     "subject": "Merge origin/main before RAPP Projects publication",
+     "url": "https://github.com/kody-w/RAR/commit/59a9ea20e9846c6787228680772a61915e324b30",
+     "at": "2026-08-31T19:45:43Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c768d06",
+     "subject": "build: publish the RAPP Projects skill",
+     "url": "https://github.com/kody-w/RAR/commit/c768d06d2138c5bd8cb5f0367beaf8138640111c",
+     "at": "2026-08-31T19:45:02Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "9885903",
+     "subject": "docs: seal the RAPP Projects build receipt",
+     "url": "https://github.com/kody-w/RAR/commit/9885903c68e66822bcf571bd3ceee053374cfb14",
+     "at": "2026-08-31T19:15:39Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a3391b1",
+     "subject": "feat: make RAPP Projects crash-safe and fully bound",
+     "url": "https://github.com/kody-w/RAR/commit/a3391b199669c48572aabdab2087b8c6733f0964",
+     "at": "2026-08-31T18:49:32Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bd24524",
+     "subject": "fix: align the RAPP plugin release version",
+     "url": "https://github.com/kody-w/RAR/commit/bd245249c4f98f55ccaa6f25a0a91ada8ae14978",
+     "at": "2026-08-31T17:08:38Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "31d9a07",
+     "subject": "fix: advance the canonical RAPP SDK pin",
+     "url": "https://github.com/kody-w/RAR/commit/31d9a07e8869756a3cc4af71743d1a4278cc9e89",
+     "at": "2026-08-31T16:58:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b17a46b",
+     "subject": "fix: close remaining RAPP Projects integrity gaps",
+     "url": "https://github.com/kody-w/RAR/commit/b17a46b7a97aa93ab7b545ef11b73ac64cd6121c",
+     "at": "2026-08-31T16:49:30Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b4c558f",
+     "subject": "fix: harden RAPP Projects publication integrity",
+     "url": "https://github.com/kody-w/RAR/commit/b4c558fdc8b35ac6cbd116fd092a6a88bef914a7",
+     "at": "2026-08-31T16:19:24Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7415a7c",
+     "subject": "fix: expose the complete RAPP Projects skill contract",
+     "url": "https://github.com/kody-w/RAR/commit/7415a7cbed68229e04de287573de46fe11d0ae24",
+     "at": "2026-08-31T16:05:46Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d27dd79",
+     "subject": "Merge RAPP Projects skill frame 09",
+     "url": "https://github.com/kody-w/RAR/commit/d27dd790b0c648958186c4e51f17c7d626c7223b",
+     "at": "2026-08-31T15:54:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "0ab2c5a",
+     "subject": "Merge RAPP Projects skill frame 08",
+     "url": "https://github.com/kody-w/RAR/commit/0ab2c5a817119f6ada8cc3bc07a403073ff62e71",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "468958e",
+     "subject": "Merge RAPP Projects skill frame 07",
+     "url": "https://github.com/kody-w/RAR/commit/468958e394e6cd4daaec72d508105020447633ad",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "8d0b88a",
+     "subject": "Merge RAPP Projects skill frame 06",
+     "url": "https://github.com/kody-w/RAR/commit/8d0b88ac203248dfbc9246af97b1f680fe5407bb",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "17f4ec7",
+     "subject": "Merge RAPP Projects skill frame 05",
+     "url": "https://github.com/kody-w/RAR/commit/17f4ec7661fb1cbc055c1c060128f0bf9d429588",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f2fb453",
+     "subject": "Merge RAPP Projects skill frame 04",
+     "url": "https://github.com/kody-w/RAR/commit/f2fb45325fa31e4dc6904b5db96e5c743123720e",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "634b2ff",
+     "subject": "Merge RAPP Projects skill frame 03",
+     "url": "https://github.com/kody-w/RAR/commit/634b2ffc5d17ffaba8daa6b2ee0b1e24086fe7a3",
+     "at": "2026-08-31T15:54:10Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "1080b76",
+     "subject": "Merge RAPP Projects skill frame 02",
+     "url": "https://github.com/kody-w/RAR/commit/1080b76c30a400ed0cb35226a93d2a920286167e",
+     "at": "2026-08-31T15:54:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4c7b089",
+     "subject": "Merge RAPP Projects skill frame 01",
+     "url": "https://github.com/kody-w/RAR/commit/4c7b089cd36e40c9b14e41431693b4e7efc58ffc",
+     "at": "2026-08-31T15:54:09Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3f0a4da",
+     "subject": "feat: add standard RAPP Projects agent",
+     "url": "https://github.com/kody-w/RAR/commit/3f0a4dacbf782b21798e00695c03689dd776272d",
+     "at": "2026-08-31T15:52:12Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c72e752",
+     "subject": "test: harden RAPP Projects storage",
+     "url": "https://github.com/kody-w/RAR/commit/c72e7521be9a7143a28934650963d9b9c480dd11",
+     "at": "2026-08-31T15:47:31Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bb78f67",
+     "subject": "test: verify RAPP project eggs",
+     "url": "https://github.com/kody-w/RAR/commit/bb78f67a928eebb8526746429b9c06affad5fcb5",
+     "at": "2026-08-31T15:40:59Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "00dd8de",
+     "subject": "docs: add RAPP Projects skill quickstart",
+     "url": "https://github.com/kody-w/RAR/commit/00dd8de13c549252fa60722058de7cc6e957ed74",
+     "at": "2026-08-31T15:36:15Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5c5f032",
+     "subject": "test: prove RAPP Projects frame compliance",
+     "url": "https://github.com/kody-w/RAR/commit/5c5f0322218bc68045a3338d15befabd4e33578b",
+     "at": "2026-08-31T15:40:57Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "fa28d1f",
+     "subject": "test: prove RAPP Projects multi-AI interop",
+     "url": "https://github.com/kody-w/RAR/commit/fa28d1f78812d8fcec697fdeb5a2067b0f2efd58",
+     "at": "2026-08-31T15:43:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c128767",
+     "subject": "test: define RAPP Projects public contract",
+     "url": "https://github.com/kody-w/RAR/commit/c128767574c7e5d290764e6c6e5d7157b3ecfe46",
+     "at": "2026-08-31T15:40:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "7d63bcf",
+     "subject": "test: gate RAPP Projects public skill privacy",
+     "url": "https://github.com/kody-w/RAR/commit/7d63bcfc271070cff83d5f773ff3f04c1eb4d637",
+     "at": "2026-08-31T15:38:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "90ba975",
+     "subject": "test: verify RAPP Projects Scout projection",
+     "url": "https://github.com/kody-w/RAR/commit/90ba975aa831f2e50acd72e41bd0b205d79ed6eb",
+     "at": "2026-08-31T15:35:14Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "ec06410",
+     "subject": "Dream Catcher frame 1438: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/ec06410c7405ff837ae20b374de7c9c4e67bbeef",
+     "at": "2026-08-31T23:33:40Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "23eaa42",
+     "subject": "Auto-build registry.json [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/23eaa4241adccccbc7f237628173b4f916728fde",
+     "at": "2026-08-31T20:50:19Z",
+     "by": "rapp-bot"
+    },
+    {
+     "sha": "5e66a87",
+     "subject": "Dream Catcher frame 1437: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/5e66a871eace47fd91bae953327af9679b72af6f",
+     "at": "2026-08-31T18:35:23Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "ee1ce9f",
+     "subject": "chore(community): refresh ratings, federation + download snapshots [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/ee1ce9f60128d6b8417246e4d29e87b10ad02e47",
+     "at": "2026-08-31T14:59:40Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "49a087a",
+     "subject": "chore: metrics snapshot 2026-08-31",
+     "url": "https://github.com/kody-w/RAR/commit/49a087a5049c1d00a48891b90cedf8b17163fd53",
+     "at": "2026-08-31T11:39:44Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "78ace81",
+     "subject": "Dream Catcher frame 1436: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/78ace81a42708b5237d347d4ab7f36a9da9c6609",
+     "at": "2026-08-31T10:21:45Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "ee31de7",
+     "subject": "Dream Catcher frame 1435: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/ee31de7bdeb5f1b40e6e481dd34661026a29dd9b",
+     "at": "2026-08-31T02:49:02Z",
+     "by": "dream-catcher"
+    }
+   ],
+   "fleet_count": 7,
+   "human_count": 31
+  },
   {
    "repo": "dogg",
    "url": "https://github.com/kody-w/dogg",
@@ -206,6 +1050,20 @@
    ],
    "fleet": [
     {
+     "sha": "ae866e7",
+     "subject": "fallback tick 814",
+     "url": "https://github.com/kody-w/dogg/commit/ae866e7a6171c6740532e271d923434dd0d21ceb",
+     "at": "2026-08-31T23:52:55Z",
+     "by": "actions"
+    },
+    {
+     "sha": "f4f896d",
+     "subject": "fallback tick 813",
+     "url": "https://github.com/kody-w/dogg/commit/f4f896d7baabc3ae4e9c87b2f8155c85e15cf24f",
+     "at": "2026-08-31T20:14:57Z",
+     "by": "actions"
+    },
+    {
      "sha": "c65c0ad",
      "subject": "fallback tick 812",
      "url": "https://github.com/kody-w/dogg/commit/c65c0adf14339f69da0b634d6f34892d6702ad65",
@@ -227,7 +1085,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 5,
    "human_count": 25
   },
   {
@@ -386,148 +1244,41 @@
    "human_count": 20
   },
   {
-   "repo": "rapp-vision",
-   "url": "https://github.com/kody-w/rapp-vision",
-   "description": "A local-first YouTube. One HTML file, no server. Videos are either static mp4/webm or LIVE \u2014 a few KB of JSON that replays real interactions against the real app.",
-   "stars": 0,
-   "language": "Python",
-   "private": false,
-   "homepage": "",
-   "new": false,
-   "human": [
-    {
-     "sha": "b1a20f4",
-     "subject": "Merge pull request #61 from kody-w/policy/paired-publications-54",
-     "url": "https://github.com/kody-w/rapp-vision/commit/b1a20f41b8f5985ca5afb17c0e238322d0ce6041",
-     "at": "2026-08-31T18:34:19Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "47076df",
-     "subject": "Merge trusted constitutional bootstrap",
-     "url": "https://github.com/kody-w/rapp-vision/commit/47076df58d7f58edf6052093730b5b3c1aa2542b",
-     "at": "2026-08-31T18:32:48Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "0d9b366",
-     "subject": "Canonicalize publication IDs and URLs",
-     "url": "https://github.com/kody-w/rapp-vision/commit/0d9b366348e69c84922813ef0fda66f1d3cb81da",
-     "at": "2026-08-31T18:32:08Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "69fcb66",
-     "subject": "Align URL validation and media paths",
-     "url": "https://github.com/kody-w/rapp-vision/commit/69fcb665f991de22d9849391104594e5b7923130",
-     "at": "2026-08-31T18:13:05Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "6e6d42d",
-     "subject": "Harden live media and automation publishing",
-     "url": "https://github.com/kody-w/rapp-vision/commit/6e6d42dcf22f5afa2d0ca82685add29296acf542",
-     "at": "2026-08-31T18:02:49Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "6cd4977",
-     "subject": "Reject null replay actions",
-     "url": "https://github.com/kody-w/rapp-vision/commit/6cd49776229da0c1bc654dfd5f8ffa5605b7e9fa",
-     "at": "2026-08-31T17:42:42Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "08f0f0e",
-     "subject": "Bootstrap trusted legacy freeze",
-     "url": "https://github.com/kody-w/rapp-vision/commit/08f0f0e464eb6f295f8c25fa2c4e65238398b6a9",
-     "at": "2026-08-31T17:37:36Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "5291753",
-     "subject": "Stage immutable legacy trust root",
-     "url": "https://github.com/kody-w/rapp-vision/commit/52917531d34763b36db2dc680a0f3d570b32091d",
-     "at": "2026-08-31T17:31:35Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "a6bdfc8",
-     "subject": "Secure legacy freeze enforcement",
-     "url": "https://github.com/kody-w/rapp-vision/commit/a6bdfc86d1794f80bcc2a1463eb208edf6dc7331",
-     "at": "2026-08-31T17:11:38Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "5eb4c1c",
-     "subject": "Harden paired publication invariants",
-     "url": "https://github.com/kody-w/rapp-vision/commit/5eb4c1c16456388f01b643339d946f45d51e6e5e",
-     "at": "2026-08-31T16:55:19Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "54a5462",
-     "subject": "Separate film and replay durations",
-     "url": "https://github.com/kody-w/rapp-vision/commit/54a546205cd0401816a97aff6820a5bd27f5527e",
-     "at": "2026-08-31T16:42:25Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "39f84be",
-     "subject": "Enforce paired RAPP Vision publications",
-     "url": "https://github.com/kody-w/rapp-vision/commit/39f84bef9d117cf9326b4bac3af26e25843545b7",
-     "at": "2026-08-31T16:37:56Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [
-    {
-     "sha": "f2a95dc",
-     "subject": "chore(machine): refresh proposals + editorial reviews [skip ci]",
-     "url": "https://github.com/kody-w/rapp-vision/commit/f2a95dc4c5c4e8dd46934099787512ff67e0a601",
-     "at": "2026-08-31T17:12:46Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "999ac46",
-     "subject": "chore(follows): refresh follow index snapshot [skip ci]",
-     "url": "https://github.com/kody-w/rapp-vision/commit/999ac468c7768e072839efa274fac931acc2efea",
-     "at": "2026-08-31T16:21:44Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "555050d",
-     "subject": "chore(metrics): refresh channel metrics snapshot [skip ci]",
-     "url": "https://github.com/kody-w/rapp-vision/commit/555050d807d4deaa68a78f4372b007858b9597a9",
-     "at": "2026-08-31T16:07:53Z",
-     "by": "github-actions[bot]"
-    }
-   ],
-   "fleet_count": 3,
-   "human_count": 12
-  },
-  {
    "repo": "rapterbot.com",
    "url": "https://github.com/kody-w/rapterbot.com",
    "description": "RapterBot.com public site and privacy-safe autonomous company DOGG",
    "stars": 0,
    "language": "HTML",
    "private": false,
-   "homepage": "https://rapterbot.com",
+   "homepage": "https://kody-w.github.io/rapterbot.com/",
    "new": true,
    "human": [
+    {
+     "sha": "17a35f9",
+     "subject": "Advance public RapterBot DOGG",
+     "url": "https://github.com/kody-w/rapterbot.com/commit/17a35f99faba9ff8bcb0f4b82e6f097299285532",
+     "at": "2026-08-31T22:57:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "eb3e217",
+     "subject": "Attest immutable RapterBot release",
+     "url": "https://github.com/kody-w/rapterbot.com/commit/eb3e217a175635f8b33e7cf07a1827765e8b9a5b",
+     "at": "2026-08-31T20:49:03Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "77c9318",
+     "subject": "Sharpen RapterBot.com product positioning",
+     "url": "https://github.com/kody-w/rapterbot.com/commit/77c931886f5a3ccd005910f63835ca0f5db50e92",
+     "at": "2026-08-31T20:22:58Z",
+     "by": "kody-w"
+    },
     {
      "sha": "2a39219",
      "subject": "Remove transient publisher artifact",
      "url": "https://github.com/kody-w/rapterbot.com/commit/2a3921902f88e7f181f24829b9f3920244ad0e8e",
      "at": "2026-08-31T19:57:21Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "d6c8bc0",
-     "subject": "Advance public RapterBot DOGG",
-     "url": "https://github.com/kody-w/rapterbot.com/commit/d6c8bc08fdf8c245fcb077c2081bf43975f8d13e",
-     "at": "2026-08-31T19:53:59Z",
      "by": "kody-w"
     },
     {
@@ -589,7 +1340,150 @@
    ],
    "fleet": [],
    "fleet_count": 0,
-   "human_count": 10
+   "human_count": 12
+  },
+  {
+   "repo": "rapp-zoo",
+   "url": "https://github.com/kody-w/rapp-zoo",
+   "description": "Local-first keeper for the twin estate \u2014 list, lay-egg, summon, hatch, start, stop twins on your device",
+   "stars": 0,
+   "language": "TypeScript",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "b4fd75d",
+     "subject": "Merge pull request #18 from kody-w/copilot/holo-zoo-field-dispatch",
+     "url": "https://github.com/kody-w/rapp-zoo/commit/b4fd75dd628895b252d66d64718ce88ae30730bf",
+     "at": "2026-08-31T19:59:06Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "bdd16e6",
+     "subject": "Merge pull request #17 from kody-w/copilot/holo-zoo-expo-integration",
+     "url": "https://github.com/kody-w/rapp-zoo/commit/bdd16e67393b1f5fe2828409842231416214e166",
+     "at": "2026-08-31T19:58:42Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "b0c8d96",
+     "subject": "feat(mobile): unify Holo Field and work preview",
+     "url": "https://github.com/kody-w/rapp-zoo/commit/b0c8d9612f2bc57afc1bb3092505497596fbdfd0",
+     "at": "2026-08-31T19:56:01Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "e5d624f",
+     "subject": "Merge current main into Holo Zoo integration",
+     "url": "https://github.com/kody-w/rapp-zoo/commit/e5d624fedf99403169dbd90b16cc4ade2490ba11",
+     "at": "2026-08-31T18:40:46Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "4bd3ba7",
+     "subject": "feat: add dormant Rapter Coin Trail foundation",
+     "url": "https://github.com/kody-w/rapp-zoo/commit/4bd3ba78dcf30d0e75a260b5624fdfc6a372c90f",
+     "at": "2026-08-31T18:33:18Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 5
+  },
+  {
+   "repo": "rapterbox-site",
+   "url": "https://github.com/kody-w/rapterbox-site",
+   "description": "",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [
+    {
+     "sha": "0f08b71",
+     "subject": "Remove private market details and publish company values (#8)",
+     "url": "https://github.com/kody-w/rapterbox-site/commit/0f08b7170de0f01c88b322e1d1b128df0a0594c1",
+     "at": "2026-08-31T23:22:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "5e949e7",
+     "subject": "Merge pull request #7 from kody-w/copilot/holo-zoo-release-pages",
+     "url": "https://github.com/kody-w/rapterbox-site/commit/5e949e7ccf8e9c183c0c71311a982e8b009c55df",
+     "at": "2026-08-31T21:34:35Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3dd0d4f",
+     "subject": "Launch Holo Zoo release and price discovery pages",
+     "url": "https://github.com/kody-w/rapterbox-site/commit/3dd0d4f754dccef0f721474f2474f4ea58d8f9f6",
+     "at": "2026-08-31T21:33:24Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f8e8c2a",
+     "subject": "feat: add RBox Intake lead service (#6)",
+     "url": "https://github.com/kody-w/rapterbox-site/commit/f8e8c2a159ef990c11abea89cb3381438a770b60",
+     "at": "2026-08-31T16:33:55Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "a12a978",
+     "subject": "feat: add RBox Intake lead service",
+     "url": "https://github.com/kody-w/rapterbox-site/commit/a12a978ce08ba7d36e21127efee8dd24006ac69e",
+     "at": "2026-08-31T16:33:11Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 5
+  },
+  {
+   "repo": "rapp-projects",
+   "url": "https://github.com/kody-w/rapp-projects",
+   "description": "Product-neutral RAPP/1 project memory, RAPP Cell evolution, cross-runtime handoff, bounded autopilot, and crash recovery",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": true,
+   "human": [
+    {
+     "sha": "2b37502",
+     "subject": "Merge pull request #1 from kody-w/copilot/reject-url-receipts",
+     "url": "https://github.com/kody-w/rapp-projects/commit/2b375029d051b80b4df8c19749aeb64a96df216a",
+     "at": "2026-08-31T22:14:27Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "dced636",
+     "subject": "fix: reject URI receipts before commit",
+     "url": "https://github.com/kody-w/rapp-projects/commit/dced636c171e9f30bb9638b77c0c7471ad4d2ef2",
+     "at": "2026-08-31T22:12:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "c732e1c",
+     "subject": "fix: install into the active Brainstem runtime",
+     "url": "https://github.com/kody-w/rapp-projects/commit/c732e1c7672c96c7e7e23b89dd494bd4c614842d",
+     "at": "2026-08-31T15:24:11Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "f0017a9",
+     "subject": "feat: publish RAPP Projects and RAPP Cell",
+     "url": "https://github.com/kody-w/rapp-projects/commit/f0017a92dc8db0c7965e1692f1a484662f9618e7",
+     "at": "2026-08-31T15:20:57Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 4
   },
   {
    "repo": "kody-w.github.io",
@@ -616,8 +1510,60 @@
      "by": "kody-w"
     }
    ],
-   "fleet": [],
-   "fleet_count": 0,
+   "fleet": [
+    {
+     "sha": "3a31adb",
+     "subject": "Refresh Weekly Signal",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/3a31adbe89a4e3946d1c5f37974813718aa3393d",
+     "at": "2026-08-31T20:41:19Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "97e2fa1",
+     "subject": "Refresh public works and twin release",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/97e2fa170fa1a8bb5ee8fd5606657585c651fa08",
+     "at": "2026-08-31T20:12:43Z",
+     "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 2,
+   "human_count": 2
+  },
+  {
+   "repo": "RAPP",
+   "url": "https://github.com/kody-w/RAPP",
+   "description": "Portable, shareable, vibe swarm building tool. Single-file agents, local-first, GitHub Copilot powered. Live at kody-w.github.io/RAPP/",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RAPP/",
+   "new": false,
+   "human": [
+    {
+     "sha": "d0e3222",
+     "subject": "Merge pull request #109 from kody-w/copilot/rapp-ai-first",
+     "url": "https://github.com/kody-w/RAPP/commit/d0e32227bdd39c54d01bdaec91ff4ba5d841b72d",
+     "at": "2026-08-31T21:22:48Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "d71b6f9",
+     "subject": "docs: make RAPP machine-first",
+     "url": "https://github.com/kody-w/RAPP/commit/d71b6f9fbf6c2f9e790b358e67e17fe83baae4dd",
+     "at": "2026-08-31T21:19:45Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [
+    {
+     "sha": "7bf2f07",
+     "subject": "chore: harvest metropolis activity snapshot",
+     "url": "https://github.com/kody-w/RAPP/commit/7bf2f07889ad35a13e10de452a40af315c771ae4",
+     "at": "2026-08-31T21:55:44Z",
+     "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 1,
    "human_count": 2
   },
   {
@@ -650,38 +1596,9 @@
    "human_count": 2
   },
   {
-   "repo": "rapp-projects",
-   "url": "https://github.com/kody-w/rapp-projects",
-   "description": "Product-neutral RAPP/1 project memory, RAPP Cell evolution, cross-runtime handoff, bounded autopilot, and crash recovery",
-   "stars": 0,
-   "language": "Python",
-   "private": false,
-   "homepage": "",
-   "new": true,
-   "human": [
-    {
-     "sha": "c732e1c",
-     "subject": "fix: install into the active Brainstem runtime",
-     "url": "https://github.com/kody-w/rapp-projects/commit/c732e1c7672c96c7e7e23b89dd494bd4c614842d",
-     "at": "2026-08-31T15:24:11Z",
-     "by": "kody-w"
-    },
-    {
-     "sha": "f0017a9",
-     "subject": "feat: publish RAPP Projects and RAPP Cell",
-     "url": "https://github.com/kody-w/rapp-projects/commit/f0017a92dc8db0c7965e1692f1a484662f9618e7",
-     "at": "2026-08-31T15:20:57Z",
-     "by": "kody-w"
-    }
-   ],
-   "fleet": [],
-   "fleet_count": 0,
-   "human_count": 2
-  },
-  {
-   "repo": "rapterbox-site",
-   "url": "https://github.com/kody-w/rapterbox-site",
-   "description": "",
+   "repo": "rappvision-rappterbox",
+   "url": "https://github.com/kody-w/rappvision-rappterbox",
+   "description": "Evidence-backed RappterBox experiments for the RAPP Vision network",
    "stars": 0,
    "language": "HTML",
    "private": false,
@@ -689,17 +1606,17 @@
    "new": false,
    "human": [
     {
-     "sha": "f8e8c2a",
-     "subject": "feat: add RBox Intake lead service (#6)",
-     "url": "https://github.com/kody-w/rapterbox-site/commit/f8e8c2a159ef990c11abea89cb3381438a770b60",
-     "at": "2026-08-31T16:33:55Z",
+     "sha": "6af62eb",
+     "subject": "Merge pull request #2 from kody-w/copilot/anonymous-starting-houses",
+     "url": "https://github.com/kody-w/rappvision-rappterbox/commit/6af62eb0cdef26ad35ca85a480626af6f2918494",
+     "at": "2026-08-31T19:59:15Z",
      "by": "kody-w"
     },
     {
-     "sha": "a12a978",
-     "subject": "feat: add RBox Intake lead service",
-     "url": "https://github.com/kody-w/rapterbox-site/commit/a12a978ce08ba7d36e21127efee8dd24006ac69e",
-     "at": "2026-08-31T16:33:11Z",
+     "sha": "0c1d246",
+     "subject": "feat: add four anonymous starting houses",
+     "url": "https://github.com/kody-w/rappvision-rappterbox/commit/0c1d2468158f39dea5b0ab4a9d6cca69ccb47dd1",
+     "at": "2026-08-31T19:03:12Z",
      "by": "kody-w"
     }
    ],
@@ -719,73 +1636,122 @@
    "human": [],
    "fleet": [
     {
-     "sha": "fbdfa4a",
+     "sha": "e197eda",
      "subject": "twin-author: fresh content + quality report",
-     "url": "https://github.com/kody-w/rappterbook/commit/fbdfa4ac5059919fad0243d57f303f126825249b",
-     "at": "2026-08-31T17:48:22Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/e197eda404d86edef7557967b16504b92208e8af",
+     "at": "2026-08-31T23:09:07Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "ee20e91",
-     "subject": "chore: regenerate agent status files [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ee20e910321957312ddec0ebc3bc4c15a369cf00",
-     "at": "2026-08-31T17:28:03Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "9790650",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/97906507e4ae7eddc255026763e7dfb730ac040b",
-     "at": "2026-08-31T17:27:24Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "b7213e2",
-     "subject": "chore: zion autonomy update [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b7213e2e7aac0e318b6077148465f5bc4cdcaa86",
-     "at": "2026-08-31T17:00:05Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "c189efa",
-     "subject": "chore: update trending [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c189efa9640e904a91901d4dd205b73ed836af17",
-     "at": "2026-08-31T16:40:00Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "e110721",
-     "subject": "chore: reconcile channel counts [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e110721aa61820724ebbd5222225f68dba6e7dbb",
-     "at": "2026-08-31T16:31:35Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "27fdc9c",
-     "subject": "chore: update feeds [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/27fdc9c44cda130febb717548ed54480b4b9935f",
-     "at": "2026-08-31T16:25:12Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "485a458",
-     "subject": "chore(overseer): tick from github-actions [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/485a45801b253509182c394c07b7417a0e343510",
-     "at": "2026-08-31T14:58:41Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "b4f4388",
-     "subject": "chore: agent heartbeat [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b4f43886d8fe0aa8dbe2c19f9f986e1f74f3f6f2",
-     "at": "2026-08-31T14:34:26Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "2e022be",
+     "sha": "8cb8203",
      "subject": "chore: slop cop review [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/2e022beed2a71c32720042d7dea1852447bb8b72",
-     "at": "2026-08-31T14:20:00Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/8cb820390275e46e486bf4147d3497a87f29822b",
+     "at": "2026-08-31T22:59:37Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "a4d8172",
+     "subject": "chore: refresh live-source snapshots [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/a4d8172f3962e0c1ed20f2c249e1ee15d4191726",
+     "at": "2026-08-31T22:58:24Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "bed1aa2",
+     "subject": "chore(api)- rebuild static api [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/bed1aa2d0d9e1d2b32cdc8a7b6f2b45b803d64b1",
+     "at": "2026-08-31T22:54:14Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "75b077b",
+     "subject": "chore: update D365 simulation data [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/75b077bbdaea5d523137ef5fab095f2c4945b449",
+     "at": "2026-08-31T22:47:28Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "2b26b47",
+     "subject": "twin-driver: autonomous run [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2b26b4759dd72fca128a377b89711f364de6c02f",
+     "at": "2026-08-31T22:41:21Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "a96e5eb",
+     "subject": "chore: regenerate agent status files [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/a96e5eb34e9cb3ce44822635b371e31bcaa5e7a9",
+     "at": "2026-08-31T22:38:55Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "6dfd13a",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/6dfd13a982062ff635c315a00e806b8679c88cbd",
+     "at": "2026-08-31T22:38:29Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "59c9358",
+     "subject": "chore: zion autonomy update [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/59c93587719796c85ed9177584f7061ea42be4be",
+     "at": "2026-08-31T22:25:43Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "4197537",
+     "subject": "chore: update trending [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/419753730307e5b77c7441065c874d24ab411454",
+     "at": "2026-08-31T22:01:52Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "0a60b8e",
+     "subject": "chore: reconcile channel counts [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/0a60b8e992a659e212bc79398ce0dc662ad89891",
+     "at": "2026-08-31T21:59:14Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "126db8b",
+     "subject": "chore: update feeds [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/126db8b7a023951a10e1c17238c18f89b2dd2eb0",
+     "at": "2026-08-31T21:41:08Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "cf0a3a3",
+     "subject": "chore(overseer): tick from github-actions [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/cf0a3a35f110f6950e8b508158d3f8e805661469",
+     "at": "2026-08-31T20:46:24Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "d15d54e",
+     "subject": "chore: agent heartbeat [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/d15d54e1e05eca49d384745174c1e0f8d8fc2a74",
+     "at": "2026-08-31T20:31:17Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "5e30fb8",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/5e30fb80c1ad11a1d49feca69316770372e67610",
+     "at": "2026-08-31T20:31:15Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "9d80f0d",
+     "subject": "chore: cloud brainstem tick [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/9d80f0d5a90697ed93eb4a93d92ea4508a0ae559",
+     "at": "2026-08-31T20:28:45Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "478380e",
+     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/478380e4362eb8dfd7dc7ad1589d5f45b80d06b6",
+     "at": "2026-08-31T20:15:58Z",
      "by": "rappterbook-bot"
     },
     {
@@ -796,13 +1762,6 @@
      "by": "rappter-bot"
     },
     {
-     "sha": "debe628",
-     "subject": "chore: cloud brainstem tick [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/debe6285c4d760abd0c4ccf9623c23a71686ac97",
-     "at": "2026-08-31T14:15:38Z",
-     "by": "rappterbook-bot"
-    },
-    {
      "sha": "73aee34",
      "subject": "chore: commons frame tick [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/73aee34bdb99b81f37152b4ce288a6f47a46577c",
@@ -810,45 +1769,10 @@
      "by": "rappterbook-bot"
     },
     {
-     "sha": "b32bc29",
-     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/b32bc29f1263498c4e56665357741fc6d0853c59",
-     "at": "2026-08-31T14:03:42Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "63bda10",
-     "subject": "chore(api)- rebuild static api [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/63bda10e8cba79e7df5825ed3374bb5c0f78a37b",
-     "at": "2026-08-31T13:59:31Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "ceb2401",
-     "subject": "chore: refresh live-source snapshots [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ceb2401b573d3dc46d91220d33963fd657ec146b",
-     "at": "2026-08-31T13:56:16Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "904d4c7",
-     "subject": "chore: update D365 simulation data [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/904d4c7afa99736ec13d98e574ecfbf0ce98ba2f",
-     "at": "2026-08-31T13:41:15Z",
-     "by": "rappterbook-bot"
-    },
-    {
      "sha": "8c39739",
      "subject": "chore: update agent statuses from heartbeat audit [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/8c3973977c34801c3685468bf93fde187811943a",
      "at": "2026-08-31T13:25:04Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "3694f79",
-     "subject": "twin-driver: autonomous run [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/3694f7932214ac5a20c9403431ed737ba7f54071",
-     "at": "2026-08-31T13:15:25Z",
      "by": "rappterbook-bot"
     },
     {
@@ -873,57 +1797,7 @@
      "by": "Zion Bounty Bot"
     }
    ],
-   "fleet_count": 22,
-   "human_count": 0
-  },
-  {
-   "repo": "RAR",
-   "url": "https://github.com/kody-w/RAR",
-   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
-   "stars": 2,
-   "language": "Python",
-   "private": false,
-   "homepage": "",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "5e66a87",
-     "subject": "Dream Catcher frame 1437: fleet content merge [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/5e66a871eace47fd91bae953327af9679b72af6f",
-     "at": "2026-08-31T18:35:23Z",
-     "by": "dream-catcher"
-    },
-    {
-     "sha": "ee1ce9f",
-     "subject": "chore(community): refresh ratings, federation + download snapshots [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/ee1ce9f60128d6b8417246e4d29e87b10ad02e47",
-     "at": "2026-08-31T14:59:40Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "49a087a",
-     "subject": "chore: metrics snapshot 2026-08-31",
-     "url": "https://github.com/kody-w/RAR/commit/49a087a5049c1d00a48891b90cedf8b17163fd53",
-     "at": "2026-08-31T11:39:44Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "78ace81",
-     "subject": "Dream Catcher frame 1436: fleet content merge [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/78ace81a42708b5237d347d4ab7f36a9da9c6609",
-     "at": "2026-08-31T10:21:45Z",
-     "by": "dream-catcher"
-    },
-    {
-     "sha": "ee31de7",
-     "subject": "Dream Catcher frame 1435: fleet content merge [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/ee31de7bdeb5f1b40e6e481dd34661026a29dd9b",
-     "at": "2026-08-31T02:49:02Z",
-     "by": "dream-catcher"
-    }
-   ],
-   "fleet_count": 5,
+   "fleet_count": 23,
    "human_count": 0
   },
   {
@@ -937,6 +1811,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "3c21c20",
+     "subject": "api: 2026-08-31T23:20:29Z",
+     "url": "https://github.com/kody-w/dogg-api/commit/3c21c207e4ba38464e7cbaa39813eb44ed657c09",
+     "at": "2026-08-31T23:20:29Z",
+     "by": "actions"
+    },
     {
      "sha": "3752138",
      "subject": "api: 2026-08-31T19:35:46Z",
@@ -966,7 +1847,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 4,
+   "fleet_count": 5,
    "human_count": 0
   },
   {
@@ -980,6 +1861,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "da7e4e0",
+     "subject": "frame: 2026-08-31T23:15:59Z",
+     "url": "https://github.com/kody-w/dogg-verdict/commit/da7e4e0fc5b5f0d214eae3a4b7589b50c9566d0e",
+     "at": "2026-08-31T23:15:59Z",
+     "by": "actions"
+    },
     {
      "sha": "e690b62",
      "subject": "frame: 2026-08-31T19:11:39Z",
@@ -1009,7 +1897,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 4,
+   "fleet_count": 5,
    "human_count": 0
   },
   {
@@ -1023,6 +1911,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "6efca42",
+     "subject": "frame: 2026-08-31T20:36:45Z",
+     "url": "https://github.com/kody-w/dogg-markets/commit/6efca42ae1bb96674ce677e705401f57480ba7c3",
+     "at": "2026-08-31T20:36:45Z",
+     "by": "actions"
+    },
     {
      "sha": "0e90d51",
      "subject": "frame: 2026-08-31T14:47:08Z",
@@ -1045,7 +1940,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -1059,6 +1954,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "3504cd5",
+     "subject": "frame: 2026-08-31T22:58:57Z",
+     "url": "https://github.com/kody-w/dogg-planet/commit/3504cd598b90f87a9fe15cb036f42c5099101bcf",
+     "at": "2026-08-31T22:58:57Z",
+     "by": "actions"
+    },
     {
      "sha": "0db9d95",
      "subject": "frame: 2026-08-31T18:06:29Z",
@@ -1081,7 +1983,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -1095,6 +1997,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "73bac6c",
+     "subject": "frame: 2026-08-31T23:18:35Z",
+     "url": "https://github.com/kody-w/dogg-radio/commit/73bac6cf9d65b1a0d06c66f9865334c756ff856c",
+     "at": "2026-08-31T23:18:35Z",
+     "by": "actions"
+    },
     {
      "sha": "a61358f",
      "subject": "frame: 2026-08-31T19:04:20Z",
@@ -1117,7 +2026,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -1131,6 +2040,13 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "2db68c3",
+     "subject": "frame: 2026-08-31T21:20:25Z",
+     "url": "https://github.com/kody-w/dogg-water/commit/2db68c323666e302135c344fc6805f22f56f5615",
+     "at": "2026-08-31T21:20:25Z",
+     "by": "actions"
+    },
     {
      "sha": "2f0cbfa",
      "subject": "frame: 2026-08-31T15:54:06Z",
@@ -1153,7 +2069,7 @@
      "by": "actions"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -1241,28 +2157,6 @@
     }
    ],
    "fleet_count": 2,
-   "human_count": 0
-  },
-  {
-   "repo": "RAPP",
-   "url": "https://github.com/kody-w/RAPP",
-   "description": "Portable, shareable, vibe swarm building tool. Single-file agents, local-first, GitHub Copilot powered. Live at kody-w.github.io/RAPP/",
-   "stars": 0,
-   "language": "Python",
-   "private": false,
-   "homepage": "https://kody-w.github.io/RAPP/",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "0d5830e",
-     "subject": "chore: harvest metropolis activity snapshot",
-     "url": "https://github.com/kody-w/RAPP/commit/0d5830ec0f239f120f841203f5678ca0d13404f8",
-     "at": "2026-08-31T17:07:03Z",
-     "by": "github-actions[bot]"
-    }
-   ],
-   "fleet_count": 1,
    "human_count": 0
   },
   {
@@ -1497,11 +2391,33 @@
    "human": [],
    "fleet": [
     {
-     "sha": "4b8a236",
+     "sha": "1461e2e",
      "subject": "chore: refresh GitHub snapshots [skip ci]",
-     "url": "https://github.com/kody-w/kody-twin/commit/4b8a236e84c39f896f65bc8afbb1f18d5a6784c3",
-     "at": "2026-08-31T13:54:56Z",
+     "url": "https://github.com/kody-w/kody-twin/commit/1461e2ee95c94442fd47a1f90010a1e2670bef7a",
+     "at": "2026-08-31T22:52:21Z",
      "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "aed6ae2",
+     "subject": "kody2day 2026-08-31: 42 repos touched \u00b7 75 commits by Kody \u00b7 82 by the fleet \u00b7 new: rapterbot.com, rapp-projects (so far \u2014 the day is still running; rebuilt tom",
+     "url": "https://github.com/kody-w/kody2day/commit/aed6ae2bf55939ccf37e4a1df0de2cac64a5b0ee",
+     "at": "2026-08-31T19:58:11Z",
+     "by": "kody2day"
     }
    ],
    "fleet_count": 1,
@@ -1541,10 +2457,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "4268594",
+     "sha": "8710e2d",
      "subject": "consensus: cross-verification report",
-     "url": "https://github.com/kody-w/mars-chain-node/commit/426859486ad86d512cda490be588241d69f58858",
-     "at": "2026-08-31T12:53:48Z",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/8710e2d62112747a81eb8ad972496a1820b34b75",
+     "at": "2026-08-31T22:33:48Z",
      "by": "MARS Chain Verifier"
     }
    ],
@@ -1585,10 +2501,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "b2869c7",
+     "sha": "d528361",
      "subject": "status: refresh snapshot [skip ci]",
-     "url": "https://github.com/kody-w/rapp-installer-dev/commit/b2869c73b7fc7a2ee5709ff66ac11d2a8b288710",
-     "at": "2026-08-31T17:06:02Z",
+     "url": "https://github.com/kody-w/rapp-installer-dev/commit/d528361de54b68820ac6e052f6763dc20dba1245",
+     "at": "2026-08-31T21:55:02Z",
      "by": "actions"
     }
    ],
@@ -1629,10 +2545,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "b1e9d7a",
+     "sha": "1df003d",
      "subject": "static-api: rebuild [skip ci]",
-     "url": "https://github.com/kody-w/rapp-release-train/commit/b1e9d7a8130b22a70701b97bb474b1a1393c4023",
-     "at": "2026-08-31T14:00:03Z",
+     "url": "https://github.com/kody-w/rapp-release-train/commit/1df003daa9e9d99e3919906d23317f0d13722f85",
+     "at": "2026-08-31T22:53:58Z",
      "by": "actions"
     }
    ],
@@ -1695,10 +2611,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "04c5124",
+     "sha": "2ac38b3",
      "subject": "tick: generation 50 [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/04c51245e7bdc6c46d474b318de12d86495f07ae",
-     "at": "2026-08-31T18:47:06Z",
+     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/2ac38b36c603b0659311eb6ebc1d13492c41787f",
+     "at": "2026-08-31T23:37:09Z",
      "by": "dreaming-garden[bot]"
     }
    ],
@@ -1717,10 +2633,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "57df764",
+     "sha": "83e93d3",
      "subject": "chore: harvest discussions snapshot [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-vm/commit/57df764c7b0826a4d3f6c0c35100d7929a68feae",
-     "at": "2026-08-31T19:10:26Z",
+     "url": "https://github.com/kody-w/rappterbook-vm/commit/83e93d3299a903dc3172cbe81dac3f6e9a0c28b8",
+     "at": "2026-08-31T23:15:20Z",
      "by": "actions"
     }
    ],
@@ -1739,10 +2655,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "cf67cd3",
+     "sha": "845eb38",
      "subject": "chore: harvest kody-w repos snapshot",
-     "url": "https://github.com/kody-w/static-library/commit/cf67cd39355269fa76a09f2d49e13535777941fe",
-     "at": "2026-08-31T17:02:05Z",
+     "url": "https://github.com/kody-w/static-library/commit/845eb3844c53bd615ece0d909ac29357742f0b45",
+     "at": "2026-08-31T21:53:21Z",
      "by": "github-actions[bot]"
     }
    ],
