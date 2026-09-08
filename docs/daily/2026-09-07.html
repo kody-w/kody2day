@@ -15,7 +15,7 @@ nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:
 footer{color:var(--mut);font-size:13px;margin-top:40px}
 </style><main>
 <h1><a href='../'>Kody2day</a> <span class=tag>2026-09-07</span></h1>
-<p class=sub>50 repos touched · 68 commits by Kody · 113 by the fleet (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-09-07 18:42 UTC.</p>
+<p class=sub>51 repos touched · 84 commits by Kody · 135 by the fleet — the last 24h of Kody's public GitHub, generated 2026-09-08 17:52 UTC.</p>
 <nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
 <div class=card><h2><a href='https://github.com/kody-w/openrappter'>openrappter</a></h2>
 <p class=desc>🦖 Local-first AI agent powered by GitHub Copilot SDK — no API keys required</p>
@@ -34,11 +34,27 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <div class=card><h2><a href='https://github.com/kody-w/rapp-canary'>rapp-canary</a></h2>
 <p class=desc>RAPP release-train canary ring; seeded from the untouched Grail</p>
 <ul>
-<li><span class=sha>df6a509</span><a href='https://github.com/kody-w/rapp-canary/commit/df6a5093ce5886015de00919ec18f1dee4bbf188'>Merge verified Astra Responses support into Canary</a></li>
-<li><span class=sha>88c2f78</span><a href='https://github.com/kody-w/rapp-canary/commit/88c2f78082356c3cbbfd87fcf331585b612f98f1'>feat: enable verified Astra Responses transport around the pinned kernel</a></li>
-<li><span class=sha>5359b9a</span><a href='https://github.com/kody-w/rapp-canary/commit/5359b9a4ef8a8079a88efb1bcc4464ce1af4cc4c'>Merge persistent Markdown skills and RAPP/1 receipts into Canary</a></li>
-<li><span class=sha>97550df</span><a href='https://github.com/kody-w/rapp-canary/commit/97550dfd25ccaeb53cad1ed3e44655ebbd4c2fe9'>feat: persist Markdown skills through a RAPP/1 Canary adapter</a></li>
+<li><span class=sha>da91e66</span><a href='https://github.com/kody-w/rapp-canary/commit/da91e66df702965d03a1ca6fa6d955d0d78d4ebd'>merge: replace LearnNew with stable aibast agent, drop skills entirely (preflight green: run 34167731544)</a></li>
+<li><span class=sha>4c40aba</span><a href='https://github.com/kody-w/rapp-canary/commit/4c40aba7de962255098df76507132278e5377264'>ci: remove the stored-skills smoke test — the feature it tested is gone</a></li>
+<li><span class=sha>51fe426</span><a href='https://github.com/kody-w/rapp-canary/commit/51fe42658b6d8b58668d5fe066245f3da9286317'>fix(ui): stop the test_polish fix and chat scroll catch-up from being dropped</a></li>
+<li><span class=sha>4ecda8b</span><a href='https://github.com/kody-w/rapp-canary/commit/4ecda8bd8d4b942c9c8067482e102487dd8efced'>feat: replace LearnNew with the stable aibast v2.1.0 agent, drop skills entirely</a></li>
+<li><span class=sha>d9c1fed</span><a href='https://github.com/kody-w/rapp-canary/commit/d9c1feda9370cf52baa50cf8a83f7e9d42177384'>merge: fix responses model alias normalization (preflight green: run 34167249214)</a></li>
+<li><span class=sha>fa79691</span><a href='https://github.com/kody-w/rapp-canary/commit/fa79691432ce8add597ddfaaee1adb103278d4ca'>fix(responses): accept Copilot&#x27;s normalized model echo for an alias</a></li>
+<li><span class=sha>23b3d0e</span><a href='https://github.com/kody-w/rapp-canary/commit/23b3d0e5d568c5a22d87ac5a0b114e657c5261dc'>merge: fix soak token path (preflight green: run 34164703064, 34164703079)</a></li>
+<li><span class=sha>73034d2</span><a href='https://github.com/kody-w/rapp-canary/commit/73034d270d995c8a438a61f9cdf9f762fd456faa'>fix(soak): mirror Copilot credentials into the render dir the kernel reads</a></li>
+<li class=fleet>… and 7 more</li>
 </ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
+<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
+<ul>
+<li><span class=sha>9e7f7ef</span><a href='https://github.com/kody-w/RAR/commit/9e7f7ef46c8ed2cc692081682a0ef7f14a2df794'>chore: refresh front page ranking and permanent URL ledger for @kody-w/host_compat_agent; trigger build on rhyme-gate edits</a></li>
+<li><span class=sha>fe5cde5</span><a href='https://github.com/kody-w/RAR/commit/fe5cde557f884c42cb65dccbf97ca7cd7ce117e6'>feat(ci): rhyme gate — block near-duplicate agents unless the manifest declares supersedes / distinct_from</a></li>
+<li><span class=sha>70b642f</span><a href='https://github.com/kody-w/RAR/commit/70b642f72f4ee907e991becc2797c37f42a3e666'>chore: rebuild registry after rebase [skip ci]</a></li>
+<li><span class=sha>a52a0d5</span><a href='https://github.com/kody-w/RAR/commit/a52a0d5107d37e0ba8d737bc7a0aaf303da6cc52'>fix(@kody-w): host_compat_agent v1.0.1 — BasicAgent(name, metadata) init for CommunityRAPP signature</a></li>
+<li><span class=sha>97bb052</span><a href='https://github.com/kody-w/RAR/commit/97bb0520630a7a0e9ac17dd58dec6e85d344bfcf'>feat(@kody-w): publish host_compat_agent v1.0.0 — Claude Code + Copilot CLI + Agent Skills compat with cross-host transcript search</a></li>
+</ul>
+<p class=fleet>fleet: 9 automated commits — e.g. Auto-build registry.json [skip ci]; Build Scout skills and workflows [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-sentinel'>rapp-sentinel</a></h2>
 <p class=desc>A watchdog that cannot quietly lie to you. Three watchers keeping tamper-evident rapp/1 chains, where health checks are free and only failure may spend a model — and outsiders can join the neighborhoo</p>
@@ -64,17 +80,18 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li><span class=sha>d839e9d</span><a href='https://github.com/kody-w/rapp-vision/commit/d839e9d70e8d3adb63811e4c5bc157a4a7d5febb'>Introduce Frame Chains before its ten-world technical tour</a></li>
 </ul>
 </div>
+<div class=card><h2><a href='https://github.com/kody-w/kody-w.github.io'>kody-w.github.io</a></h2>
+<ul>
+<li><span class=sha>634916d</span><a href='https://github.com/kody-w/kody-w.github.io/commit/634916dd7b355917e6550d0bf766d1486dab7c48'>Add post: Text Me Once — notification-agent design rules</a></li>
+</ul>
+<p class=fleet>fleet: 2 automated commits — e.g. Refresh Weekly Signal; Refresh public works and twin release</p>
+</div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-organism'>rapp-organism</a></h2>
 <p class=desc>Python processes public RAPP and DOGG data into JSON snapshots; Git commits preserve the time series. Changed data only. Raw organism carrier withheld.</p>
 <ul>
 <li><span class=sha>8f22458</span><a href='https://github.com/kody-w/rapp-organism/commit/8f22458cc8d11af0bc8f12d039cdf06c57fa94e9'>fix: reject stale and conflicting world snapshots</a></li>
 </ul>
 <p class=fleet>fleet: 1 automated commit — e.g. data: update public RAPP snapshots</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/kody-w.github.io'>kody-w.github.io</a></h2>
-<ul>
-<li><span class=sha>634916d</span><a href='https://github.com/kody-w/kody-w.github.io/commit/634916dd7b355917e6550d0bf766d1486dab7c48'>Add post: Text Me Once — notification-agent design rules</a></li>
-</ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappter-prompts'>rappter-prompts</a></h2>
 <p class=desc>Ten prompts a small-business owner can use with any AI — each reads a method page here first. From RappterBox.</p>
@@ -96,30 +113,38 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
 <p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
-<p class=fleet>fleet: 24 automated commits — e.g. chore: process inbox deltas [skip ci]; chore: agent heartbeat [skip ci]</p>
+<p class=fleet>fleet: 25 automated commits — e.g. chore: cloud brainstem tick [skip ci]; chore: zion autonomy update [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/openrappter-release-train'>openrappter-release-train</a></h2>
 <p class=desc>OpenRappter release train — canary → nightly → alpha → beta → stable. Flight deck + static API.</p>
 <p class=fleet>fleet: 12 automated commits — e.g. head: beta 4237cdc9eac67f975563440daa571e9c48b81fcc75c6e2679c5cf800500; receipt: finalize beta 4237cdc9eac67f975563440daa571e9c48b81fcc75c6e26</p>
 </div>
-<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
-<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
-<p class=fleet>fleet: 5 automated commits — e.g. Dream Catcher frame 1478: fleet content merge [skip ci]; chore(community): refresh ratings, federation + download snapshots [sk</p>
-</div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg'>dogg</a></h2>
-<p class=fleet>fleet: 5 automated commits — e.g. fallback tick 863; fallback tick 862</p>
+<p class=fleet>fleet: 7 automated commits — e.g. fallback tick 865; fallback tick 864</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-markets'>dogg-markets</a></h2>
 <p class=desc>Federated node of the global tick network — its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-07T18:03:52Z; frame: 2026-09-07T12:52:51Z</p>
+<p class=fleet>fleet: 6 automated commits — e.g. frame: 2026-09-07T23:56:00Z; frame: 2026-09-07T21:40:46Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-verdict'>dogg-verdict</a></h2>
 <p class=desc>The first derived doggcast: verifiable judgment frames — anomaly scores and a quiet index computed from the DOGG world dimension&#x27;s history, auditable back to source frames.</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-07T16:35:10Z; frame: 2026-09-07T11:21:16Z</p>
+<p class=fleet>fleet: 6 automated commits — e.g. frame: 2026-09-07T22:56:10Z; frame: 2026-09-07T20:20:03Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-water'>dogg-water</a></h2>
 <p class=desc>Federated tick-network node: versioned emergency water procedure + live USGS river-gauge reading vs flood stage</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-07T17:24:22Z; frame: 2026-09-07T11:46:50Z</p>
+<p class=fleet>fleet: 6 automated commits — e.g. frame: 2026-09-07T23:18:38Z; frame: 2026-09-07T20:43:10Z</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg-api'>dogg-api</a></h2>
+<p class=desc>Free static JSON API over the DOGG global tick network — per-source time series + latest world state, every row auditable back to the verified chains.</p>
+<p class=fleet>fleet: 5 automated commits — e.g. api: 2026-09-07T22:45:42Z; api: 2026-09-07T19:51:32Z</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg-planet'>dogg-planet</a></h2>
+<p class=desc>Federated node of the global tick network — its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg</p>
+<p class=fleet>fleet: 5 automated commits — e.g. frame: 2026-09-07T22:13:04Z; frame: 2026-09-07T19:20:53Z</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg-radio'>dogg-radio</a></h2>
+<p class=desc>Federated tick-network node: NOAA WX / FRS-GMRS / marine / aviation / CB emergency frequencies + live GA NWS alert count</p>
+<p class=fleet>fleet: 5 automated commits — e.g. frame: 2026-09-07T22:44:00Z; frame: 2026-09-07T19:48:55Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/openrappter-alpha'>openrappter-alpha</a></h2>
 <p class=desc>OpenRappter release train — alpha ring. Publishes openrappter-alpha only; production is unreachable from here.</p>
@@ -136,18 +161,6 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <div class=card><h2><a href='https://github.com/kody-w/openrappter-nightly'>openrappter-nightly</a></h2>
 <p class=desc>OpenRappter release train — nightly ring. Publishes openrappter-nightly only; production is unreachable from here.</p>
 <p class=fleet>fleet: 4 automated commits — e.g. ring: observe finalized cursor 2; ring: advance applied cursor 3</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/dogg-api'>dogg-api</a></h2>
-<p class=desc>Free static JSON API over the DOGG global tick network — per-source time series + latest world state, every row auditable back to the verified chains.</p>
-<p class=fleet>fleet: 3 automated commits — e.g. api: 2026-09-07T15:45:02Z; api: 2026-09-07T09:38:37Z</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/dogg-planet'>dogg-planet</a></h2>
-<p class=desc>Federated node of the global tick network — its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg</p>
-<p class=fleet>fleet: 3 automated commits — e.g. frame: 2026-09-07T15:09:42Z; frame: 2026-09-07T09:09:44Z</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/dogg-radio'>dogg-radio</a></h2>
-<p class=desc>Federated tick-network node: NOAA WX / FRS-GMRS / marine / aviation / CB emergency frequencies + live GA NWS alert count</p>
-<p class=fleet>fleet: 3 automated commits — e.g. frame: 2026-09-07T15:43:00Z; frame: 2026-09-07T09:37:30Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/localFirstTools'>localFirstTools</a></h2>
 <p class=desc>localFirstTools</p>
@@ -204,6 +217,10 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <div class=card><h2><a href='https://github.com/kody-w/kody-twin'>kody-twin</a></h2>
 <p class=desc>Kody Wildfeuer — RAPP front door</p>
 <p class=fleet>fleet: 1 automated commit — e.g. chore: refresh GitHub snapshots [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/kody2day'>kody2day</a></h2>
+<p class=desc>A daily digest of what Kody shipped across his public GitHub — so you can keep up.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. kody2day 2026-09-07: 50 repos touched · 68 commits by Kody · 113 by th</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/mars-barn-opus'>mars-barn-opus</a></h2>
 <p class=desc>First Principles to Mars — An Oregon Trail for Mars. Real physics. Real weather. Real decisions.</p>
