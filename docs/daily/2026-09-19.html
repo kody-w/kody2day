@@ -15,8 +15,34 @@ nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:
 footer{color:var(--mut);font-size:13px;margin-top:40px}
 </style><main>
 <h1><a href='../'>Kody2day</a> <span class=tag>2026-09-19</span></h1>
-<p class=sub>38 repos touched · 16 commits by Kody · 89 by the fleet · new: hive-showcase (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-09-19 17:11 UTC.</p>
+<p class=sub>40 repos touched · 28 commits by Kody · 116 by the fleet · new: hive-showcase, rapp-imessage-launchpad — the last 24h of Kody's public GitHub, generated 2026-09-20 17:24 UTC.</p>
 <nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
+<div class=card><h2><a href='https://github.com/kody-w/hive-hub'>hive-hub</a></h2>
+<p class=desc>Say seven words, reach a Hive. Protocol-neutral discovery and join for humans and any AI → https://kody-w.github.io/hive-hub/</p>
+<ul>
+<li><span class=sha>8680db7</span><a href='https://github.com/kody-w/hive-hub/commit/8680db7ff8a945756323b332e9c8f95bfb7012ab'>fix: preserve chant boundaries during canonical lookup</a></li>
+<li><span class=sha>1238644</span><a href='https://github.com/kody-w/hive-hub/commit/1238644dbbe12ad77f2a811279b304c3fcd60676'>docs: explain wheel-only cold starts and deployment boundaries</a></li>
+<li><span class=sha>fe92109</span><a href='https://github.com/kody-w/hive-hub/commit/fe921096558ede6f4ca444bd69721b2f421e7bc7'>feat: require exact approval for bounded public Hub dialing</a></li>
+<li><span class=sha>c5ab7c6</span><a href='https://github.com/kody-w/hive-hub/commit/c5ab7c613441d130e9aea3921e84f4fe7b4e9a7c'>fix: publish core-addressed records and bounded cold-start snapshots</a></li>
+<li><span class=sha>41c98d3</span><a href='https://github.com/kody-w/hive-hub/commit/41c98d3ba0bb3efdd6cca8b0bebddadac461e3f6'>test: gate published records against the core identity contract</a></li>
+<li><span class=sha>fee34d7</span><a href='https://github.com/kody-w/hive-hub/commit/fee34d7ba63aa8731f29f7de4d3954b47e684246'>Merge pull request #8 from kody-w/fix/stale-examples-and-readme-20260919</a></li>
+<li><span class=sha>21f5fc6</span><a href='https://github.com/kody-w/hive-hub/commit/21f5fc6fc871dba7c5845174c25d8a81eb09e973'>Fix the shipped examples, the README, and add the PyPI release workflow</a></li>
+<li><span class=sha>571ab38</span><a href='https://github.com/kody-w/hive-hub/commit/571ab387b736b967244da889a1c77872158db008'>Merge pull request #7 from kody-w/fix/root-front-door-20260919</a></li>
+<li class=fleet>… and 5 more</li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
+<p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
+<ul>
+<li><span class=sha>42779b6</span><a href='https://github.com/kody-w/rappterbook/commit/42779b6109c6f60be2a07bef47f207c6d0339e2a'>Add supervised participation gauntlet and repair receipt/credit integrity (#21254)</a></li>
+<li><span class=sha>b7afd35</span><a href='https://github.com/kody-w/rappterbook/commit/b7afd35d6a58ced7d40c78e0ecfe009a63f23039'>docs: record public pilot visibility and contributor follow-up (#21253)</a></li>
+<li><span class=sha>73f072d</span><a href='https://github.com/kody-w/rappterbook/commit/73f072d52cb75513ea841ffa12b2f1a0e38fb987'>docs: preserve pending Moltbook pilot recovery state (#21252)</a></li>
+<li><span class=sha>ac3ebb6</span><a href='https://github.com/kody-w/rappterbook/commit/ac3ebb6664cc159b465dd8cf2be6f4086aa27a85'>fix: adapt Moltbook preflight to current public notification data (#21251)</a></li>
+<li><span class=sha>1fe20a6</span><a href='https://github.com/kody-w/rappterbook/commit/1fe20a604f33ef2384070ec166509386df560eba'>fix: credit outside contributions and ship the complete Rappterbook skill (#21249)</a></li>
+<li><span class=sha>7dee678</span><a href='https://github.com/kody-w/rappterbook/commit/7dee678b0bbf12f74a801cfbc9faee1312e8b131'>fix: make outside-AI discovery and conversation usable (#21248)</a></li>
+</ul>
+<p class=fleet>fleet: 24 automated commits — e.g. chore: process inbox deltas [skip ci]; chore: agent heartbeat [skip ci]</p>
+</div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-skills'>rapp-skills</a></h2>
 <p class=desc>Portable Agent Skills that convert losslessly to and from single-file agents. One SKILL.md is all a user needs; works in Claude Code and GitHub Copilot CLI with or without a plugin.</p>
 <ul>
@@ -25,24 +51,6 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li><span class=sha>5173561</span><a href='https://github.com/kody-w/rapp-skills/commit/51735610f5b433ef172c60c4733feb4ae62582d9'>Fix preserved scaffold plan approval</a></li>
 <li><span class=sha>2d3192c</span><a href='https://github.com/kody-w/rapp-skills/commit/2d3192c31696f90ea3d708d0aa0ed5302c0e7c84'>Merge pull request #5 from kody-w/feat/hive-hub-org-seeds-20260918</a></li>
 <li><span class=sha>06ccbce</span><a href='https://github.com/kody-w/rapp-skills/commit/06ccbceaac9ee0f6283ad54585f0535fd41a9807'>Add the portable Hive network workflow and organization seed catalog</a></li>
-</ul>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
-<p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
-<ul>
-<li><span class=sha>73f072d</span><a href='https://github.com/kody-w/rappterbook/commit/73f072d52cb75513ea841ffa12b2f1a0e38fb987'>docs: preserve pending Moltbook pilot recovery state (#21252)</a></li>
-<li><span class=sha>ac3ebb6</span><a href='https://github.com/kody-w/rappterbook/commit/ac3ebb6664cc159b465dd8cf2be6f4086aa27a85'>fix: adapt Moltbook preflight to current public notification data (#21251)</a></li>
-<li><span class=sha>1fe20a6</span><a href='https://github.com/kody-w/rappterbook/commit/1fe20a604f33ef2384070ec166509386df560eba'>fix: credit outside contributions and ship the complete Rappterbook skill (#21249)</a></li>
-<li><span class=sha>7dee678</span><a href='https://github.com/kody-w/rappterbook/commit/7dee678b0bbf12f74a801cfbc9faee1312e8b131'>fix: make outside-AI discovery and conversation usable (#21248)</a></li>
-</ul>
-<p class=fleet>fleet: 23 automated commits — e.g. chore: reconcile channel counts [skip ci]; twin-author: fresh content + quality report</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/hive-hub'>hive-hub</a></h2>
-<p class=desc>Protocol-neutral Hive Hub for humans and any AI: dial, learn, join, chant, QR, and typed adapters for public/private Hives.</p>
-<ul>
-<li><span class=sha>16addca</span><a href='https://github.com/kody-w/hive-hub/commit/16addca7f3129dd48de66fb18a256b0be1536baa'>Merge pull request #6 from kody-w/feat/public-organization-seeds-20260918</a></li>
-<li><span class=sha>68203b0</span><a href='https://github.com/kody-w/hive-hub/commit/68203b0c6940ee88b6246021a24f62dfd235dee7'>Include the MIT notice in every downloadable organization seed</a></li>
-<li><span class=sha>44da621</span><a href='https://github.com/kody-w/hive-hub/commit/44da6215a7e4577f721fc2ce92f140849a93e07a'>Publish ten RAPP Work organization seeds and a portable network skill</a></li>
 </ul>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/rapp-static-apis'>rapp-static-apis</a></h2>
@@ -59,36 +67,36 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <li><span class=sha>e71590b</span><a href='https://github.com/kody-w/kody-w.github.io/commit/e71590b84f3fddd432e7298364250bc5f77600bf'>Teach constitutional conversation-complete Brainstem workflows</a></li>
 </ul>
 </div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg'>dogg</a></h2>
+<p class=fleet>fleet: 9 automated commits — e.g. fallback tick 948; fallback tick 947</p>
+</div>
 <div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
 <p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
-<p class=fleet>fleet: 6 automated commits — e.g. Dream Catcher frame 1544: fleet content merge [skip ci]; Dream Catcher frame 1543: fleet content merge [skip ci]</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/dogg'>dogg</a></h2>
-<p class=fleet>fleet: 5 automated commits — e.g. fallback tick 944; fallback tick 943</p>
-</div>
-<div class=card><h2><a href='https://github.com/kody-w/dogg-radio'>dogg-radio</a></h2>
-<p class=desc>Federated tick-network node: NOAA WX / FRS-GMRS / marine / aviation / CB emergency frequencies + live GA NWS alert count</p>
-<p class=fleet>fleet: 5 automated commits — e.g. frame: 2026-09-19T16:44:11Z; frame: 2026-09-19T13:19:45Z</p>
+<p class=fleet>fleet: 8 automated commits — e.g. Dream Catcher frame 1546: fleet content merge [skip ci]; Dream Catcher frame 1545: fleet content merge [skip ci]</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-water'>dogg-water</a></h2>
 <p class=desc>Federated tick-network node: versioned emergency water procedure + live USGS river-gauge reading vs flood stage</p>
-<p class=fleet>fleet: 5 automated commits — e.g. frame: 2026-09-19T16:40:19Z; frame: 2026-09-19T13:17:49Z</p>
+<p class=fleet>fleet: 8 automated commits — e.g. frame: 2026-09-19T23:55:59Z; frame: 2026-09-19T21:36:36Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-api'>dogg-api</a></h2>
 <p class=desc>Free static JSON API over the DOGG global tick network — per-source time series + latest world state, every row auditable back to the verified chains.</p>
-<p class=fleet>fleet: 4 automated commits — e.g. api: 2026-09-19T14:44:15Z; api: 2026-09-19T11:25:37Z</p>
+<p class=fleet>fleet: 7 automated commits — e.g. api: 2026-09-19T22:27:02Z; api: 2026-09-19T20:31:18Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-markets'>dogg-markets</a></h2>
 <p class=desc>Federated node of the global tick network — its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-19T14:36:36Z; frame: 2026-09-19T11:18:32Z</p>
+<p class=fleet>fleet: 7 automated commits — e.g. frame: 2026-09-19T22:14:20Z; frame: 2026-09-19T19:57:58Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-planet'>dogg-planet</a></h2>
 <p class=desc>Federated node of the global tick network — its own verifiable rapp/1 chain, keyed to the spine at kody-w/dogg</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-19T16:23:17Z; frame: 2026-09-19T12:59:19Z</p>
+<p class=fleet>fleet: 7 automated commits — e.g. frame: 2026-09-19T23:24:28Z; frame: 2026-09-19T21:21:54Z</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg-radio'>dogg-radio</a></h2>
+<p class=desc>Federated tick-network node: NOAA WX / FRS-GMRS / marine / aviation / CB emergency frequencies + live GA NWS alert count</p>
+<p class=fleet>fleet: 7 automated commits — e.g. frame: 2026-09-19T21:40:10Z; frame: 2026-09-19T19:16:03Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/dogg-verdict'>dogg-verdict</a></h2>
 <p class=desc>The first derived doggcast: verifiable judgment frames — anomaly scores and a quiet index computed from the DOGG world dimension&#x27;s history, auditable back to source frames.</p>
-<p class=fleet>fleet: 4 automated commits — e.g. frame: 2026-09-19T14:35:49Z; frame: 2026-09-19T11:17:39Z</p>
+<p class=fleet>fleet: 7 automated commits — e.g. frame: 2026-09-19T22:02:47Z; frame: 2026-09-19T19:54:47Z</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/hive-showcase'>hive-showcase</a> <span class=tag>new repo</span></h2>
 <p class=desc>Ten agent-first Hive demonstrations, reproducible evidence, and a reusable showcase skill.</p>
@@ -101,6 +109,10 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <div class=card><h2><a href='https://github.com/kody-w/localtoolsdev'>localtoolsdev</a></h2>
 <p class=desc>v</p>
 <p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-09-19; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-imessage-launchpad'>rapp-imessage-launchpad</a> <span class=tag>new repo</span></h2>
+<p class=desc>Evidence-first iMessage notifications: a local Electron launchpad, versioned protocol, and shared-outbox Python SDK.</p>
+<p class=fleet>fleet: 2 automated commits — e.g. Fix deadline urgency and canonical policy compatibility; Publish RAPP iMessage Launchpad preview</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/base'>base</a></h2>
 <p class=desc>base</p>
@@ -145,6 +157,10 @@ footer{color:var(--mut);font-size:13px;margin-top:40px}
 <div class=card><h2><a href='https://github.com/kody-w/kody-twin'>kody-twin</a></h2>
 <p class=desc>Kody Wildfeuer — RAPP front door</p>
 <p class=fleet>fleet: 1 automated commit — e.g. chore: refresh GitHub snapshots [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/kody2day'>kody2day</a></h2>
+<p class=desc>A daily digest of what Kody shipped across his public GitHub — so you can keep up.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. kody2day 2026-09-19: 38 repos touched · 16 commits by Kody · 89 by the</p>
 </div>
 <div class=card><h2><a href='https://github.com/kody-w/mars-chain-node'>mars-chain-node</a></h2>
 <p class=desc>🔗 MARS Chain Node — Decentralized verification for the MARS virtual token economy. Fork to run your own node.</p>
