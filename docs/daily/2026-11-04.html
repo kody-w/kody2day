@@ -1,0 +1,140 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
+<title>Kody2day — 2026-11-04</title><style>
+:root{--bg:#0b0d12;--fg:#e8eaf0;--mut:#98a0b3;--card:#141824;--acc:#7c9cff;--line:#232a3a}
+@media(prefers-color-scheme:light){:root{--bg:#f7f8fb;--fg:#14171f;--mut:#5b6478;--card:#fff;--acc:#2f5bff;--line:#e3e6ee}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,Segoe UI,Inter,system-ui,sans-serif}
+main{max-width:820px;margin:0 auto;padding:32px 20px 80px}h1{font-size:28px;margin:0 0 4px}h1 a{color:inherit;text-decoration:none}
+.sub{color:var(--mut);margin:0 0 20px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 14px}
+.card h2{margin:0 0 4px;font-size:18px}.card h2 a{color:var(--acc);text-decoration:none}.desc{color:var(--mut);font-size:14px;margin:0 0 8px}
+ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}li a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--mut)}
+.sha{color:var(--mut);font:12px ui-monospace,Menlo,monospace;margin-right:6px}.fleet{color:var(--mut);font-size:14px}
+.note{border-left:4px solid var(--acc);padding:10px 14px;background:var(--card);border-radius:8px;margin:0 0 20px;white-space:pre-wrap}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;background:var(--acc);color:#fff;margin-left:6px;vertical-align:middle}
+nav{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);font-size:14px;margin:0 0 22px}nav a{color:var(--acc);text-decoration:none}
+.days{list-style:none;padding:0}.days li{padding:8px 0;border-bottom:1px solid var(--line)}.days a{border:0;color:var(--acc)}
+footer{color:var(--mut);font-size:13px;margin-top:40px}
+</style><main>
+<h1><a href='../'>Kody2day</a> <span class=tag>2026-11-04</span></h1>
+<p class=sub>22 repos touched · 51 commits by Kody · 52 by the fleet · new: llm-brainstem (so far — the day is still running; rebuilt tomorrow) — the last 24h of Kody's public GitHub, generated 2026-11-04 20:44 UTC.</p>
+<nav><a href='../'>all days</a><a href='../latest.json'>latest.json</a><a href='../feed.xml'>RSS</a><a href='https://github.com/kody-w'>github.com/kody-w</a></nav>
+<div class=card><h2><a href='https://github.com/kody-w/RAR'>RAR</a></h2>
+<p class=desc>The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.</p>
+<ul>
+<li><span class=sha>d443a0f</span><a href='https://github.com/kody-w/RAR/commit/d443a0f297a18c3056acfd11f1c5f6d7e47955bf'>AI-first: ticket-page pack (GET /api/ticket on any Brainstem, in starter-personal), rel=help to Easy Mode skill, llms.txt endpoints for AIs</a></li>
+<li><span class=sha>ea65505</span><a href='https://github.com/kody-w/RAR/commit/ea6550590e0b4c1e598a31457f4d6208665af684'>Fix generated ticket alias ratchet and source provenance binding</a></li>
+<li><span class=sha>cec4acf</span><a href='https://github.com/kody-w/RAR/commit/cec4acfd6d43f7fec486b82d766120f669cbfb43'>Rhyme gate: a ticket-only change is not an agent change</a></li>
+<li><span class=sha>bc0f169</span><a href='https://github.com/kody-w/RAR/commit/bc0f16918fee9b223608e0f3967fa6e32ed8000b'>Every agent.py is a ticket: load-me comment block (AST-identical), static a/@pub/slug pages for AIs, For-AIs pointer for #agent/ links; receipts for 226 agents</a></li>
+<li><span class=sha>688bf5d</span><a href='https://github.com/kody-w/RAR/commit/688bf5d899341fe4122652cf2ab3f003274bf943'>senses_and_pages: proven on published grail 0.6.16 (bd55a7f0): 5/5 chat with sense field, stream, 3/3 pages in lab</a></li>
+<li><span class=sha>d7368d0</span><a href='https://github.com/kody-w/RAR/commit/d7368d0be775da95971a6636ed295d730b1b4fd8'>Wildhaven Hearth 1.0.0: the v1 distro (grail-layers + personal starter) on the starter shelf; packs may declare shelf</a></li>
+<li><span class=sha>97c6ad0</span><a href='https://github.com/kody-w/RAR/commit/97c6ad06db060110b0781a89019d47bf809d4405'>grail-layers 1.5.2: senses and pages hot-load (no restart), pages read-only; RAPP.md says so</a></li>
+<li><span class=sha>68cdddf</span><a href='https://github.com/kody-w/RAR/commit/68cdddf97e49fcaca65bba6c18a3afe1eed8d34c'>RAR: Easy Mode button + RAPP.md/llms links; paperwork-desk, money-watch, work-receipts; shelves; pages read-only (grail-layers 1.5.1); alias status + drift ratc</a></li>
+<li class=fleet>… and 15 more</li>
+</ul>
+<p class=fleet>fleet: 14 automated commits — e.g. Dream Catcher frame 1751: fleet content merge [skip ci]; Auto-build registry.json [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/grail-layers'>grail-layers</a></h2>
+<p class=desc>Every Brainstem grail update ships as a layer over the unchanged grail; if a layer fails, plain grail runs.</p>
+<ul>
+<li><span class=sha>db18afb</span><a href='https://github.com/kody-w/grail-layers/commit/db18afbd8b9dcbb620a98ffb311fa1823ddc9e18'>Merge pull request #1 from kody-w/fresh-install-fix</a></li>
+<li><span class=sha>93068e6</span><a href='https://github.com/kody-w/grail-layers/commit/93068e622a3f5af2b3a1e92613177ca6998e8ca1'>packs: read parts from install.parts; proven check covers the seeded layers</a></li>
+<li><span class=sha>cb4250e</span><a href='https://github.com/kody-w/grail-layers/commit/cb4250e289126de7d5f83315e69fb73f16dac091'>packs: accept a kernel every layer part was proven against (published 0.6.16 was refused)</a></li>
+<li><span class=sha>11bbae5</span><a href='https://github.com/kody-w/grail-layers/commit/11bbae5b8865fb5527305206e0935bab0b15c110'>Gate: a healthy Brainstem that is not signed in yet passes (chat probe skipped), so fresh installs keep their layers</a></li>
+<li><span class=sha>90fa673</span><a href='https://github.com/kody-w/grail-layers/commit/90fa673c3f99f8b11106a81260685211c8432a43'>install.sh: GRAIL_VERSION pins the published grail; create the login service on fresh Macs</a></li>
+<li><span class=sha>839539b</span><a href='https://github.com/kody-w/grail-layers/commit/839539b914c306d133f3616510218ce708863136'>install.sh: finish on a fresh Mac (grail one-liner runs its server in the foreground; run it beside us, hand the port to the supervisor)</a></li>
+<li><span class=sha>7e035a4</span><a href='https://github.com/kody-w/grail-layers/commit/7e035a4aa5ca234b5cb0111de981b77a622a3a4e'>Pinned catalog: layer parts fetch from the same RAR pin (RAR_PAGES), so a pinned release stays installable</a></li>
+<li><span class=sha>fb86ffe</span><a href='https://github.com/kody-w/grail-layers/commit/fb86ffe5a634da88c54773bd9f2ec78c6b81494f'>Merge handover-v1: never break the conversation (overlapping handover, supervisor self-update, packs install+remove)</a></li>
+<li class=fleet>… and 14 more</li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAPP_Sense_Store'>RAPP_Sense_Store</a></h2>
+<p class=desc>Public catalog of RAPP senses — modular, per-channel output overlays (eli5, headline, voice, twin, ...) that drop into a brainstem&#x27;s utils/senses/ dir. Sibling to kody-w/RAPP_Store (rapplications) and</p>
+<ul>
+<li><span class=sha>e6d7fc5</span><a href='https://github.com/kody-w/RAPP_Sense_Store/commit/e6d7fc548d3e1dac97c64472a68c777b41bcc4e4'>Status: alias of RAR. Senses live in RAR&#x27;s Senses pack; every URL here keeps working, new senses go to RAR</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/RAPP_Store'>RAPP_Store</a></h2>
+<p class=desc>Public catalog of RAPP rapplications — single-file Python agents that drop into a local brainstem and run. Browse the hosted viewer at kody-w.github.io/RAPP_Store/. Engine: kody-w/RAPP.</p>
+<ul>
+<li><span class=sha>57b4718</span><a href='https://github.com/kody-w/RAPP_Store/commit/57b4718b46b12a9e0874b44b0427b27c98222524'>Status: alias of RAR. 21 of 23 rapplications live in RAR as packs; every URL here keeps working</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/gameboi-vision'>gameboi-vision</a></h2>
+<p class=desc>Unedited AI playthroughs paired with the button log that proves them (RAPP Vision pattern)</p>
+<ul>
+<li><span class=sha>e604dc6</span><a href='https://github.com/kody-w/gameboi-vision/commit/e604dc63df1da7fc0fa39698e080f3af0c8ef112'>gameboi content: 1 publication(s) from pokemon</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/llm-brainstem'>llm-brainstem</a> <span class=tag>new repo</span></h2>
+<p class=desc>Your RAPP Brainstem, agents included, as a model inside the llm CLI</p>
+<ul>
+<li><span class=sha>bf10b15</span><a href='https://github.com/kody-w/llm-brainstem/commit/bf10b159bbe8d6bf3c33c1bf93ce4df4eca16b58'>llm-brainstem 0.1.0: the Brainstem (agents included) as a model in the llm CLI; conversation rides in the body (stateless kernel)</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappter-prompts'>rappter-prompts</a></h2>
+<p class=desc>Ten prompts a small-business owner can use with any AI — each reads a method page here first. From RappterBox.</p>
+<ul>
+<li><span class=sha>1dc2c97</span><a href='https://github.com/kody-w/rappter-prompts/commit/1dc2c978d00a205c8595f41d5925804ecc89b0f4'>try-box endpoint: https://edt-slim-eur-telephony.trycloudflare.com</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapterbot.com'>rapterbot.com</a></h2>
+<p class=desc>RapterBot.com public site and privacy-safe autonomous company DOGG</p>
+<ul>
+<li><span class=sha>267559f</span><a href='https://github.com/kody-w/rapterbot.com/commit/267559fb411e725b4375ebb980b9f503cf186b10'>Advance public RapterBot DOGG</a></li>
+</ul>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook'>rappterbook</a></h2>
+<p class=desc>Social network for AI agents. Feed SKILLS.md to your AI — it becomes a citizen. No servers, no API keys. GitHub IS the platform.</p>
+<p class=fleet>fleet: 20 automated commits — e.g. chore(overseer): tick from github-actions [skip ci]; chore: reconcile channel counts [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/dogg'>dogg</a></h2>
+<p class=fleet>fleet: 3 automated commits — e.g. fallback tick 2901; ots: anchor spine head @ tick 2900</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/AINexus'>AINexus</a></h2>
+<p class=desc>AI Nexus</p>
+<p class=fleet>fleet: 2 automated commits — e.g. views: frame 1780 @ spine tick 2900 [skip ci]; views: frame 1779 @ spine tick 2899 [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/localFirstTools'>localFirstTools</a></h2>
+<p class=desc>localFirstTools</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-11-04; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/localtoolsdev'>localtoolsdev</a></h2>
+<p class=desc>v</p>
+<p class=fleet>fleet: 2 automated commits — e.g. chore(ci): nightly health-check report 2026-11-04; 🤖 Nightly auto-update of Hacker News Simulator content [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/base'>base</a></h2>
+<p class=desc>base</p>
+<p class=fleet>fleet: 1 automated commit — e.g. chore: refresh gallery tree snapshot</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/brainstem-in-an-hour'>brainstem-in-an-hour</a></h2>
+<p class=desc>Build your own AI agent in one hour. The Brainstem lesson.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. achievements snapshot</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/gameboi-arena'>gameboi-arena</a></h2>
+<p class=desc>AIs compete at Game Boy Pokémon, in public: a static leaderboard built from achievement claims with evidence (never names)</p>
+<p class=fleet>fleet: 1 automated commit — e.g. static-api: rebuild [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/kody-twin'>kody-twin</a></h2>
+<p class=desc>Kody Wildfeuer — RAPP front door</p>
+<p class=fleet>fleet: 1 automated commit — e.g. chore: refresh GitHub snapshots [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/mars-chain-node'>mars-chain-node</a></h2>
+<p class=desc>🔗 MARS Chain Node — Decentralized verification for the MARS virtual token economy. Fork to run your own node.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. consensus: cross-verification report</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rapp-monorepo'>rapp-monorepo</a></h2>
+<p class=desc>Every public RAPP repository, captured in one pass, refreshed daily. One clone = the whole estate with no drift.</p>
+<p class=fleet>fleet: 1 automated commit — e.g. Snapshot: 102 repos captured, 0 not captured</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook-agent-exchange'>rappterbook-agent-exchange</a></h2>
+<p class=desc>Agent Stock Exchange — AI agents as tradeable assets on Rappterbook</p>
+<p class=fleet>fleet: 1 automated commit — e.g. tick: generation 50 [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/rappterbook-vm'>rappterbook-vm</a></h2>
+<p class=desc>Portable Rappterbook VM — clone, configure, run your own AI agent world</p>
+<p class=fleet>fleet: 1 automated commit — e.g. chore: harvest discussions snapshot [skip ci]</p>
+</div>
+<div class=card><h2><a href='https://github.com/kody-w/static-library'>static-library</a></h2>
+<p class=desc>Self-updating catalog of the kody-w static-* family — deterministic integration simulators on GitHub Pages; browse endpoints, MCP manifests, and Pages sites in one place</p>
+<p class=fleet>fleet: 1 automated commit — e.g. chore: harvest kody-w repos snapshot</p>
+</div>
+<footer>Public repos only, built by <a href='https://github.com/kody-w/kody2day'>kody2day</a>. Ask your RAPP brainstem: install <code>@kody-w/kody2day_agent</code> from RAR.</footer></main></html>
