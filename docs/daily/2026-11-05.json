@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-11-05T00:00:00Z",
  "until": "2026-11-06T00:00:00Z",
- "generated": "2026-11-05T21:00:14Z",
- "partial": true,
+ "generated": "2026-11-06T20:23:15Z",
+ "partial": false,
  "totals": {
-  "repos": 20,
+  "repos": 21,
   "human_commits": 11,
-  "fleet_commits": 47,
+  "fleet_commits": 52,
   "new_repos": [
    "agent-books"
   ]
@@ -58,6 +58,13 @@
    ],
    "fleet": [
     {
+     "sha": "30accf6",
+     "subject": "Dream Catcher frame 1755: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/30accf6af9525585c9a9ca2bdc2495a5500701f0",
+     "at": "2026-11-05T23:06:46Z",
+     "by": "dream-catcher"
+    },
+    {
      "sha": "10ce202",
      "subject": "Dream Catcher frame 1754: fleet content merge [skip ci]",
      "url": "https://github.com/kody-w/RAR/commit/10ce2023e2495160f978f2a733076d40f6bc0c1f",
@@ -100,7 +107,7 @@
      "by": "dream-catcher"
     }
    ],
-   "fleet_count": 6,
+   "fleet_count": 7,
    "human_count": 4
   },
   {
@@ -224,6 +231,90 @@
    "human": [],
    "fleet": [
     {
+     "sha": "c8917b0",
+     "subject": "twin-driver: autonomous run [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/c8917b0455afc47244055612ec3c581108d1b631",
+     "at": "2026-11-05T23:29:18Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "8f464f3",
+     "subject": "chore(overseer): tick from github-actions [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/8f464f3f732f4941d7cca2c266ebb1f29d4492ec",
+     "at": "2026-11-05T22:25:00Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "0f1882f",
+     "subject": "chore: update trending [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/0f1882f5896fc8d2f499238205f560b7c63fb12a",
+     "at": "2026-11-05T22:21:20Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "6d60e5e",
+     "subject": "chore: update feeds [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/6d60e5e8da274329cded3cc26cd36cef0bffb15e",
+     "at": "2026-11-05T22:18:35Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "2fdca42",
+     "subject": "chore: cloud brainstem tick [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/2fdca42625a437575b19c7188949f16bdf5a2462",
+     "at": "2026-11-05T22:14:41Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "1825067",
+     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/1825067eaf92803de32e7db7924a41804185a3e5",
+     "at": "2026-11-05T22:07:10Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "5e4ca72",
+     "subject": "chore: regenerate agent status files [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/5e4ca72ad6cf665ecf2678b086a1b8b46e4f1f5a",
+     "at": "2026-11-05T21:50:39Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "69429a3",
+     "subject": "chore: process inbox deltas [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/69429a3208e6017be6fe1646a1bae5d6e2022abc",
+     "at": "2026-11-05T21:50:02Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "c0db3c2",
+     "subject": "chore: agent heartbeat [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/c0db3c2b3c729710d094ee9e0a3ccd2fd5e45b7a",
+     "at": "2026-11-05T21:40:15Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "e171dac",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/e171dac61b12e04887b10d392db50f607d0cd182",
+     "at": "2026-11-05T21:17:06Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "80269df",
+     "subject": "chore(overseer): daily reflection [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/80269df887e447adc55ae3f18117baa6301d830f",
+     "at": "2026-11-05T21:15:29Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "e9bbd35",
+     "subject": "chore: zion autonomy update [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/e9bbd351278d1150bc60fb060baa836736a90a58",
+     "at": "2026-11-05T21:04:05Z",
+     "by": "rappterbook-bot"
+    },
+    {
      "sha": "9883a47",
      "subject": "chore: reconcile channel counts [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/9883a478c98be386cc7a3cfbd66aaa9aca9e077d",
@@ -266,34 +357,6 @@
      "by": "rappterbook-bot"
     },
     {
-     "sha": "5f99850",
-     "subject": "chore(overseer): tick from github-actions [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/5f998505a427268493d1cf0f84a406c8a373074b",
-     "at": "2026-11-05T16:12:10Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "f6682b4",
-     "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/f6682b4ad3c1a201f862d94e8a32d2f09f4798c1",
-     "at": "2026-11-05T15:44:16Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "cc63955",
-     "subject": "chore: agent heartbeat [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/cc63955784f49f24fc1500df085cdba2128a5e99",
-     "at": "2026-11-05T15:42:49Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "af6b155",
-     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/af6b15564f7e38bb6a1463021ea4027fc72837d5",
-     "at": "2026-11-05T15:39:39Z",
-     "by": "rappterbook-bot"
-    },
-    {
      "sha": "8499298",
      "subject": "chore: commons frame tick [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/8499298630bf34e0ebc1fb5e52b47e565563e01c",
@@ -301,24 +364,10 @@
      "by": "rappterbook-bot"
     },
     {
-     "sha": "fd8f547",
-     "subject": "twin-driver: autonomous run [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/fd8f547f87d8161112a6f545a4e1ea2687f59831",
-     "at": "2026-11-05T14:34:53Z",
-     "by": "rappterbook-bot"
-    },
-    {
      "sha": "494a109",
      "subject": "chore: update agent statuses from heartbeat audit [skip ci]",
      "url": "https://github.com/kody-w/rappterbook/commit/494a109a063e70c12a9e1c7236ce9b6066681f83",
      "at": "2026-11-05T14:34:17Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "c95d5f5",
-     "subject": "chore: regenerate agent status files [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c95d5f599d0a542f51016f7c9ab8ea6b477faf8b",
-     "at": "2026-11-05T14:18:47Z",
      "by": "rappterbook-bot"
     },
     {
@@ -334,37 +383,52 @@
      "url": "https://github.com/kody-w/rappterbook/commit/fbb0b7d51a713fd279d9d7669353055c286305d4",
      "at": "2026-11-05T13:37:43Z",
      "by": "rappterbook-bot"
-    },
-    {
-     "sha": "e313e68",
-     "subject": "chore: zion autonomy update [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e313e68069bf2d7ba78ec7616c2153f12a0e4b2a",
-     "at": "2026-11-05T13:28:07Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "ac6461f",
-     "subject": "chore: update feeds [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/ac6461fe9afca48cf02f7d4d209f1f969aafd223",
-     "at": "2026-11-05T12:48:23Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "a4c80ff",
-     "subject": "chore: update trending [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/a4c80ff2c7dc943642914e0a5ec76fcc21af2cd5",
-     "at": "2026-11-05T12:39:29Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "41c0374",
-     "subject": "chore: cloud brainstem tick [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/41c0374ffd98a1826ba6f999ebeda300b78ae017",
-     "at": "2026-11-05T07:13:22Z",
-     "by": "rappterbook-bot"
     }
    ],
-   "fleet_count": 20,
+   "fleet_count": 22,
+   "human_count": 0
+  },
+  {
+   "repo": "AINexus",
+   "url": "https://github.com/kody-w/AINexus",
+   "description": "AI Nexus",
+   "stars": 1,
+   "language": "HTML",
+   "private": false,
+   "homepage": "https://kody-w.github.io/AINexus/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "b55b277",
+     "subject": "views: frame 1785 @ spine tick 2905 [skip ci]",
+     "url": "https://github.com/kody-w/AINexus/commit/b55b27711a5ff79acfffc1648d0ca5f2fb87a688",
+     "at": "2026-11-05T22:15:50Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "046762b",
+     "subject": "views: frame 1784 @ spine tick 2904 [skip ci]",
+     "url": "https://github.com/kody-w/AINexus/commit/046762ba774d7c12e4d64baa6018e3a2ff09a872",
+     "at": "2026-11-05T16:40:27Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "781ccad",
+     "subject": "views: frame 1783 @ spine tick 2903 [skip ci]",
+     "url": "https://github.com/kody-w/AINexus/commit/781ccadb0173243d32300357e1d62d3d31e3e89d",
+     "at": "2026-11-05T08:29:35Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "14bbe27",
+     "subject": "views: frame 1782 @ spine tick 2902 [skip ci]",
+     "url": "https://github.com/kody-w/AINexus/commit/14bbe27c4fad27d88b06ac2dfa93dec74d52f245",
+     "at": "2026-11-05T01:40:56Z",
+     "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -408,42 +472,6 @@
     }
    ],
    "fleet_count": 4,
-   "human_count": 0
-  },
-  {
-   "repo": "AINexus",
-   "url": "https://github.com/kody-w/AINexus",
-   "description": "AI Nexus",
-   "stars": 1,
-   "language": "HTML",
-   "private": false,
-   "homepage": "https://kody-w.github.io/AINexus/",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "046762b",
-     "subject": "views: frame 1784 @ spine tick 2904 [skip ci]",
-     "url": "https://github.com/kody-w/AINexus/commit/046762ba774d7c12e4d64baa6018e3a2ff09a872",
-     "at": "2026-11-05T16:40:27Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "781ccad",
-     "subject": "views: frame 1783 @ spine tick 2903 [skip ci]",
-     "url": "https://github.com/kody-w/AINexus/commit/781ccadb0173243d32300357e1d62d3d31e3e89d",
-     "at": "2026-11-05T08:29:35Z",
-     "by": "github-actions[bot]"
-    },
-    {
-     "sha": "14bbe27",
-     "subject": "views: frame 1782 @ spine tick 2902 [skip ci]",
-     "url": "https://github.com/kody-w/AINexus/commit/14bbe27c4fad27d88b06ac2dfa93dec74d52f245",
-     "at": "2026-11-05T01:40:56Z",
-     "by": "github-actions[bot]"
-    }
-   ],
-   "fleet_count": 3,
    "human_count": 0
   },
   {
@@ -604,11 +632,33 @@
    "human": [],
    "fleet": [
     {
-     "sha": "161ea89",
+     "sha": "ff6c87f",
      "subject": "Refresh public works and twin release",
-     "url": "https://github.com/kody-w/kody-w.github.io/commit/161ea89e8b0373e083531de6ced75359cc6d74f3",
-     "at": "2026-11-05T19:39:26Z",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/ff6c87f992ac79cf8f7b8aeb31b494b35fc0e580",
+     "at": "2026-11-05T21:08:38Z",
      "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 1,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/kody2day/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "158e599",
+     "subject": "kody2day 2026-11-05: 20 repos touched \u00b7 11 commits by Kody \u00b7 47 by the fleet \u00b7 new: agent-books (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/158e599d8e451981a33323686dbcc2405bf60acd",
+     "at": "2026-11-05T21:00:22Z",
+     "by": "kody2day"
     }
    ],
    "fleet_count": 1,
@@ -626,10 +676,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "886b157",
+     "sha": "7f38ea4",
      "subject": "consensus: cross-verification report",
-     "url": "https://github.com/kody-w/mars-chain-node/commit/886b15744a723223fab891ea4fcb9d87ab0ee158",
-     "at": "2026-11-05T14:06:43Z",
+     "url": "https://github.com/kody-w/mars-chain-node/commit/7f38ea444076284b1158df29aa2ef668dc27c8de",
+     "at": "2026-11-05T23:20:02Z",
      "by": "MARS Chain Verifier"
     }
    ],
