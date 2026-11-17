@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-11-16T00:00:00Z",
  "until": "2026-11-17T00:00:00Z",
- "generated": "2026-11-16T23:19:26Z",
- "partial": true,
+ "generated": "2026-11-17T22:11:04Z",
+ "partial": false,
  "totals": {
-  "repos": 18,
+  "repos": 20,
   "human_commits": 5,
-  "fleet_commits": 238,
+  "fleet_commits": 249,
   "new_repos": []
  },
  "note": "",
@@ -92,6 +92,13 @@
     }
    ],
    "fleet": [
+    {
+     "sha": "60444f5",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/60444f58b4ac2002c9e276ac4337007c2d112d3b",
+     "at": "2026-11-16T23:35:32Z",
+     "by": "rappterbook-bot"
+    },
     {
      "sha": "4a962c6",
      "subject": "chore: cloud brainstem tick [skip ci]",
@@ -240,7 +247,7 @@
      "by": "rappterbook-bot"
     }
    ],
-   "fleet_count": 21,
+   "fleet_count": 22,
    "human_count": 1
   },
   {
@@ -298,6 +305,48 @@
    "new": false,
    "human": [],
    "fleet": [
+    {
+     "sha": "3bdc64b",
+     "subject": "[state] apply PR #17676",
+     "url": "https://github.com/kody-w/rappterverse/commit/3bdc64bfee72db9f259adb2890f99b8adb83391b",
+     "at": "2026-11-16T23:55:54Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "6d59056",
+     "subject": "[state] apply PR #17673",
+     "url": "https://github.com/kody-w/rappterverse/commit/6d5905667422b0375d7a2bc64e090c0b07412f6b",
+     "at": "2026-11-16T23:43:31Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "c1339bb",
+     "subject": "[state] apply PR #17671",
+     "url": "https://github.com/kody-w/rappterverse/commit/c1339bb1b68f80b2869423b58e584dc779f8aae6",
+     "at": "2026-11-16T23:38:40Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "0380d03",
+     "subject": "[state] apply PR #17669",
+     "url": "https://github.com/kody-w/rappterverse/commit/0380d03453ca2cb6b3cfdad6ba930dfae4c02c22",
+     "at": "2026-11-16T23:32:02Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "95ddebb",
+     "subject": "[state] apply PR #17667",
+     "url": "https://github.com/kody-w/rappterverse/commit/95ddebbd8fe6e6126968c060f521a22fce0df5ef",
+     "at": "2026-11-16T23:27:01Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "aab99c4",
+     "subject": "[state] apply PR #17665",
+     "url": "https://github.com/kody-w/rappterverse/commit/aab99c4fa1cab4b687e17d26a8a745570cf7050a",
+     "at": "2026-11-16T23:21:42Z",
+     "by": "github-actions[bot]"
+    },
     {
      "sha": "e80fa64",
      "subject": "[state] apply PR #17663",
@@ -1643,7 +1692,50 @@
      "by": "github-actions[bot]"
     }
    ],
-   "fleet_count": 192,
+   "fleet_count": 198,
+   "human_count": 0
+  },
+  {
+   "repo": "RAR",
+   "url": "https://github.com/kody-w/RAR",
+   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
+   "stars": 4,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RAR/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "3e5a088",
+     "subject": "Dream Catcher frame 1793: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/3e5a088537fbda1b6a7b692005fa44e583f3f386",
+     "at": "2026-11-16T23:56:31Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "8031d1f",
+     "subject": "Dream Catcher frame 1792: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/8031d1f0827c63c999cca8cb0db043c4a43e3c0b",
+     "at": "2026-11-16T14:27:53Z",
+     "by": "dream-catcher"
+    },
+    {
+     "sha": "53d93c2",
+     "subject": "chore: metrics snapshot 2026-11-16",
+     "url": "https://github.com/kody-w/RAR/commit/53d93c238b2a5a71720127f3dd688513d78a74b9",
+     "at": "2026-11-16T13:46:35Z",
+     "by": "github-actions[bot]"
+    },
+    {
+     "sha": "e0fe2cd",
+     "subject": "Dream Catcher frame 1791: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/e0fe2cd8bbc88095fd0b05c7a2607bacda476fae",
+     "at": "2026-11-16T04:10:22Z",
+     "by": "dream-catcher"
+    }
+   ],
+   "fleet_count": 4,
    "human_count": 0
   },
   {
@@ -1726,39 +1818,32 @@
    "human_count": 0
   },
   {
-   "repo": "RAR",
-   "url": "https://github.com/kody-w/RAR",
-   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
-   "stars": 4,
-   "language": "Python",
+   "repo": "kody-w.github.io",
+   "url": "https://github.com/kody-w/kody-w.github.io",
+   "description": "",
+   "stars": 1,
+   "language": "HTML",
    "private": false,
-   "homepage": "https://kody-w.github.io/RAR/",
+   "homepage": "http://kody-w.github.io/",
    "new": false,
    "human": [],
    "fleet": [
     {
-     "sha": "8031d1f",
-     "subject": "Dream Catcher frame 1792: fleet content merge [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/8031d1f0827c63c999cca8cb0db043c4a43e3c0b",
-     "at": "2026-11-16T14:27:53Z",
-     "by": "dream-catcher"
-    },
-    {
-     "sha": "53d93c2",
-     "subject": "chore: metrics snapshot 2026-11-16",
-     "url": "https://github.com/kody-w/RAR/commit/53d93c238b2a5a71720127f3dd688513d78a74b9",
-     "at": "2026-11-16T13:46:35Z",
+     "sha": "c8025a3",
+     "subject": "Refresh Weekly Signal",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/c8025a3fd52737badaee7ef465cb894b39e51eba",
+     "at": "2026-11-16T23:39:21Z",
      "by": "github-actions[bot]"
     },
     {
-     "sha": "e0fe2cd",
-     "subject": "Dream Catcher frame 1791: fleet content merge [skip ci]",
-     "url": "https://github.com/kody-w/RAR/commit/e0fe2cd8bbc88095fd0b05c7a2607bacda476fae",
-     "at": "2026-11-16T04:10:22Z",
-     "by": "dream-catcher"
+     "sha": "d7d0738",
+     "subject": "Refresh public works and twin release",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/d7d07386da5132f9d4f346f677f2495e051f84f4",
+     "at": "2026-11-16T23:27:00Z",
+     "by": "github-actions[bot]"
     }
    ],
-   "fleet_count": 3,
+   "fleet_count": 2,
    "human_count": 0
   },
   {
@@ -1879,6 +1964,28 @@
    "human_count": 0
   },
   {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 1,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/kody2day/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "0fea6d0",
+     "subject": "kody2day 2026-11-16: 18 repos touched \u00b7 5 commits by Kody \u00b7 238 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/0fea6d01acd5476b0cce809e7e573e3300d5f8db",
+     "at": "2026-11-16T23:19:34Z",
+     "by": "kody2day"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
    "repo": "mars-barn-opus",
    "url": "https://github.com/kody-w/mars-barn-opus",
    "description": "First Principles to Mars \u2014 An Oregon Trail for Mars. Real physics. Real weather. Real decisions.",
@@ -1934,10 +2041,10 @@
    "human": [],
    "fleet": [
     {
-     "sha": "655e22c",
+     "sha": "088b3d2",
      "subject": "tick: generation 50 [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/655e22c8834a7d555127c79dd830da661e78a1e8",
-     "at": "2026-11-16T14:51:34Z",
+     "url": "https://github.com/kody-w/rappterbook-agent-exchange/commit/088b3d266c34210ccca716e3ed7b79c9deb991cf",
+     "at": "2026-11-16T23:58:25Z",
      "by": "dreaming-garden[bot]"
     }
    ],
