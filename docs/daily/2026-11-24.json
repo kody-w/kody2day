@@ -1,0 +1,158 @@
+{
+ "schema": "kody2day/1.0",
+ "owner": "kody-w",
+ "date": "2026-11-24",
+ "hours": 24,
+ "since": "2026-11-24T00:00:00Z",
+ "until": "2026-11-25T00:00:00Z",
+ "generated": "2026-11-24T01:36:09Z",
+ "partial": true,
+ "totals": {
+  "repos": 5,
+  "human_commits": 3,
+  "fleet_commits": 6,
+  "new_repos": []
+ },
+ "note": "",
+ "repos": [
+  {
+   "repo": "rapp-canary",
+   "url": "https://github.com/kody-w/rapp-canary",
+   "description": "RAPP release-train canary ring; seeded from the untouched Grail",
+   "stars": 0,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/rapp-canary/",
+   "new": false,
+   "human": [
+    {
+     "sha": "9685c5c",
+     "subject": "Merge fix/installer-tests-python: installer checks pick a Python that has the Brainstem packages",
+     "url": "https://github.com/kody-w/rapp-canary/commit/9685c5ca8e1389597e26d886a9eda3973feb563f",
+     "at": "2026-11-24T01:30:39Z",
+     "by": "kody-w"
+    },
+    {
+     "sha": "3d4cce9",
+     "subject": "test: installer checks pick a Python that has the Brainstem packages",
+     "url": "https://github.com/kody-w/rapp-canary/commit/3d4cce9ecd64346a6777e79d35f055a79a455c99",
+     "at": "2026-11-24T00:03:39Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 2
+  },
+  {
+   "repo": "gameboi-vision",
+   "url": "https://github.com/kody-w/gameboi-vision",
+   "description": "Unedited AI playthroughs paired with the button log that proves them (RAPP Vision pattern)",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "https://kody-w.github.io/gameboi-vision/",
+   "new": false,
+   "human": [
+    {
+     "sha": "c7d5d8c",
+     "subject": "gameboi content: 1 publication(s) from pokemon",
+     "url": "https://github.com/kody-w/gameboi-vision/commit/c7d5d8c4a57100df8a873be1e3fa6075870ef073",
+     "at": "2026-11-24T01:00:28Z",
+     "by": "kody-w"
+    }
+   ],
+   "fleet": [],
+   "fleet_count": 0,
+   "human_count": 1
+  },
+  {
+   "repo": "rappterbook",
+   "url": "https://github.com/kody-w/rappterbook",
+   "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
+   "stars": 18,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/rappterbook/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "09cfeac",
+     "subject": "chore: janitor tick \u2014 sweep locks + close stale issues [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/09cfeac28bab0597ddab82a165d52eada66c9a1c",
+     "at": "2026-11-24T01:04:54Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "9c63b4d",
+     "subject": "chore: slop cop review [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/9c63b4dc5f7a2a2fe16eb95fd1dd2445b77b0619",
+     "at": "2026-11-24T00:15:23Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "ab22ac8",
+     "subject": "Refresh Twitter twin data",
+     "url": "https://github.com/kody-w/rappterbook/commit/ab22ac803fd0f4f9660ef960e217e89693483490",
+     "at": "2026-11-24T00:11:23Z",
+     "by": "rappter-bot"
+    },
+    {
+     "sha": "b76f442",
+     "subject": "chore: refresh live-source snapshots [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/b76f44287c31915a4902c7760f4d804bfe15c78e",
+     "at": "2026-11-24T00:01:15Z",
+     "by": "rappterbook-bot"
+    }
+   ],
+   "fleet_count": 4,
+   "human_count": 0
+  },
+  {
+   "repo": "RAR",
+   "url": "https://github.com/kody-w/RAR",
+   "description": "The open single-file AI agent registry. Browse, vote, share agent.py files. Pokemon-card-style sharing via QR codes.",
+   "stars": 4,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/RAR/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "5c17b24",
+     "subject": "Dream Catcher frame 1814: fleet content merge [skip ci]",
+     "url": "https://github.com/kody-w/RAR/commit/5c17b2489d92483e4ce015ba04cc777b30d0fcf6",
+     "at": "2026-11-24T01:26:48Z",
+     "by": "dream-catcher"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  },
+  {
+   "repo": "brainstem-in-an-hour",
+   "url": "https://github.com/kody-w/brainstem-in-an-hour",
+   "description": "Build your own AI agent in one hour. The Brainstem lesson.",
+   "stars": 0,
+   "language": "HTML",
+   "private": false,
+   "homepage": "https://kody-w.github.io/brainstem-in-an-hour/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "bbe5b80",
+     "subject": "achievements snapshot",
+     "url": "https://github.com/kody-w/brainstem-in-an-hour/commit/bbe5b807061ae5ab70a8d278261239f9eee80ef4",
+     "at": "2026-11-24T00:01:47Z",
+     "by": "actions"
+    }
+   ],
+   "fleet_count": 1,
+   "human_count": 0
+  }
+ ],
+ "page": "https://kody-w.github.io/kody2day/daily/2026-11-24.html"
+}
