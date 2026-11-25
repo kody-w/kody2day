@@ -5,12 +5,12 @@
  "hours": 24,
  "since": "2026-11-24T00:00:00Z",
  "until": "2026-11-25T00:00:00Z",
- "generated": "2026-11-24T23:26:37Z",
- "partial": true,
+ "generated": "2026-11-25T23:01:18Z",
+ "partial": false,
  "totals": {
   "repos": 21,
   "human_commits": 40,
-  "fleet_commits": 53,
+  "fleet_commits": 58,
   "new_repos": []
  },
  "note": "",
@@ -217,7 +217,7 @@
    "repo": "rappterbook",
    "url": "https://github.com/kody-w/rappterbook",
    "description": "Social network for AI agents. Feed SKILLS.md to your AI \u2014 it becomes a citizen. No servers, no API keys. GitHub IS the platform.",
-   "stars": 18,
+   "stars": 19,
    "language": "Python",
    "private": false,
    "homepage": "https://kody-w.github.io/rappterbook/",
@@ -254,31 +254,59 @@
    ],
    "fleet": [
     {
-     "sha": "bf36ede",
-     "subject": "chore(api)- rebuild static api [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/bf36ede905921f19d2b89b83e765482261e2febd",
-     "at": "2026-11-24T23:23:13Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "316e191",
-     "subject": "chore: regenerate agent status files [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/316e191bdea8b427f3932ae57fa9706fb536eccd",
-     "at": "2026-11-24T23:22:59Z",
-     "by": "rappterbook-bot"
-    },
-    {
-     "sha": "e65ea87",
+     "sha": "d19b994",
      "subject": "chore: process inbox deltas [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/e65ea87c44ee4e88b368d280372cc07fedefd669",
-     "at": "2026-11-24T23:22:18Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/d19b9944cbd84bac846714ce8df98c3387084690",
+     "at": "2026-11-24T23:59:26Z",
      "by": "rappterbook-bot"
     },
     {
-     "sha": "32f7eda",
+     "sha": "3e0cb1c",
      "subject": "chore: archive delivered inbox receipts [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/32f7edab48b3aed4ccb3a9d5a02c536fe973f411",
-     "at": "2026-11-24T23:21:27Z",
+     "url": "https://github.com/kody-w/rappterbook/commit/3e0cb1c896691042655c42c06b4fedad8b0fe703",
+     "at": "2026-11-24T23:58:00Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "657e4d4",
+     "subject": "chore: queue action from issue #21708",
+     "url": "https://github.com/kody-w/rappterbook/commit/657e4d4a0076590ffd49781bc33acb0a87cb126d",
+     "at": "2026-11-24T23:56:54Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "61bab04",
+     "subject": "chore(api)- rebuild static api [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/61bab04722c59ef258c9dda17d06b722f5c068d5",
+     "at": "2026-11-24T23:52:21Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "fc99232",
+     "subject": "chore: regenerate agent status files [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/fc99232980d45d22211069495b2bcc4b5353d371",
+     "at": "2026-11-24T23:52:02Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "caa3b73",
+     "subject": "chore: queue action from issue #21707",
+     "url": "https://github.com/kody-w/rappterbook/commit/caa3b738da8e0bfb3d4d5f0ecb96f96e82af0a27",
+     "at": "2026-11-24T23:48:56Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "da9d92d",
+     "subject": "chore: daily glitch report [skip ci]",
+     "url": "https://github.com/kody-w/rappterbook/commit/da9d92d75d1de927deae9b944326d61e5646f45b",
+     "at": "2026-11-24T23:41:41Z",
+     "by": "rappterbook-bot"
+    },
+    {
+     "sha": "7e6692d",
+     "subject": "chore: queue action from issue #21705",
+     "url": "https://github.com/kody-w/rappterbook/commit/7e6692dcd9845a3498799357624d964e872f010d",
+     "at": "2026-11-24T23:31:20Z",
      "by": "rappterbook-bot"
     },
     {
@@ -441,16 +469,9 @@
      "url": "https://github.com/kody-w/rappterbook/commit/72d3b83ab367a8c842dd319d19a87e009fb3c72c",
      "at": "2026-11-24T11:44:30Z",
      "by": "rappterbook-bot"
-    },
-    {
-     "sha": "c7a7abe",
-     "subject": "chore: daily glitch report [skip ci]",
-     "url": "https://github.com/kody-w/rappterbook/commit/c7a7abe8eadf5ce1b4ba5be6d578e8110c571ef2",
-     "at": "2026-11-24T01:57:50Z",
-     "by": "rappterbook-bot"
     }
    ],
-   "fleet_count": 28,
+   "fleet_count": 31,
    "human_count": 4
   },
   {
@@ -648,6 +669,49 @@
    "human_count": 0
   },
   {
+   "repo": "dogg",
+   "url": "https://github.com/kody-w/dogg",
+   "description": "",
+   "stars": 1,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/dogg/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "f456f98",
+     "subject": "fallback tick 2975",
+     "url": "https://github.com/kody-w/dogg/commit/f456f98708d7e1cf8a9c0a33612da095915117d0",
+     "at": "2026-11-24T23:37:56Z",
+     "by": "actions"
+    },
+    {
+     "sha": "64b7837",
+     "subject": "fallback tick 2974",
+     "url": "https://github.com/kody-w/dogg/commit/64b78377b90ca8caed66e315d256348b11e042e4",
+     "at": "2026-11-24T14:33:58Z",
+     "by": "actions"
+    },
+    {
+     "sha": "f2e1e8d",
+     "subject": "ots: anchor spine head @ tick 2973",
+     "url": "https://github.com/kody-w/dogg/commit/f2e1e8d01da66a9c6e80c20c957c919c87aa6e5b",
+     "at": "2026-11-24T13:37:34Z",
+     "by": "actions"
+    },
+    {
+     "sha": "6a0cd9b",
+     "subject": "fallback tick 2973",
+     "url": "https://github.com/kody-w/dogg/commit/6a0cd9b17de708a52026ca422b92896bc7ff3f1a",
+     "at": "2026-11-24T03:56:57Z",
+     "by": "actions"
+    }
+   ],
+   "fleet_count": 4,
+   "human_count": 0
+  },
+  {
    "repo": "AINexus",
    "url": "https://github.com/kody-w/AINexus",
    "description": "AI Nexus",
@@ -684,42 +748,6 @@
    "human_count": 0
   },
   {
-   "repo": "dogg",
-   "url": "https://github.com/kody-w/dogg",
-   "description": "",
-   "stars": 1,
-   "language": "Python",
-   "private": false,
-   "homepage": "https://kody-w.github.io/dogg/",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "64b7837",
-     "subject": "fallback tick 2974",
-     "url": "https://github.com/kody-w/dogg/commit/64b78377b90ca8caed66e315d256348b11e042e4",
-     "at": "2026-11-24T14:33:58Z",
-     "by": "actions"
-    },
-    {
-     "sha": "f2e1e8d",
-     "subject": "ots: anchor spine head @ tick 2973",
-     "url": "https://github.com/kody-w/dogg/commit/f2e1e8d01da66a9c6e80c20c957c919c87aa6e5b",
-     "at": "2026-11-24T13:37:34Z",
-     "by": "actions"
-    },
-    {
-     "sha": "6a0cd9b",
-     "subject": "fallback tick 2973",
-     "url": "https://github.com/kody-w/dogg/commit/6a0cd9b17de708a52026ca422b92896bc7ff3f1a",
-     "at": "2026-11-24T03:56:57Z",
-     "by": "actions"
-    }
-   ],
-   "fleet_count": 3,
-   "human_count": 0
-  },
-  {
    "repo": "kody-w.github.io",
    "url": "https://github.com/kody-w/kody-w.github.io",
    "description": "",
@@ -731,18 +759,47 @@
    "human": [],
    "fleet": [
     {
+     "sha": "cf4a409",
+     "subject": "Refresh public works and twin release",
+     "url": "https://github.com/kody-w/kody-w.github.io/commit/cf4a4099dc4025d4e37a68b0512a8f14075248c4",
+     "at": "2026-11-24T23:32:20Z",
+     "by": "github-actions[bot]"
+    },
+    {
      "sha": "9ebe56f",
      "subject": "Refresh Weekly Signal",
      "url": "https://github.com/kody-w/kody-w.github.io/commit/9ebe56f4372bef6da323fce88e42d6316ba587d4",
      "at": "2026-11-24T02:01:21Z",
      "by": "github-actions[bot]"
+    }
+   ],
+   "fleet_count": 2,
+   "human_count": 0
+  },
+  {
+   "repo": "kody2day",
+   "url": "https://github.com/kody-w/kody2day",
+   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
+   "stars": 1,
+   "language": "Python",
+   "private": false,
+   "homepage": "https://kody-w.github.io/kody2day/",
+   "new": false,
+   "human": [],
+   "fleet": [
+    {
+     "sha": "d52026a",
+     "subject": "kody2day 2026-11-24: 21 repos touched \u00b7 40 commits by Kody \u00b7 53 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/d52026a31570ed76551ca0a02d573a1ca3060a2e",
+     "at": "2026-11-24T23:26:48Z",
+     "by": "kody2day"
     },
     {
-     "sha": "3983363",
-     "subject": "Refresh public works and twin release",
-     "url": "https://github.com/kody-w/kody-w.github.io/commit/3983363b3bebdd9f16c1ec30d3e4d6a8cd1992ed",
-     "at": "2026-11-24T01:44:33Z",
-     "by": "github-actions[bot]"
+     "sha": "c3cf5fc",
+     "subject": "kody2day 2026-11-24: 5 repos touched \u00b7 3 commits by Kody \u00b7 6 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
+     "url": "https://github.com/kody-w/kody2day/commit/c3cf5fc3c3c78c29d2b85097ed1e049e281faec8",
+     "at": "2026-11-24T01:36:12Z",
+     "by": "kody2day"
     }
    ],
    "fleet_count": 2,
@@ -867,28 +924,6 @@
      "url": "https://github.com/kody-w/kody-twin/commit/133fa4b4495143769e35908f64b5053f09f9d9cf",
      "at": "2026-11-24T22:28:46Z",
      "by": "github-actions[bot]"
-    }
-   ],
-   "fleet_count": 1,
-   "human_count": 0
-  },
-  {
-   "repo": "kody2day",
-   "url": "https://github.com/kody-w/kody2day",
-   "description": "A daily digest of what Kody shipped across his public GitHub \u2014 so you can keep up.",
-   "stars": 1,
-   "language": "Python",
-   "private": false,
-   "homepage": "https://kody-w.github.io/kody2day/",
-   "new": false,
-   "human": [],
-   "fleet": [
-    {
-     "sha": "c3cf5fc",
-     "subject": "kody2day 2026-11-24: 5 repos touched \u00b7 3 commits by Kody \u00b7 6 by the fleet (so far \u2014 the day is still running; rebuilt tomorrow)",
-     "url": "https://github.com/kody-w/kody2day/commit/c3cf5fc3c3c78c29d2b85097ed1e049e281faec8",
-     "at": "2026-11-24T01:36:12Z",
-     "by": "kody2day"
     }
    ],
    "fleet_count": 1,
